@@ -1,0 +1,41 @@
+version: 1
+default_environment: dev
+project_id: 01a10099-d31b-7a87-b046-b30887531ddb
+environments:
+- name: dev
+plugins:
+  extractors:
+  - name: tap-duckdb
+    variant: meltanolabs
+    # setuptools is pinned: singer-sdk 0.14 still imports pkg_resources, removed in setuptools 82+.
+    pip_url: git+https://github.com/MeltanoLabs/tap-duckdb.git setuptools<82
+    python: python3.11
+    config:
+      path: ../duckdb/giftfinder.duckdb
+    # Everything: the two raw Amazon tables (large, loaded once) plus the small tables below.
+    select:
+    - main-amazon_products_raw.*
+    - main-amazon_reviews_raw.*
+    - main-flower_product_labels.*
+    - main-flower_review_themes.*
+    - main-flower_wish_needs.*
+    - main-keepa_products.*
+    - main-keepa_finder_counts.*
+  # Same tap without the Amazon tables: the regular refresh, so the 16M reviews are not sent again.
+  - name: tap-duckdb-refresh
+    inherit_from: tap-duckdb
+    select:
+    - main-flower_product_labels.*
+    - main-flower_review_themes.*
+    - main-flower_wish_needs.*
+    - main-keepa_products.*
+    - main-keepa_finder_counts.*
+  loaders:
+  - name: target-bigquery
+    variant: z3z1ma
+    pip_url: git+https://github.com/z3z1ma/target-bigquery.git
+    config:
+      project: united-firefly-509307-h9
+      dataset: project2_raw
+      location: US
+      # Raw is append-only. dbt staging keeps the newest load of each small table (_sdc_sync_started_at).
