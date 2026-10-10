@@ -1,0 +1,76 @@
+{
+  "raw_products": 890874,
+  "recalled": 37441,
+  "by_tier_scope": [
+    {
+      "tier": "P plant-adjacent (succulent / bonsai / garden)",
+      "scope": "party",
+      "n": 401
+    },
+    {
+      "tier": "P plant-adjacent (succulent / bonsai / garden)",
+      "scope": "toy",
+      "n": 848
+    },
+    {
+      "tier": "T1 flower is the object",
+      "scope": "party",
+      "n": 2352
+    },
+    {
+      "tier": "T1 flower is the object",
+      "scope": "toy",
+      "n": 1930
+    },
+    {
+      "tier": "T1i flower artwork (puzzle / cards / stickers)",
+      "scope": "party",
+      "n": 103
+    },
+    {
+      "tier": "T1i flower artwork (puzzle / cards / stickers)",
+      "scope": "toy",
+      "n": 1553
+    },
+    {
+      "tier": "T2 flower is a theme element",
+      "scope": "party",
+      "n": 919
+    },
+    {
+      "tier": "T2 flower is a theme element",
+      "scope": "toy",
+      "n": 956
+    },
+    {
+      "tier": "T3 floral print or motif",
+      "scope": "party",
+      "n": 631
+    },
+    {
+      "tier": "T3 floral print or motif",
+      "scope": "toy",
+      "n": 1115
+    },
+    {
+      "tier": "T4 description-only mention (weak lead)",
+      "scope": "party",
+      "n": 366
+    },
+    {
+      "tier": "T4 description-only mention (weak lead)",
+      "scope": "toy",
+      "n": 770
+    },
+    {
+      "tier": "X ambiguous or incidental",
+      "scope": "party",
+      "n": 8498
+    },
+    {
+      "tier": "X ambiguous or incidental",
+      "scope": "toy",
+      "n": 16999
+    }
+  ]
+}

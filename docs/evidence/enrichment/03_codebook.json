@@ -1,0 +1,91 @@
+{
+  "codebook": {
+    "Motive: gifting": {
+      "Bought as a gift": "\\b(gift|gifts|gifted|present)\\b",
+      "Gift for a partner": "\\b(wife|girlfriend|husband|boyfriend|fianc[eé]e?|spouse|partner)\\b",
+      "Gift for mom": "\\b(my (mom|mother|mum|mama)|for (mom|mother))\\b",
+      "Gift for grandparents": "\\b(grandma|grandmother|nana|grandpa|grandfather|mother.in.law)\\b",
+      "Gift for a girl": "\\b(daughter|granddaughter|niece|little girl|my girls)\\b",
+      "Gift for a boy": "\\b(son|grandson|nephew|little boy)\\b",
+      "Gift for friend / teacher / coworker": "\\b(teacher|teachers|coworker|co-worker|boss|friend|bestie|neighbor)\\b",
+      "Bought for themselves": "\\b(for myself|treat myself|bought (this|it|these) for me|i bought (this|it) for myself|as an adult)\\b",
+      "Birthday": "\\b(birthday|bday)\\b",
+      "Christmas & holidays": "\\b(christmas|xmas|stocking|holiday)\\b",
+      "Valentines Day": "valentine",
+      "Mothers Day": "mother'?s day|mothers day",
+      "Easter & spring": "\\b(easter|spring)\\b",
+      "Anniversary & wedding": "\\b(anniversary|wedding|bridal|engagement)\\b",
+      "Get well & sympathy": "\\b(get well|hospital|surgery|sympathy|funeral|memorial|passed away|in memory|grieving)\\b",
+      "Teacher appreciation & graduation": "teacher appreciation|end of (the )?(school )?year|graduat",
+      "Classroom & party group": "\\b(classroom|class|students|party favors?|goodie bags?|girl scouts?|troop|camp|vbs|sunday school)\\b"
+    },
+    "Motive: value": {
+      "Flowers that never wilt": "never (die|wilt)|won'?t (die|wilt)|will not die|last(s)? forever|instead of (real|fresh) flowers|real flowers (die|wilt)|no water(ing)?|don'?t (need|have) to water|black thumb|kill (every )?(plants|flowers)|allerg",
+      "Home or desk decor": "\\b(decor|display|displayed|shelf|desk|office|mantle|mantel|centerpiece|windowsill|nightstand|bookshelf)\\b",
+      "Relaxing, mindful build": "\\b(relax|relaxing|therapeutic|therapy|stress|calming|mindful|zen|meditat|anxiety)\\b",
+      "Built together with family": "(together with|did (it|this) together|built (it )?together|made (it|them) together|bonding|family (activity|time|fun)|with (my|her|his) (mom|dad|daughter|son|kids|grand))",
+      "Learning & fine-motor skills": "\\b(fine motor|educational|learn|learning|stem|creativity|imagination|counting|color recognition|hand.eye)\\b",
+      "Screen-free time": "\\b(screen time|kept (her|him|them) (busy|entertained|occupied)|keep (her|him|them) busy|rainy day|for hours|hours of fun)\\b",
+      "Loves flowers & gardening": "(loves? flowers|flower lover|loves? (gardening|plants)|gardener|plant lady|plant lover|green thumb)",
+      "Collecting a series": "\\b(collect|collection|collector|series|whole set)\\b"
+    },
+    "Experience: making": {
+      "Easy and fun to build": "(easy to (build|assemble|put together|make|follow)|fun to (build|make|put together|assemble)|enjoyed (building|making|putting))",
+      "Build time mentioned (hours)": "(took (me|us|her|him|my \\w+) (about |around |roughly )?(\\d+|an?|one|two|three|several|a few) (hours?|evenings?|days?|nights?))|(\\d+ hours? to (build|complete|finish|make))",
+      "Sense of accomplishment": "(proud|sense of accomplishment|satisfying|relaxing (to build|build|process)|enjoyed the (build|process)|therapeutic (build|process))",
+      "Poor instructions": "(instructions? (were|are|was|is) (hard|confusing|unclear|bad|terrible|poor|awful|difficult|useless|vague|tiny)|hard to follow|no instructions|couldn'?t follow|confusing instructions|instructions (were|are) (in )?(chinese|not in english)|poor instructions)",
+      "Clear instructions": "instructions (were|are|was|is) (clear|easy|great|good|simple|well)",
+      "Missing pieces": "\\b(missing|didn'?t come with|not included|were not included|short (a|some|one|two))\\b",
+      "Tiny pieces, hard to press": "(tiny pieces|small pieces|pieces (are|were) (so |very |too |really )?(small|tiny)|hard to (press|snap|push|connect|attach)|sore fingers|fingers hurt|tweezers|brick separator)",
+      "Falls apart or droops": "(fall(s|ing)? (apart|off|out)|fell (apart|off)|come(s)? apart|came apart|pop(s|ped)? off|won'?t stay|doesn'?t stay|keeps? falling|droop|sag|flimsy stems?|stems? (bend|broke|snap))",
+      "Too hard, needed help": "(too (hard|difficult|complicated) for|needed (my |a lot of |an adult'?s? )?help|had to help|frustrat|couldn'?t (do|figure|get) (it|them))",
+      "Too easy, finished quickly": "(too easy|done in (minutes|no time)|finished (it |them )?(in|within) (minutes|an hour|10|15|20|30)|over in (minutes|an hour)|only took (\\d+|a few|ten|five) minutes)",
+      "Messy glue or paint": "\\b(mess|messy|glue|sticky|paint (came|chip|peel|dried|is dry))\\b",
+      "Repetitive build": "\\b(repetitive|tedious|monotonous|boring to build)\\b"
+    },
+    "Experience: display": {
+      "Beautiful, realistic": "\\b(beautiful|gorgeous|stunning|realistic|looks? real|lifelike|so pretty|vibrant)\\b",
+      "Smaller than expected": "(smaller than (i |we )?(expected|thought|pictured)|so small|too small|very small|expected (it |them )?(to be )?bigger|thought (it|they) would be bigger|tiny)",
+      "Bigger than expected": "(bigger than (i |we )?expected|larger than (i |we )?expected|great size|nice size|good size)",
+      "Not as pictured": "(not as pictured|doesn'?t look like the (picture|photo)|not like the (picture|photo)|misleading|colou?rs? (are|were|is|was) (off|different|dull|not)|faded|fade)",
+      "Arrived broken or breaks easily": "\\b(broke|broken|cracked|snapped|fragile|damaged)\\b",
+      "Feels cheap": "\\b(cheap|cheaply|flimsy|poor quality|low quality|thin plastic)\\b",
+      "Vase or pot mentioned": "\\b(vase|vases|pot|pots|planter|base)\\b",
+      "Dust": "\\bdust(y|ing)?\\b",
+      "Lights": "\\b(lights?|led|lighting|glow)\\b",
+      "Seeds did not grow": "(didn'?t (grow|sprout)|nothing (grew|sprouted)|seeds? (didn'?t|did not|never|won'?t) (grow|sprout|germinate)|never (grew|sprouted)|no sprouts?)",
+      "Solar or electronics not working": "(doesn'?t (work|move|dance|light)|stopped (working|moving|dancing)|only (works|moves|dances) in (direct |bright )?sun|needs? (direct|bright|strong) (sun|light)|dead on arrival)"
+    },
+    "Price": {
+      "Good value": "(worth (the|every)|great (value|price|deal)|good (value|price|deal)|for the price|affordable|inexpensive)",
+      "Overpriced": "(overpriced|too expensive|pricey|not worth|waste of money|price is (high|steep)|over ?priced)"
+    }
+  },
+  "wish_marker": "(\\bi wish\\b|\\bwish (it|they|there|the|that)\\b|would (be|have been) (nice|better|great|helpful|good|cool)|would love|\\bif only\\b|should (have|come|include|be)|\\bneeds? (a |an |to |more |better )|could (use|have been|be improved)|it would help|i hope (they|the|you)|would have (liked|preferred|been)|didn'?t come with|doesn'?t come with|does not come with|did not come with|\\bno (vase|pot|box|instructions|stand|base|lights?)\\b|suggest(ion)?|recommend (adding|that they)|only (complaint|downside|con|issue|negative|thing))",
+  "need_categories": {
+    "Include a vase or pot": "\\b(vases?|flower ?pots?|planters?)\\b|\\bpots?\\b(?! of)",
+    "Stable base": "(\\bstand\\b|\\bbase\\b|weighted|tip(s|ped)? over|topple|stable|stability|lean(s|ing)?)",
+    "More flowers, fuller look": "(more (flowers|stems|blooms|petals|variety|kinds|types|of (them|these))|\\b(bigger|larger|fuller|taller)\\b)",
+    "Clearer instructions or video": "(instructions?|manual|directions|diagram|video|tutorial)",
+    "Numbered bags and spare parts": "(numbered|label(l)?ed|sorted|separate bags|bags (were|are) not|organized by|spare|extra pieces|replacement (pieces|parts))",
+    "Sturdier stems and joints": "(sturdier|stronger|\\bstems?\\b|stay (together|in place|up)|hold (together|up|better)|fall(s|ing)? (apart|off|over)|tighter|clutch|droop)",
+    "Colour options, more realistic": "(colou?r (options?|choices?|variety)|more colou?rs|different colou?rs|realistic|look(s)? (more )?real)",
+    "Lights": "(\\bled\\b|\\blights?\\b(?! ?(weight|green|pink|blue|purple|brown))|lit up|light up|\\bglow)",
+    "Gift box or card": "(gift box|gift bag|gift wrap|nicer box|better box|nice box|box (was|is|came) (damaged|crushed|broken|flimsy|open)|packaging|presentation|greeting card|card (to|for) (write|attach))",
+    "More material": "(more (material|supplies|paint|felt|beads|seeds|soil|glue|paper|wire|petals|leaves|dough|clay)|enough (material|supplies|paint|felt|seeds|for (each|every|two|both|all)))",
+    "Seeds that actually grow": "(didn'?t (grow|sprout)|\\bseeds?\\b|sprout|germinat|\\bsoil\\b|grow (better|faster))",
+    "Difficulty matched to age": "(too (hard|difficult|easy|complicated)|younger|older kids|easier|simpler|challeng)",
+    "Better durability": "(better quality|poor quality|cheap(ly)?|flimsy|broke|durable|sturdy)",
+    "No-glue assembly": "(\\bglue|adhesive|sticky|stick (better|together))",
+    "Storage box": "(storage|\\bcase\\b|container|organiz)",
+    "Dust cover or display case": "(dust|display case|glass cover|acrylic|\\bcover\\b|dome)",
+    "Volume & sound control": "(volume|loud|\\bsounds?\\b|songs|music)",
+    "Lower price": "(cheaper|less expensive|overpriced|price (is|was) (high|steep)|not worth)",
+    "Solar & battery": "(solar|batter(y|ies)|direct sun|sunlight)",
+    "Clear size information": "(dimension|measurement|size (listed|info)|how (big|small)|smaller than (i |we )?(expected|thought|pictured)|too small|so small)",
+    "Add-on packs to complete a bouquet": "(another set|more sets|buy (a couple|more|another|two)|full bouquet|more arrangements|add.?ons?|expansion|more than (just )?one of each|connector pieces|more pieces)",
+    "Hidden wires & battery box": "(wires?|cables?|power box|battery box|cord).{0,40}(hide|hidden|visible|show|messy)|(hide|hidden|conceal).{0,30}(wires?|cables?|battery|cord)",
+    "Scent": "\\b(scent|scented|smell|fragrance)\\b",
+    "Reusable, can be rebuilt": "(reusable|rebuild|take (it )?apart|again and again|over and over|refill)"
+  }
+}

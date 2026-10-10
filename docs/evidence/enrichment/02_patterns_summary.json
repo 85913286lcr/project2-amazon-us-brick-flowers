@@ -1,0 +1,41 @@
+{
+  "recalled": 37441,
+  "excluded": {
+    "party_decor": 13270,
+    "apparel_jewellery_in_T1P": 68,
+    "T2_theme_element(exploration only)": 956,
+    "T3_motif": 1746,
+    "T4_description_only": 1136,
+    "X_ambiguous": 25497
+  },
+  "core_products": 3650,
+  "by_relevance": {
+    "core: flower is the play object": 1888,
+    "core: flower artwork": 1546,
+    "adjacent: plant or garden": 216
+  },
+  "by_primary_pattern": {
+    "Flower-image puzzles & cards": 1546,
+    "Brick flower bouquets & bonsai (adult display)": 350,
+    "Toddler flower-garden stacking sets": 237,
+    "Craft bouquets & paper flowers": 233,
+    "Solar dancing flowers & electronic": 230,
+    "Dollhouse miniature flowers": 149,
+    "Other / unclassified": 149,
+    "Character plush with flower motif": 136,
+    "Flower plush & pillows": 125,
+    "Planting & science kits": 74,
+    "Brick flower accessories (vase / lights / display)": 69,
+    "3D wooden & crystal models": 52,
+    "Flower pressing": 49,
+    "Pretend play": 49,
+    "Paint & decorate crafts": 37,
+    "Bath, outdoor & water": 35,
+    "Fidget & sensory": 34,
+    "Magic & gag": 26,
+    "Preserved & artificial flower gifts": 25,
+    "Dress-up accessories": 24,
+    "Flower crown & jewellery crafts": 15,
+    "Brick scenes (flower shop / garden)": 6
+  }
+}
