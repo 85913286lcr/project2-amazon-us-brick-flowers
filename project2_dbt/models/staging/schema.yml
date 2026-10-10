@@ -1,0 +1,60 @@
+version: 2
+
+seeds:
+  - name: flower_theme_codebook
+    description: The review codebook - every theme the enrichment step can tag (written by enrichment/build_flower_tables.py).
+    columns:
+      - name: theme
+        data_tests: [not_null, unique]
+  - name: flower_play_patterns
+    description: Play patterns and their DIY family (written by enrichment/build_flower_tables.py).
+    columns:
+      - name: play_pattern
+        data_tests: [not_null, unique]
+
+models:
+  - name: stg_products
+    description: Raw product JSON unpacked into typed columns. No rows dropped.
+  - name: stg_reviews
+    description: Raw review JSON unpacked into typed columns; negative helpful votes become NULL. No rows dropped.
+  - name: stg_flower_product_labels
+    description: Newest load of the flower labels (1 row = 1 flower product).
+    columns:
+      - name: parent_asin
+        data_tests: [not_null, unique]
+      - name: play_pattern
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('flower_play_patterns'), field: play_pattern}
+  - name: stg_flower_review_themes
+    description: Newest load of review x theme tags.
+    columns:
+      - name: review_row_id
+        data_tests: [not_null]
+      - name: theme
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('flower_theme_codebook'), field: theme}
+  - name: stg_flower_wish_needs
+    description: Newest load of wish sentence x need rows.
+    columns:
+      - name: sentence_id
+        data_tests: [not_null]
+      - name: need
+        data_tests: [not_null]
+  - name: stg_keepa_products
+    description: Newest load of the Keepa product snapshot (1 row = 1 product family per source).
+    columns:
+      - name: parent_asin
+        data_tests: [not_null]
+      - name: source
+        data_tests:
+          - accepted_values:
+              arguments: {values: ['group', 'new', 'cohort']}
+  - name: stg_keepa_finder_counts
+    description: Newest load of the Keepa "selling 100+ a month" counts (1 row = 1 group).
+    columns:
+      - name: keepa_group
+        data_tests: [not_null, unique]

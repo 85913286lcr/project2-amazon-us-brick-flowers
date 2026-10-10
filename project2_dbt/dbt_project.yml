@@ -1,0 +1,37 @@
+name: 'project2_dbt'
+version: '2.0.0'
+profile: 'project2_dbt'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+
+clean-targets: ["target", "dbt_packages"]
+
+vars:
+  # Review timestamps are bucketed into years / months in this time zone. It is an explicit setting so that
+  # every environment produces the same counts (BigQuery would otherwise default to UTC).
+  analysis_timezone: 'Asia/Singapore'
+  # Evidence tiers for a statement (theme or unmet need): reviews, products and brands it must appear in.
+  evidence_strong: {reviews: 30, products: 10, brands: 5}
+  evidence_medium: {reviews: 10, products: 3, brands: 3}
+  # A play pattern needs this many reviews before it is placed in an interest x satisfaction quadrant.
+  quadrant_min_reviews: 300
+
+seeds:
+  project2_dbt:
+    +schema: staging
+
+models:
+  project2_dbt:
+    staging:
+      +schema: staging
+      +materialized: view
+    analytics:
+      +schema: analytics
+      +materialized: table
+    marts:
+      +schema: marts
+      +materialized: table

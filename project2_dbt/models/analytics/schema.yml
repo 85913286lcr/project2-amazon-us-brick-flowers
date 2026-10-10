@@ -1,0 +1,152 @@
+version: 2
+
+models:
+  - name: dim_product
+    description: "Dimension. Grain: 1 row = 1 product (parent ASIN)."
+    data_tests:
+      - accepted_values:
+          name: dim_product_average_rating_between_1_and_5
+          arguments: {column_name: (average_rating between 1 and 5), values: [true], quote: false}
+          config: {where: average_rating is not null}
+      - accepted_values:
+          name: dim_product_rating_number_nonnegative
+          arguments: {column_name: (rating_number >= 0), values: [true], quote: false}
+          config: {where: rating_number is not null}
+      - accepted_values:
+          name: dim_product_price_positive
+          arguments: {column_name: (price > 0), values: [true], quote: false}
+          config: {where: price is not null}
+    columns:
+      - name: parent_asin
+        data_tests: [not_null, unique]
+
+  - name: dim_date
+    description: "Dimension. Grain: 1 row = 1 calendar date on which a review was written."
+    columns:
+      - name: date_key
+        data_tests: [not_null, unique]
+
+  - name: dim_customer
+    description: "Dimension. Grain: 1 row = 1 reviewer (user_id), with lifetime review behaviour."
+    columns:
+      - name: user_id
+        data_tests: [not_null, unique]
+      - name: activity_segment
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['1 one-time reviewer', '2 occasional (2-4)', '3 regular (5-19)', '4 heavy (20+)']
+
+  - name: dim_category
+    description: "Dimension. Grain: 1 row = 1 category label."
+    columns:
+      - name: category_key
+        data_tests: [not_null, unique]
+      - name: category
+        data_tests: [not_null]
+
+  - name: bridge_product_category
+    description: "Bridge. Grain: 1 row = 1 product x category pair (many-to-many)."
+    columns:
+      - name: parent_asin
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_product'), field: parent_asin}
+      - name: category_key
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_category'), field: category_key}
+
+  - name: dim_play_pattern
+    description: "Dimension. Grain: 1 row = 1 play pattern (how a flower toy is used)."
+    columns:
+      - name: play_pattern
+        data_tests: [not_null, unique]
+
+  - name: dim_flower_product
+    description: "Dimension. Grain: 1 row = 1 flower product in scope, with play pattern, relevance and brand."
+    columns:
+      - name: parent_asin
+        data_tests:
+          - not_null
+          - unique
+          - relationships:
+              arguments: {to: ref('dim_product'), field: parent_asin}
+      - name: play_pattern
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_play_pattern'), field: play_pattern}
+
+  - name: fact_reviews
+    description: "Fact. Grain: 1 row = 1 customer review."
+    data_tests:
+      - accepted_values:
+          name: fact_reviews_helpful_vote_nonnegative
+          arguments: {column_name: (helpful_vote >= 0), values: [true], quote: false}
+          config: {where: helpful_vote is not null}
+    columns:
+      - name: parent_asin
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_product'), field: parent_asin}
+      - name: date_key
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_date'), field: date_key}
+      - name: user_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_customer'), field: user_id}
+              config: {where: user_id is not null}
+      - name: rating
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments: {values: [1, 2, 3, 4, 5], quote: false}
+      - name: verified_purchase
+        data_tests:
+          - accepted_values:
+              arguments: {values: [true, false], quote: false}
+      - name: is_duplicate_review
+        data_tests: [not_null]
+
+  - name: fact_flower_reviews
+    description: "Fact. Grain: 1 row = 1 review of a flower product, with play pattern and local review date."
+    columns:
+      - name: parent_asin
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_flower_product'), field: parent_asin}
+      - name: play_pattern
+        data_tests: [not_null]
+
+  - name: fact_keepa_snapshot
+    description: "Snapshot fact. Grain: 1 row = 1 product family per source on Amazon on 2026-10-07 (Keepa API)."
+    data_tests:
+      - accepted_values:
+          name: keepa_rating_between_1_and_5
+          arguments: {column_name: (rating_now between 1 and 5), values: [true], quote: false}
+          config: {where: rating_now is not null}
+      - accepted_values:
+          name: keepa_price_positive
+          arguments: {column_name: (price_now > 0), values: [true], quote: false}
+          config: {where: price_now is not null}
+      - accepted_values:
+          name: keepa_reviews_added_nonnegative
+          arguments: {column_name: (reviews_added_2026 >= 0), values: [true], quote: false}
+          config: {where: reviews_added_2026 is not null}
+    columns:
+      - name: parent_asin
+        data_tests: [not_null]
+      - name: play_pattern
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_play_pattern'), field: play_pattern}
+      - name: keepa_group
+        data_tests: [not_null]

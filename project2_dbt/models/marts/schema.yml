@@ -1,0 +1,116 @@
+version: 2
+
+models:
+  - name: mart_product_selection
+    description: "1 row = 1 product: review count, mean rating, low-rating share (whole catalogue)."
+    columns:
+      - name: parent_asin
+        data_tests: [not_null, unique]
+
+  - name: mart_review_baseline
+    description: "1 row = 1 year: all Toys & Games reviews written January-September."
+    columns:
+      - name: review_year
+        data_tests: [not_null, unique]
+
+  - name: mart_flower_product_stats
+    description: "1 row = 1 flower product with review evidence and an evidence level (no minimum review count)."
+    columns:
+      - name: parent_asin
+        data_tests: [not_null, unique]
+      - name: evidence_level
+        data_tests:
+          - accepted_values:
+              arguments: {values: ['strong (30+ reviews)', 'medium (5-29 reviews)', 'weak (1-4 reviews)', 'no reviews (metadata only)']}
+
+  - name: mart_flower_pattern_trend
+    description: "1 row = 1 play pattern: demand, growth relative to the toy market, satisfaction, quadrant."
+    data_tests:
+      - accepted_values:
+          name: pattern_trend_low_rating_pct_between_0_and_100
+          arguments: {column_name: (low_rating_pct between 0 and 100), values: [true], quote: false}
+      - accepted_values:
+          name: pattern_trend_avg_rating_between_1_and_5
+          arguments: {column_name: (avg_rating between 1 and 5), values: [true], quote: false}
+    columns:
+      - name: play_pattern
+        data_tests:
+          - not_null
+          - unique
+          - relationships:
+              arguments: {to: ref('dim_play_pattern'), field: play_pattern}
+      - name: quadrant
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['A high interest, high satisfaction', 'B high interest, low satisfaction (improve)', 'C low interest, high satisfaction (niche)', 'D low interest, low satisfaction', 'Not enough evidence (under 300 reviews)']
+
+  - name: mart_flower_theme_evidence
+    description: "1 row = 1 play pattern x theme: mentions, rating when mentioned, share of low reviews, evidence tier."
+    data_tests:
+      - accepted_values:
+          name: theme_evidence_mention_pct_between_0_and_100
+          arguments: {column_name: (mention_pct between 0 and 100), values: [true], quote: false}
+    columns:
+      - name: evidence
+        data_tests:
+          - accepted_values:
+              arguments: {values: ['strong', 'medium', 'weak']}
+
+  - name: mart_flower_need_evidence
+    description: "1 row = 1 play pattern x unmet need (plus an all-flower total): wish sentences, products, brands, evidence tier."
+    columns:
+      - name: need
+        data_tests: [not_null]
+      - name: evidence
+        data_tests:
+          - accepted_values:
+              arguments: {values: ['strong', 'medium', 'weak']}
+
+  - name: mart_flower_diy_2023
+    description: "1 row = 1 DIY family: 2022 vs 2023 review volume and growth relative to the toy market."
+    columns:
+      - name: diy_family
+        data_tests: [not_null, unique]
+
+  - name: mart_flower_monthly_reviews
+    description: "1 row = 1 play pattern x month: review volume (monthly demand proxy) and rating."
+    columns:
+      - name: play_pattern
+        data_tests: [not_null]
+      - name: review_month
+        data_tests: [not_null]
+
+  - name: mart_flower_customer_segments
+    description: "1 row = 1 customer who reviewed a flower toy, with loyalty and interest segments."
+    columns:
+      - name: user_id
+        data_tests: [not_null, unique]
+
+  - name: mart_flower_duplicate_sensitivity
+    description: "1 row = 1 play pattern: growth and rating with all review rows and with duplicate rows removed."
+    columns:
+      - name: play_pattern
+        data_tests: [not_null, unique]
+
+  - name: mart_keepa_group_verdict
+    description: "1 row = 1 product group in 2026: three demand signals and a verdict (trending / stable / not trending)."
+    columns:
+      - name: keepa_group
+        data_tests: [not_null, unique]
+      - name: verdict
+        data_tests:
+          - accepted_values:
+              arguments: {values: ['trending', 'stable', 'not trending']}
+
+  - name: mart_keepa_diy_2026
+    description: "1 row = DIY or not: rating counts added in 2025 and 2026, and new sellers since 2024."
+    columns:
+      - name: is_diy
+        data_tests: [not_null, unique]
+
+  - name: mart_keepa_new_forms
+    description: "1 row = 1 product form among launches since 2024, with products, monthly units and brands."
+    columns:
+      - name: new_form
+        data_tests: [not_null, unique]

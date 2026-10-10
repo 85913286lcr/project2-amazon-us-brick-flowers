@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Tables loaded by Meltano (tap-duckdb -> target-bigquery). One JSON record per row in `data`; never edited.
+    database: "{{ target.project }}"
+    schema: project2_raw
+    tables:
+      - name: main_amazon_products_raw
+        description: Amazon Reviews 2023, Toys & Games product metadata (1 row = 1 parent ASIN).
+      - name: main_amazon_reviews_raw
+        description: Amazon Reviews 2023, Toys & Games customer reviews (1 row = 1 review).
+      - name: main_flower_product_labels
+        description: Flower enrichment - 1 row = 1 flower product with relevance tier, play pattern and brand. Append-only.
+      - name: main_flower_review_themes
+        description: Flower enrichment - 1 row = 1 review x theme it mentions (regex codebook). Append-only.
+      - name: main_flower_wish_needs
+        description: Flower enrichment - 1 row = 1 wish sentence x unmet-need category. Append-only.
+      - name: main_keepa_products
+        description: Amazon 2026 (Keepa API snapshot) - 1 row = 1 product family per source (group / new / cohort). Append-only.
+      - name: main_keepa_finder_counts
+        description: Amazon 2026 (Keepa Product Finder) - 1 row = 1 group with the number of products selling 100+ a month. Append-only.
