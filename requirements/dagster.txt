@@ -1,0 +1,3 @@
+# Orchestration
+dagster==1.13.25
+dagster-webserver==1.13.25

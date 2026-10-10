@@ -1,0 +1,14 @@
+{
+  "amazon_products_raw": {
+    "rows": 890874,
+    "expected_rows": 890874,
+    "null_keys": 0,
+    "duplicate_keys": 0
+  },
+  "amazon_reviews_raw": {
+    "rows": 16260406,
+    "expected_rows": 16260406,
+    "null_keys": 0
+  },
+  "result": "PASS"
+}

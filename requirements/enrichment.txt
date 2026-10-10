@@ -1,0 +1,3 @@
+# Ingestion and flower enrichment (DuckDB + pandas)
+duckdb>=1.1
+pandas>=1.5

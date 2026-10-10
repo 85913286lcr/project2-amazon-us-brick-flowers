@@ -1,0 +1,6 @@
+# Business-rule gate and contract reconciliation
+great_expectations==1.23.2
+sqlalchemy>=2.0
+sqlalchemy-bigquery>=1.11
+pandas>=2.2
+db-dtypes>=1.2

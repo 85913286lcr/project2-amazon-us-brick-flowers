@@ -1,0 +1,2 @@
+# Loading: tap-duckdb -> target-bigquery (plugins are installed by `meltano install`)
+meltano==4.4.0
