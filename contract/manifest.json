@@ -1,0 +1,91 @@
+{
+  "contract_version": "flower-v1.0-en",
+  "source_edition": "flower-v1.0",
+  "note": "English edition of the frozen contract: labels translated, every number unchanged.",
+  "files": [
+    {
+      "file": "golden/g01_flower_products_labels.csv",
+      "rows": 3650,
+      "keys": [
+        "parent_asin"
+      ],
+      "sha256": "1b11925ec8f09cf2aaf2c6aca74a1cacea3d6d88d14ac4050fc581a3f7e46f06"
+    },
+    {
+      "file": "golden/g02_pattern_overview_2023.csv",
+      "rows": 22,
+      "keys": [
+        "primary_pattern"
+      ],
+      "sha256": "413600c2acb659eca897016a3caceb3c1b1faf0e989de4c5e5715d0e40037482"
+    },
+    {
+      "file": "golden/g03_need_evidence_2023.csv",
+      "rows": 297,
+      "keys": [
+        "primary_pattern",
+        "need"
+      ],
+      "sha256": "fae07ebdd5cc7145e80a1236941f81d66651e4aab0dbad2f7f124153cc195176"
+    },
+    {
+      "file": "golden/g04_theme_evidence_2023.csv",
+      "rows": 1100,
+      "keys": [
+        "primary_pattern",
+        "grp",
+        "theme"
+      ],
+      "sha256": "81e887b3b7fc2ae0161faadcedc6b4d7dfbf56ef5fefcf946da9a5f799ef3408"
+    },
+    {
+      "file": "golden/g05_diy_2023.csv",
+      "rows": 6,
+      "keys": [
+        "diy_family"
+      ],
+      "sha256": "5066c13a3249519ebda67f7b3761e51ba8fb5e8484a77f0395e05da35d576b61"
+    },
+    {
+      "file": "golden/g06_keepa2026_group_verdicts.csv",
+      "rows": 7,
+      "keys": [
+        "group"
+      ],
+      "sha256": "b581912f335e8dcdb66153107b855f1f6f0ea5510fabf2bd0545038d68979086"
+    },
+    {
+      "file": "golden/g07_keepa2026_products.csv",
+      "rows": 724,
+      "keys": [
+        "source",
+        "parent_asin"
+      ],
+      "sha256": "f8f6a4155259b7a0dacd3411332be567b8d7e2521c8b803fe1be13c0e1a785bf"
+    },
+    {
+      "file": "golden/g08_diy_2026.csv",
+      "rows": 2,
+      "keys": [
+        "diy"
+      ],
+      "sha256": "e4d6fc500b65eff6b296a845e8cd77f06ce384e49dd44bcbc8c12aeb0e1d71c5"
+    },
+    {
+      "file": "golden/g09_new_forms_2026_products.csv",
+      "rows": 432,
+      "keys": [
+        "parent_asin"
+      ],
+      "sha256": "53f30b596355f14cfb12922a839ecd1a9628c1c59333e84a82b7c86d470850f3"
+    },
+    {
+      "file": "golden/g10_new_forms_2026_summary.csv",
+      "rows": 13,
+      "keys": [
+        "form"
+      ],
+      "sha256": "84cbd4d4274178fdf8fa4d0f4c72c2389c56404b39dc7c963cd3ecd3a65bdf28"
+    }
+  ]
+}

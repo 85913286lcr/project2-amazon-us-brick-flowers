@@ -1,0 +1,8 @@
+group,DIY,products_analyzed,reviews_added_2023,reviews_added_2024,reviews_added_2025,reviews_added_2026,S1_reviews_2026_vs_2025_pct,S1_reviews_2025_vs_2023_pct,monthly_sold_now_sum,monthly_sold_1y_ago_sum,S2_monthly_sold_yoy_pct,same_products_monthly_sold_yoy_pct,finder_count_monthlySold_100plus,S3_new_since_2024_selling_50plus,median_rank_2023,median_rank_2025,median_rank_2026,rating_now_median,price_now_median,S1_up,S2_up,S3_up,signals_up,verdict
+G1 Adult brick flowers (non-LEGO),True,50,671.0,839.0,2124.0,6255.0,194.491525,216.542474,9300.0,5450.0,70.642202,-49.514563,56,65,33849.0,36413.0,30110.0,4.5,28.98,True,True,True,3,trending
+G2 LEGO flower sets,True,15,194.0,5662.0,6136.0,4746.0,-22.653194,3062.886598,45400.0,21500.0,111.162791,-69.62963,42,28,282606.0,3079.0,3948.0,4.9,18.68,False,True,True,2,trending
+G3 Toddler flower-garden sets,True,17,3827.0,1376.0,1619.0,1577.0,-2.594194,-57.695323,5450.0,7000.0,-22.142857,-36.690647,31,3,8465.0,18066.0,22256.0,4.65,20.49,False,False,False,0,not trending
+G4 Flower crafts,True,50,127.0,500.0,3638.0,5229.0,43.73282,2764.566929,9350.0,17100.0,-45.321637,-52.795031,42,25,21136.0,65679.0,47572.5,4.6,19.99,True,False,True,2,trending
+G5 Planting kits,True,24,752.0,445.0,1332.0,934.0,-29.87988,77.12766,1400.0,1550.0,-9.677419,-18.181818,5,0,23239.0,166870.0,259023.0,4.5,24.99,False,False,False,0,not trending
+G6 Flower plush,False,26,2498.0,840.0,547.0,804.0,46.983547,-78.102482,650.0,1100.0,-40.909091,0.0,29,4,11006.0,77162.5,380750.5,4.65,17.99,True,False,False,1,stable
+G7 Solar dancing flowers,False,40,117.0,357.0,230.0,243.0,5.652174,96.581197,150.0,500.0,-70.0,0.0,3,2,160146.5,241917.0,231753.0,4.0,6.39,True,False,False,1,stable

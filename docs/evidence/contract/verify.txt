@@ -1,0 +1,11 @@
+OK       g01_flower_products_labels.csv (3650 rows)
+OK       g02_pattern_overview_2023.csv (22 rows)
+OK       g03_need_evidence_2023.csv (297 rows)
+OK       g04_theme_evidence_2023.csv (1100 rows)
+OK       g05_diy_2023.csv (6 rows)
+OK       g06_keepa2026_group_verdicts.csv (7 rows)
+OK       g07_keepa2026_products.csv (724 rows)
+OK       g08_diy_2026.csv (2 rows)
+OK       g09_new_forms_2026_products.csv (432 rows)
+OK       g10_new_forms_2026_summary.csv (13 rows)
+RESULT PASS · contract flower-v1.0-en · scope all

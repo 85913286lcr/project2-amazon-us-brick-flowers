@@ -1,0 +1,201 @@
+{
+  "gx_version": "1.23.2",
+  "timestamp_utc": "2026-10-10T07:25:13+00:00",
+  "expectation_count": 24,
+  "overall_result": "PASS",
+  "data_access": "SELECT only; ephemeral GX context",
+  "checks": [
+    {
+      "table": "project2_marts.mart_flower_pattern_trend",
+      "rule": "Every play pattern of the taxonomy has a row (22)",
+      "expectation": "expect_table_row_count_to_equal",
+      "status": "PASS",
+      "rows_checked": 22,
+      "unexpected_count": null
+    },
+    {
+      "table": "project2_marts.mart_flower_pattern_trend",
+      "rule": "Play pattern is unique",
+      "expectation": "expect_column_pair_values_to_be_equal",
+      "status": "PASS",
+      "rows_checked": 22,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_flower_pattern_trend",
+      "rule": "Average rating is between 1 and 5",
+      "expectation": "expect_column_values_to_be_unique",
+      "status": "PASS",
+      "rows_checked": 22,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_flower_pattern_trend",
+      "rule": "Low-rating share is between 0 and 100 %",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 22,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_flower_pattern_trend",
+      "rule": "Growth relative to the toy market is positive",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 22,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_flower_pattern_trend",
+      "rule": "Quadrant is one of the five defined labels",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 22,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_flower_pattern_trend",
+      "rule": "Every product is counted in exactly one evidence level",
+      "expectation": "expect_column_values_to_be_in_set",
+      "status": "PASS",
+      "rows_checked": 22,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_flower_theme_evidence",
+      "rule": "Mention share is between 0 and 100 %",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 1100,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_flower_theme_evidence",
+      "rule": "Share of low-rated reviews is between 0 and 100 %",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 1100,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_flower_theme_evidence",
+      "rule": "Rating when mentioned is between 1 and 5",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 1100,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_flower_theme_evidence",
+      "rule": "Evidence tier is strong / medium / weak",
+      "expectation": "expect_column_values_to_be_in_set",
+      "status": "PASS",
+      "rows_checked": 1100,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_flower_theme_evidence",
+      "rule": "Mentions never exceed the reviews of the pattern",
+      "expectation": "expect_column_pair_values_a_to_be_greater_than_b",
+      "status": "PASS",
+      "rows_checked": 1100,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_flower_need_evidence",
+      "rule": "A need is backed by at least one wish sentence",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 297,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_flower_need_evidence",
+      "rule": "Products never exceed wish sentences",
+      "expectation": "expect_column_pair_values_a_to_be_greater_than_b",
+      "status": "PASS",
+      "rows_checked": 297,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_flower_need_evidence",
+      "rule": "Evidence tier is strong / medium / weak",
+      "expectation": "expect_column_values_to_be_in_set",
+      "status": "PASS",
+      "rows_checked": 297,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_keepa_group_verdict",
+      "rule": "All seven product groups have a 2026 verdict",
+      "expectation": "expect_table_row_count_to_equal",
+      "status": "PASS",
+      "rows_checked": 7,
+      "unexpected_count": null
+    },
+    {
+      "table": "project2_marts.mart_keepa_group_verdict",
+      "rule": "Verdict is trending / stable / not trending",
+      "expectation": "expect_column_values_to_be_in_set",
+      "status": "PASS",
+      "rows_checked": 7,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_keepa_group_verdict",
+      "rule": "A group is judged on 1 to 50 products",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 7,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_keepa_group_verdict",
+      "rule": "Signals up is between 0 and 3",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 7,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_keepa_group_verdict",
+      "rule": "Median rating is between 1 and 5",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 7,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_keepa_group_verdict",
+      "rule": "Median price is positive",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 7,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_keepa_new_forms",
+      "rule": "A product form has at least one product",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 13,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_keepa_new_forms",
+      "rule": "Products selling 50+ never exceed products",
+      "expectation": "expect_column_pair_values_a_to_be_greater_than_b",
+      "status": "PASS",
+      "rows_checked": 13,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_keepa_new_forms",
+      "rule": "Monthly units are not negative",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 13,
+      "unexpected_count": 0
+    }
+  ]
+}

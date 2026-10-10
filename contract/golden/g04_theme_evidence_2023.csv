@@ -1,0 +1,1101 @@
+grp,theme,primary_pattern,n,total,products,brands,avg_rating_when_mentioned,pattern_avg,n_low,low_total,mention_pct,share_of_low_reviews_pct,evidence
+Experience: display,Arrived broken or breaks easily,3D wooden & crystal models,44,780,9,8,3.25,4.171,15,99,5.641,15.152,medium
+Experience: display,"Beautiful, realistic",3D wooden & crystal models,85,780,23,19,4.412,4.171,5,99,10.897,5.051,strong
+Experience: display,Bigger than expected,3D wooden & crystal models,4,780,4,3,5.0,4.171,0,99,0.513,0.0,weak
+Experience: display,Dust,3D wooden & crystal models,2,780,1,1,4.5,4.171,0,99,0.256,0.0,weak
+Experience: display,Feels cheap,3D wooden & crystal models,15,780,9,9,3.067,4.171,4,99,1.923,4.04,medium
+Experience: display,Lights,3D wooden & crystal models,29,780,6,6,4.138,4.171,2,99,3.718,2.02,medium
+Experience: display,Not as pictured,3D wooden & crystal models,1,780,1,1,1.0,4.171,1,99,0.128,1.01,weak
+Experience: display,Seeds did not grow,3D wooden & crystal models,0,780,0,0,,4.171,0,99,0.0,0.0,weak
+Experience: display,Smaller than expected,3D wooden & crystal models,49,780,13,10,3.898,4.171,6,99,6.282,6.061,strong
+Experience: display,Solar or electronics not working,3D wooden & crystal models,5,780,2,2,3.2,4.171,1,99,0.641,1.01,weak
+Experience: display,Vase or pot mentioned,3D wooden & crystal models,49,780,9,6,3.796,4.171,11,99,6.282,11.111,medium
+Experience: making,Build time mentioned (hours),3D wooden & crystal models,5,780,4,4,4.8,4.171,0,99,0.641,0.0,weak
+Experience: making,Clear instructions,3D wooden & crystal models,5,780,4,4,4.8,4.171,0,99,0.641,0.0,weak
+Experience: making,Easy and fun to build,3D wooden & crystal models,98,780,18,14,4.694,4.171,3,99,12.564,3.03,strong
+Experience: making,Falls apart or droops,3D wooden & crystal models,33,780,11,9,3.303,4.171,13,99,4.231,13.131,strong
+Experience: making,Messy glue or paint,3D wooden & crystal models,74,780,16,12,4.054,4.171,10,99,9.487,10.101,strong
+Experience: making,Missing pieces,3D wooden & crystal models,40,780,13,11,3.475,4.171,12,99,5.128,12.121,strong
+Experience: making,Poor instructions,3D wooden & crystal models,18,780,9,7,3.278,4.171,5,99,2.308,5.051,medium
+Experience: making,Repetitive build,3D wooden & crystal models,7,780,4,3,3.429,4.171,1,99,0.897,1.01,weak
+Experience: making,Sense of accomplishment,3D wooden & crystal models,10,780,5,5,4.8,4.171,0,99,1.282,0.0,medium
+Experience: making,"Tiny pieces, hard to press",3D wooden & crystal models,23,780,9,8,4.13,4.171,2,99,2.949,2.02,medium
+Experience: making,"Too easy, finished quickly",3D wooden & crystal models,8,780,2,1,3.75,4.171,1,99,1.026,1.01,weak
+Experience: making,"Too hard, needed help",3D wooden & crystal models,29,780,9,8,3.759,4.171,5,99,3.718,5.051,medium
+Motive: gifting,Anniversary & wedding,3D wooden & crystal models,1,780,1,1,5.0,4.171,0,99,0.128,0.0,weak
+Motive: gifting,Birthday,3D wooden & crystal models,20,780,11,9,4.4,4.171,2,99,2.564,2.02,medium
+Motive: gifting,Bought as a gift,3D wooden & crystal models,157,780,22,18,4.541,4.171,10,99,20.128,10.101,strong
+Motive: gifting,Bought for themselves,3D wooden & crystal models,6,780,4,4,4.167,4.171,1,99,0.769,1.01,weak
+Motive: gifting,Christmas & holidays,3D wooden & crystal models,27,780,11,9,4.259,4.171,4,99,3.462,4.04,medium
+Motive: gifting,Classroom & party group,3D wooden & crystal models,1,780,1,1,5.0,4.171,0,99,0.128,0.0,weak
+Motive: gifting,Easter & spring,3D wooden & crystal models,3,780,3,3,5.0,4.171,0,99,0.385,0.0,weak
+Motive: gifting,Get well & sympathy,3D wooden & crystal models,0,780,0,0,,4.171,0,99,0.0,0.0,weak
+Motive: gifting,Gift for a boy,3D wooden & crystal models,6,780,6,6,5.0,4.171,0,99,0.769,0.0,weak
+Motive: gifting,Gift for a girl,3D wooden & crystal models,78,780,18,15,4.41,4.171,6,99,10.0,6.061,strong
+Motive: gifting,Gift for a partner,3D wooden & crystal models,21,780,7,5,4.667,4.171,0,99,2.692,0.0,medium
+Motive: gifting,Gift for friend / teacher / coworker,3D wooden & crystal models,10,780,7,5,4.4,4.171,1,99,1.282,1.01,medium
+Motive: gifting,Gift for grandparents,3D wooden & crystal models,3,780,3,3,5.0,4.171,0,99,0.385,0.0,weak
+Motive: gifting,Gift for mom,3D wooden & crystal models,25,780,9,7,4.52,4.171,1,99,3.205,1.01,medium
+Motive: gifting,Mothers Day,3D wooden & crystal models,11,780,5,3,4.636,4.171,0,99,1.41,0.0,medium
+Motive: gifting,Teacher appreciation & graduation,3D wooden & crystal models,0,780,0,0,,4.171,0,99,0.0,0.0,weak
+Motive: gifting,Valentines Day,3D wooden & crystal models,6,780,4,4,4.667,4.171,0,99,0.769,0.0,weak
+Motive: value,Built together with family,3D wooden & crystal models,12,780,7,6,4.583,4.171,0,99,1.538,0.0,medium
+Motive: value,Collecting a series,3D wooden & crystal models,5,780,4,4,3.4,4.171,2,99,0.641,2.02,weak
+Motive: value,Flowers that never wilt,3D wooden & crystal models,3,780,3,2,4.333,4.171,0,99,0.385,0.0,weak
+Motive: value,Home or desk decor,3D wooden & crystal models,41,780,8,6,4.39,4.171,3,99,5.256,3.03,medium
+Motive: value,Learning & fine-motor skills,3D wooden & crystal models,11,780,8,6,4.273,4.171,1,99,1.41,1.01,medium
+Motive: value,Loves flowers & gardening,3D wooden & crystal models,0,780,0,0,,4.171,0,99,0.0,0.0,weak
+Motive: value,"Relaxing, mindful build",3D wooden & crystal models,12,780,7,6,4.0,4.171,3,99,1.538,3.03,medium
+Motive: value,Screen-free time,3D wooden & crystal models,9,780,5,5,4.444,4.171,1,99,1.154,1.01,weak
+Price,Good value,3D wooden & crystal models,34,780,11,8,4.529,4.171,1,99,4.359,1.01,strong
+Price,Overpriced,3D wooden & crystal models,8,780,5,5,1.875,4.171,7,99,1.026,7.071,weak
+Experience: display,Arrived broken or breaks easily,"Bath, outdoor & water",68,1136,8,8,1.971,3.789,48,282,5.986,17.021,medium
+Experience: display,"Beautiful, realistic","Bath, outdoor & water",20,1136,8,8,4.3,3.789,2,282,1.761,0.709,medium
+Experience: display,Bigger than expected,"Bath, outdoor & water",22,1136,7,7,4.5,3.789,1,282,1.937,0.355,medium
+Experience: display,Dust,"Bath, outdoor & water",0,1136,0,0,,3.789,0,282,0.0,0.0,weak
+Experience: display,Feels cheap,"Bath, outdoor & water",49,1136,12,12,2.02,3.789,34,282,4.313,12.057,strong
+Experience: display,Lights,"Bath, outdoor & water",29,1136,6,6,3.793,3.789,6,282,2.553,2.128,medium
+Experience: display,Not as pictured,"Bath, outdoor & water",23,1136,2,2,2.826,3.789,11,282,2.025,3.901,weak
+Experience: display,Seeds did not grow,"Bath, outdoor & water",0,1136,0,0,,3.789,0,282,0.0,0.0,weak
+Experience: display,Smaller than expected,"Bath, outdoor & water",32,1136,10,10,2.969,3.789,15,282,2.817,5.319,strong
+Experience: display,Solar or electronics not working,"Bath, outdoor & water",14,1136,5,5,2.0,3.789,10,282,1.232,3.546,medium
+Experience: display,Vase or pot mentioned,"Bath, outdoor & water",36,1136,10,10,3.667,3.789,10,282,3.169,3.546,strong
+Experience: making,Build time mentioned (hours),"Bath, outdoor & water",2,1136,1,1,4.5,3.789,0,282,0.176,0.0,weak
+Experience: making,Clear instructions,"Bath, outdoor & water",0,1136,0,0,,3.789,0,282,0.0,0.0,weak
+Experience: making,Easy and fun to build,"Bath, outdoor & water",29,1136,5,5,4.379,3.789,4,282,2.553,1.418,medium
+Experience: making,Falls apart or droops,"Bath, outdoor & water",30,1136,8,8,2.033,3.789,21,282,2.641,7.447,medium
+Experience: making,Messy glue or paint,"Bath, outdoor & water",20,1136,5,5,3.0,3.789,8,282,1.761,2.837,medium
+Experience: making,Missing pieces,"Bath, outdoor & water",41,1136,8,8,2.512,3.789,22,282,3.609,7.801,medium
+Experience: making,Poor instructions,"Bath, outdoor & water",1,1136,1,1,4.0,3.789,0,282,0.088,0.0,weak
+Experience: making,Repetitive build,"Bath, outdoor & water",0,1136,0,0,,3.789,0,282,0.0,0.0,weak
+Experience: making,Sense of accomplishment,"Bath, outdoor & water",0,1136,0,0,,3.789,0,282,0.0,0.0,weak
+Experience: making,"Tiny pieces, hard to press","Bath, outdoor & water",2,1136,2,2,2.0,3.789,1,282,0.176,0.355,weak
+Experience: making,"Too easy, finished quickly","Bath, outdoor & water",2,1136,2,2,2.5,3.789,1,282,0.176,0.355,weak
+Experience: making,"Too hard, needed help","Bath, outdoor & water",2,1136,2,2,1.0,3.789,2,282,0.176,0.709,weak
+Motive: gifting,Anniversary & wedding,"Bath, outdoor & water",12,1136,2,2,4.75,3.789,0,282,1.056,0.0,weak
+Motive: gifting,Birthday,"Bath, outdoor & water",34,1136,8,8,4.235,3.789,4,282,2.993,1.418,medium
+Motive: gifting,Bought as a gift,"Bath, outdoor & water",53,1136,14,14,4.019,3.789,11,282,4.665,3.901,strong
+Motive: gifting,Bought for themselves,"Bath, outdoor & water",0,1136,0,0,,3.789,0,282,0.0,0.0,weak
+Motive: gifting,Christmas & holidays,"Bath, outdoor & water",18,1136,8,8,3.5,3.789,5,282,1.585,1.773,medium
+Motive: gifting,Classroom & party group,"Bath, outdoor & water",13,1136,2,2,4.923,3.789,0,282,1.144,0.0,weak
+Motive: gifting,Easter & spring,"Bath, outdoor & water",12,1136,5,5,2.833,3.789,6,282,1.056,2.128,medium
+Motive: gifting,Get well & sympathy,"Bath, outdoor & water",0,1136,0,0,,3.789,0,282,0.0,0.0,weak
+Motive: gifting,Gift for a boy,"Bath, outdoor & water",32,1136,10,10,4.25,3.789,2,282,2.817,0.709,strong
+Motive: gifting,Gift for a girl,"Bath, outdoor & water",160,1136,18,17,4.119,3.789,24,282,14.085,8.511,strong
+Motive: gifting,Gift for a partner,"Bath, outdoor & water",19,1136,4,4,3.526,3.789,6,282,1.673,2.128,medium
+Motive: gifting,Gift for friend / teacher / coworker,"Bath, outdoor & water",4,1136,1,1,4.25,3.789,0,282,0.352,0.0,weak
+Motive: gifting,Gift for grandparents,"Bath, outdoor & water",3,1136,2,2,2.667,3.789,1,282,0.264,0.355,weak
+Motive: gifting,Gift for mom,"Bath, outdoor & water",0,1136,0,0,,3.789,0,282,0.0,0.0,weak
+Motive: gifting,Mothers Day,"Bath, outdoor & water",0,1136,0,0,,3.789,0,282,0.0,0.0,weak
+Motive: gifting,Teacher appreciation & graduation,"Bath, outdoor & water",4,1136,1,1,5.0,3.789,0,282,0.352,0.0,weak
+Motive: gifting,Valentines Day,"Bath, outdoor & water",0,1136,0,0,,3.789,0,282,0.0,0.0,weak
+Motive: value,Built together with family,"Bath, outdoor & water",6,1136,2,2,2.667,3.789,4,282,0.528,1.418,weak
+Motive: value,Collecting a series,"Bath, outdoor & water",6,1136,5,5,5.0,3.789,0,282,0.528,0.0,weak
+Motive: value,Flowers that never wilt,"Bath, outdoor & water",4,1136,3,3,5.0,3.789,0,282,0.352,0.0,weak
+Motive: value,Home or desk decor,"Bath, outdoor & water",11,1136,6,6,4.273,3.789,2,282,0.968,0.709,medium
+Motive: value,Learning & fine-motor skills,"Bath, outdoor & water",11,1136,7,7,4.455,3.789,1,282,0.968,0.355,medium
+Motive: value,Loves flowers & gardening,"Bath, outdoor & water",0,1136,0,0,,3.789,0,282,0.0,0.0,weak
+Motive: value,"Relaxing, mindful build","Bath, outdoor & water",2,1136,2,2,5.0,3.789,0,282,0.176,0.0,weak
+Motive: value,Screen-free time,"Bath, outdoor & water",11,1136,4,4,5.0,3.789,0,282,0.968,0.0,medium
+Price,Good value,"Bath, outdoor & water",83,1136,13,13,4.024,3.789,16,282,7.306,5.674,strong
+Price,Overpriced,"Bath, outdoor & water",36,1136,11,11,1.806,3.789,29,282,3.169,10.284,strong
+Experience: display,Arrived broken or breaks easily,Brick flower accessories (vase / lights / display),10,322,7,7,3.1,3.649,3,81,3.106,3.704,medium
+Experience: display,"Beautiful, realistic",Brick flower accessories (vase / lights / display),35,322,16,14,4.6,3.649,2,81,10.87,2.469,strong
+Experience: display,Bigger than expected,Brick flower accessories (vase / lights / display),2,322,1,1,5.0,3.649,0,81,0.621,0.0,weak
+Experience: display,Dust,Brick flower accessories (vase / lights / display),0,322,0,0,,3.649,0,81,0.0,0.0,weak
+Experience: display,Feels cheap,Brick flower accessories (vase / lights / display),8,322,5,3,2.875,3.649,3,81,2.484,3.704,weak
+Experience: display,Lights,Brick flower accessories (vase / lights / display),95,322,32,23,3.937,3.649,18,81,29.503,22.222,strong
+Experience: display,Not as pictured,Brick flower accessories (vase / lights / display),3,322,3,3,2.333,3.649,2,81,0.932,2.469,weak
+Experience: display,Seeds did not grow,Brick flower accessories (vase / lights / display),0,322,0,0,,3.649,0,81,0.0,0.0,weak
+Experience: display,Smaller than expected,Brick flower accessories (vase / lights / display),22,322,19,14,3.5,3.649,6,81,6.832,7.407,medium
+Experience: display,Solar or electronics not working,Brick flower accessories (vase / lights / display),2,322,2,2,3.0,3.649,1,81,0.621,1.235,weak
+Experience: display,Vase or pot mentioned,Brick flower accessories (vase / lights / display),56,322,29,15,3.518,3.649,15,81,17.391,18.519,strong
+Experience: making,Build time mentioned (hours),Brick flower accessories (vase / lights / display),1,322,1,1,1.0,3.649,1,81,0.311,1.235,weak
+Experience: making,Clear instructions,Brick flower accessories (vase / lights / display),10,322,8,6,4.6,3.649,0,81,3.106,0.0,medium
+Experience: making,Easy and fun to build,Brick flower accessories (vase / lights / display),36,322,18,11,4.167,3.649,5,81,11.18,6.173,strong
+Experience: making,Falls apart or droops,Brick flower accessories (vase / lights / display),25,322,16,11,3.16,3.649,6,81,7.764,7.407,medium
+Experience: making,Messy glue or paint,Brick flower accessories (vase / lights / display),10,322,9,8,2.7,3.649,3,81,3.106,3.704,medium
+Experience: making,Missing pieces,Brick flower accessories (vase / lights / display),25,322,15,8,2.64,3.649,12,81,7.764,14.815,medium
+Experience: making,Poor instructions,Brick flower accessories (vase / lights / display),22,322,17,13,2.227,3.649,13,81,6.832,16.049,medium
+Experience: making,Repetitive build,Brick flower accessories (vase / lights / display),2,322,2,2,3.0,3.649,0,81,0.621,0.0,weak
+Experience: making,Sense of accomplishment,Brick flower accessories (vase / lights / display),2,322,2,2,5.0,3.649,0,81,0.621,0.0,weak
+Experience: making,"Tiny pieces, hard to press",Brick flower accessories (vase / lights / display),14,322,10,7,3.714,3.649,3,81,4.348,3.704,medium
+Experience: making,"Too easy, finished quickly",Brick flower accessories (vase / lights / display),1,322,1,1,1.0,3.649,1,81,0.311,1.235,weak
+Experience: making,"Too hard, needed help",Brick flower accessories (vase / lights / display),16,322,9,7,2.688,3.649,6,81,4.969,7.407,medium
+Motive: gifting,Anniversary & wedding,Brick flower accessories (vase / lights / display),0,322,0,0,,3.649,0,81,0.0,0.0,weak
+Motive: gifting,Birthday,Brick flower accessories (vase / lights / display),6,322,6,6,4.5,3.649,1,81,1.863,1.235,weak
+Motive: gifting,Bought as a gift,Brick flower accessories (vase / lights / display),35,322,20,13,4.4,3.649,2,81,10.87,2.469,strong
+Motive: gifting,Bought for themselves,Brick flower accessories (vase / lights / display),2,322,2,2,5.0,3.649,0,81,0.621,0.0,weak
+Motive: gifting,Christmas & holidays,Brick flower accessories (vase / lights / display),9,322,8,8,4.556,3.649,1,81,2.795,1.235,weak
+Motive: gifting,Classroom & party group,Brick flower accessories (vase / lights / display),0,322,0,0,,3.649,0,81,0.0,0.0,weak
+Motive: gifting,Easter & spring,Brick flower accessories (vase / lights / display),0,322,0,0,,3.649,0,81,0.0,0.0,weak
+Motive: gifting,Get well & sympathy,Brick flower accessories (vase / lights / display),0,322,0,0,,3.649,0,81,0.0,0.0,weak
+Motive: gifting,Gift for a boy,Brick flower accessories (vase / lights / display),18,322,12,10,4.556,3.649,1,81,5.59,1.235,medium
+Motive: gifting,Gift for a girl,Brick flower accessories (vase / lights / display),18,322,13,8,4.111,3.649,3,81,5.59,3.704,medium
+Motive: gifting,Gift for a partner,Brick flower accessories (vase / lights / display),8,322,7,6,4.625,3.649,0,81,2.484,0.0,weak
+Motive: gifting,Gift for friend / teacher / coworker,Brick flower accessories (vase / lights / display),3,322,3,3,4.333,3.649,0,81,0.932,0.0,weak
+Motive: gifting,Gift for grandparents,Brick flower accessories (vase / lights / display),3,322,2,2,4.333,3.649,0,81,0.932,0.0,weak
+Motive: gifting,Gift for mom,Brick flower accessories (vase / lights / display),4,322,3,2,4.0,3.649,1,81,1.242,1.235,weak
+Motive: gifting,Mothers Day,Brick flower accessories (vase / lights / display),2,322,1,1,5.0,3.649,0,81,0.621,0.0,weak
+Motive: gifting,Teacher appreciation & graduation,Brick flower accessories (vase / lights / display),0,322,0,0,,3.649,0,81,0.0,0.0,weak
+Motive: gifting,Valentines Day,Brick flower accessories (vase / lights / display),0,322,0,0,,3.649,0,81,0.0,0.0,weak
+Motive: value,Built together with family,Brick flower accessories (vase / lights / display),5,322,4,3,3.2,3.649,2,81,1.553,2.469,weak
+Motive: value,Collecting a series,Brick flower accessories (vase / lights / display),4,322,4,4,4.0,3.649,1,81,1.242,1.235,weak
+Motive: value,Flowers that never wilt,Brick flower accessories (vase / lights / display),0,322,0,0,,3.649,0,81,0.0,0.0,weak
+Motive: value,Home or desk decor,Brick flower accessories (vase / lights / display),31,322,14,13,4.323,3.649,1,81,9.627,1.235,strong
+Motive: value,Learning & fine-motor skills,Brick flower accessories (vase / lights / display),5,322,3,3,4.6,3.649,0,81,1.553,0.0,weak
+Motive: value,Loves flowers & gardening,Brick flower accessories (vase / lights / display),4,322,3,3,5.0,3.649,0,81,1.242,0.0,weak
+Motive: value,"Relaxing, mindful build",Brick flower accessories (vase / lights / display),3,322,2,2,4.667,3.649,0,81,0.932,0.0,weak
+Motive: value,Screen-free time,Brick flower accessories (vase / lights / display),0,322,0,0,,3.649,0,81,0.0,0.0,weak
+Price,Good value,Brick flower accessories (vase / lights / display),18,322,13,10,3.722,3.649,4,81,5.59,4.938,medium
+Price,Overpriced,Brick flower accessories (vase / lights / display),9,322,7,5,2.111,3.649,6,81,2.795,7.407,weak
+Experience: display,Arrived broken or breaks easily,Brick flower bouquets & bonsai (adult display),194,4793,107,85,3.5,4.295,42,521,4.048,8.061,strong
+Experience: display,"Beautiful, realistic",Brick flower bouquets & bonsai (adult display),757,4793,170,130,4.768,4.295,7,521,15.794,1.344,strong
+Experience: display,Bigger than expected,Brick flower bouquets & bonsai (adult display),15,4793,9,7,4.867,4.295,0,521,0.313,0.0,medium
+Experience: display,Dust,Brick flower bouquets & bonsai (adult display),26,4793,19,18,4.346,4.295,1,521,0.542,0.192,medium
+Experience: display,Feels cheap,Brick flower bouquets & bonsai (adult display),112,4793,67,57,2.67,4.295,56,521,2.337,10.749,strong
+Experience: display,Lights,Brick flower bouquets & bonsai (adult display),164,4793,56,48,4.256,4.295,13,521,3.422,2.495,strong
+Experience: display,Not as pictured,Brick flower bouquets & bonsai (adult display),21,4793,17,16,3.667,4.295,4,521,0.438,0.768,medium
+Experience: display,Seeds did not grow,Brick flower bouquets & bonsai (adult display),0,4793,0,0,,4.295,0,521,0.0,0.0,weak
+Experience: display,Smaller than expected,Brick flower bouquets & bonsai (adult display),414,4793,120,89,3.942,4.295,56,521,8.638,10.749,strong
+Experience: display,Solar or electronics not working,Brick flower bouquets & bonsai (adult display),3,4793,3,3,4.333,4.295,0,521,0.063,0.0,weak
+Experience: display,Vase or pot mentioned,Brick flower bouquets & bonsai (adult display),392,4793,118,95,4.151,4.295,36,521,8.179,6.91,strong
+Experience: making,Build time mentioned (hours),Brick flower bouquets & bonsai (adult display),66,4793,42,37,4.576,4.295,1,521,1.377,0.192,strong
+Experience: making,Clear instructions,Brick flower bouquets & bonsai (adult display),195,4793,89,79,4.615,4.295,3,521,4.068,0.576,strong
+Experience: making,Easy and fun to build,Brick flower bouquets & bonsai (adult display),853,4793,177,138,4.72,4.295,10,521,17.797,1.919,strong
+Experience: making,Falls apart or droops,Brick flower bouquets & bonsai (adult display),320,4793,127,96,3.228,4.295,88,521,6.676,16.891,strong
+Experience: making,Messy glue or paint,Brick flower bouquets & bonsai (adult display),164,4793,88,73,3.488,4.295,40,521,3.422,7.678,strong
+Experience: making,Missing pieces,Brick flower bouquets & bonsai (adult display),407,4793,147,111,3.032,4.295,157,521,8.492,30.134,strong
+Experience: making,Poor instructions,Brick flower bouquets & bonsai (adult display),102,4793,67,56,2.784,4.295,43,521,2.128,8.253,strong
+Experience: making,Repetitive build,Brick flower bouquets & bonsai (adult display),65,4793,42,38,4.2,4.295,4,521,1.356,0.768,strong
+Experience: making,Sense of accomplishment,Brick flower bouquets & bonsai (adult display),75,4793,40,36,4.733,4.295,0,521,1.565,0.0,strong
+Experience: making,"Tiny pieces, hard to press",Brick flower bouquets & bonsai (adult display),348,4793,116,89,4.04,4.295,37,521,7.261,7.102,strong
+Experience: making,"Too easy, finished quickly",Brick flower bouquets & bonsai (adult display),6,4793,6,6,4.5,4.295,0,521,0.125,0.0,weak
+Experience: making,"Too hard, needed help",Brick flower bouquets & bonsai (adult display),229,4793,107,87,3.306,4.295,63,521,4.778,12.092,strong
+Motive: gifting,Anniversary & wedding,Brick flower bouquets & bonsai (adult display),13,4793,7,6,5.0,4.295,0,521,0.271,0.0,medium
+Motive: gifting,Birthday,Brick flower bouquets & bonsai (adult display),116,4793,44,39,4.698,4.295,6,521,2.42,1.152,strong
+Motive: gifting,Bought as a gift,Brick flower bouquets & bonsai (adult display),977,4793,185,142,4.631,4.295,47,521,20.384,9.021,strong
+Motive: gifting,Bought for themselves,Brick flower bouquets & bonsai (adult display),40,4793,28,26,4.675,4.295,1,521,0.835,0.192,strong
+Motive: gifting,Christmas & holidays,Brick flower bouquets & bonsai (adult display),160,4793,65,54,4.619,4.295,12,521,3.338,2.303,strong
+Motive: gifting,Classroom & party group,Brick flower bouquets & bonsai (adult display),24,4793,16,15,4.625,4.295,1,521,0.501,0.192,medium
+Motive: gifting,Easter & spring,Brick flower bouquets & bonsai (adult display),43,4793,16,13,4.767,4.295,2,521,0.897,0.384,strong
+Motive: gifting,Get well & sympathy,Brick flower bouquets & bonsai (adult display),18,4793,13,12,4.944,4.295,0,521,0.376,0.0,medium
+Motive: gifting,Gift for a boy,Brick flower bouquets & bonsai (adult display),275,4793,104,85,4.527,4.295,20,521,5.738,3.839,strong
+Motive: gifting,Gift for a girl,Brick flower bouquets & bonsai (adult display),438,4793,127,106,4.543,4.295,31,521,9.138,5.95,strong
+Motive: gifting,Gift for a partner,Brick flower bouquets & bonsai (adult display),281,4793,91,74,4.612,4.295,15,521,5.863,2.879,strong
+Motive: gifting,Gift for friend / teacher / coworker,Brick flower bouquets & bonsai (adult display),84,4793,55,47,4.643,4.295,2,521,1.753,0.384,strong
+Motive: gifting,Gift for grandparents,Brick flower bouquets & bonsai (adult display),23,4793,14,13,4.783,4.295,0,521,0.48,0.0,medium
+Motive: gifting,Gift for mom,Brick flower bouquets & bonsai (adult display),85,4793,40,36,4.647,4.295,3,521,1.773,0.576,strong
+Motive: gifting,Mothers Day,Brick flower bouquets & bonsai (adult display),40,4793,19,15,4.85,4.295,0,521,0.835,0.0,strong
+Motive: gifting,Teacher appreciation & graduation,Brick flower bouquets & bonsai (adult display),3,4793,3,3,4.333,4.295,0,521,0.063,0.0,weak
+Motive: gifting,Valentines Day,Brick flower bouquets & bonsai (adult display),46,4793,26,20,4.696,4.295,2,521,0.96,0.384,strong
+Motive: value,Built together with family,Brick flower bouquets & bonsai (adult display),101,4793,63,60,4.634,4.295,5,521,2.107,0.96,strong
+Motive: value,Collecting a series,Brick flower bouquets & bonsai (adult display),146,4793,71,57,4.521,4.295,5,521,3.046,0.96,strong
+Motive: value,Flowers that never wilt,Brick flower bouquets & bonsai (adult display),54,4793,28,26,4.852,4.295,0,521,1.127,0.0,strong
+Motive: value,Home or desk decor,Brick flower bouquets & bonsai (adult display),640,4793,135,109,4.692,4.295,8,521,13.353,1.536,strong
+Motive: value,Learning & fine-motor skills,Brick flower bouquets & bonsai (adult display),156,4793,78,71,4.321,4.295,7,521,3.255,1.344,strong
+Motive: value,Loves flowers & gardening,Brick flower bouquets & bonsai (adult display),103,4793,54,49,4.65,4.295,2,521,2.149,0.384,strong
+Motive: value,"Relaxing, mindful build",Brick flower bouquets & bonsai (adult display),107,4793,57,52,4.589,4.295,4,521,2.232,0.768,strong
+Motive: value,Screen-free time,Brick flower bouquets & bonsai (adult display),41,4793,25,24,4.659,4.295,0,521,0.855,0.0,strong
+Price,Good value,Brick flower bouquets & bonsai (adult display),335,4793,123,96,4.397,4.295,21,521,6.989,4.031,strong
+Price,Overpriced,Brick flower bouquets & bonsai (adult display),73,4793,45,37,2.685,4.295,38,521,1.523,7.294,strong
+Experience: display,Arrived broken or breaks easily,Brick scenes (flower shop / garden),5,64,3,3,3.4,4.156,2,7,7.812,28.571,weak
+Experience: display,"Beautiful, realistic",Brick scenes (flower shop / garden),6,64,3,3,5.0,4.156,0,7,9.375,0.0,weak
+Experience: display,Bigger than expected,Brick scenes (flower shop / garden),1,64,1,1,5.0,4.156,0,7,1.562,0.0,weak
+Experience: display,Dust,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Experience: display,Feels cheap,Brick scenes (flower shop / garden),2,64,1,1,3.0,4.156,0,7,3.125,0.0,weak
+Experience: display,Lights,Brick scenes (flower shop / garden),18,64,5,4,4.556,4.156,1,7,28.125,14.286,medium
+Experience: display,Not as pictured,Brick scenes (flower shop / garden),1,64,1,1,3.0,4.156,0,7,1.562,0.0,weak
+Experience: display,Seeds did not grow,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Experience: display,Smaller than expected,Brick scenes (flower shop / garden),3,64,1,1,3.667,4.156,0,7,4.688,0.0,weak
+Experience: display,Solar or electronics not working,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Experience: display,Vase or pot mentioned,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Experience: making,Build time mentioned (hours),Brick scenes (flower shop / garden),2,64,2,2,4.5,4.156,0,7,3.125,0.0,weak
+Experience: making,Clear instructions,Brick scenes (flower shop / garden),5,64,3,3,4.8,4.156,0,7,7.812,0.0,weak
+Experience: making,Easy and fun to build,Brick scenes (flower shop / garden),16,64,5,4,4.812,4.156,0,7,25.0,0.0,medium
+Experience: making,Falls apart or droops,Brick scenes (flower shop / garden),3,64,2,1,3.667,4.156,0,7,4.688,0.0,weak
+Experience: making,Messy glue or paint,Brick scenes (flower shop / garden),2,64,1,1,3.0,4.156,0,7,3.125,0.0,weak
+Experience: making,Missing pieces,Brick scenes (flower shop / garden),9,64,5,4,3.778,4.156,2,7,14.062,28.571,weak
+Experience: making,Poor instructions,Brick scenes (flower shop / garden),3,64,2,2,3.0,4.156,1,7,4.688,14.286,weak
+Experience: making,Repetitive build,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Experience: making,Sense of accomplishment,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Experience: making,"Tiny pieces, hard to press",Brick scenes (flower shop / garden),6,64,4,3,4.333,4.156,0,7,9.375,0.0,weak
+Experience: making,"Too easy, finished quickly",Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Experience: making,"Too hard, needed help",Brick scenes (flower shop / garden),5,64,2,1,3.8,4.156,1,7,7.812,14.286,weak
+Motive: gifting,Anniversary & wedding,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Motive: gifting,Birthday,Brick scenes (flower shop / garden),2,64,1,1,5.0,4.156,0,7,3.125,0.0,weak
+Motive: gifting,Bought as a gift,Brick scenes (flower shop / garden),9,64,4,3,4.667,4.156,1,7,14.062,14.286,weak
+Motive: gifting,Bought for themselves,Brick scenes (flower shop / garden),2,64,2,2,5.0,4.156,0,7,3.125,0.0,weak
+Motive: gifting,Christmas & holidays,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Motive: gifting,Classroom & party group,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Motive: gifting,Easter & spring,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Motive: gifting,Get well & sympathy,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Motive: gifting,Gift for a boy,Brick scenes (flower shop / garden),6,64,2,2,4.833,4.156,0,7,9.375,0.0,weak
+Motive: gifting,Gift for a girl,Brick scenes (flower shop / garden),5,64,4,3,3.8,4.156,1,7,7.812,14.286,weak
+Motive: gifting,Gift for a partner,Brick scenes (flower shop / garden),2,64,2,2,4.5,4.156,0,7,3.125,0.0,weak
+Motive: gifting,Gift for friend / teacher / coworker,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Motive: gifting,Gift for grandparents,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Motive: gifting,Gift for mom,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Motive: gifting,Mothers Day,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Motive: gifting,Teacher appreciation & graduation,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Motive: gifting,Valentines Day,Brick scenes (flower shop / garden),1,64,1,1,5.0,4.156,0,7,1.562,0.0,weak
+Motive: value,Built together with family,Brick scenes (flower shop / garden),5,64,4,4,5.0,4.156,0,7,7.812,0.0,weak
+Motive: value,Collecting a series,Brick scenes (flower shop / garden),1,64,1,1,5.0,4.156,0,7,1.562,0.0,weak
+Motive: value,Flowers that never wilt,Brick scenes (flower shop / garden),0,64,0,0,,4.156,0,7,0.0,0.0,weak
+Motive: value,Home or desk decor,Brick scenes (flower shop / garden),8,64,2,2,5.0,4.156,0,7,12.5,0.0,weak
+Motive: value,Learning & fine-motor skills,Brick scenes (flower shop / garden),2,64,2,2,5.0,4.156,0,7,3.125,0.0,weak
+Motive: value,Loves flowers & gardening,Brick scenes (flower shop / garden),1,64,1,1,5.0,4.156,0,7,1.562,0.0,weak
+Motive: value,"Relaxing, mindful build",Brick scenes (flower shop / garden),2,64,2,2,4.0,4.156,0,7,3.125,0.0,weak
+Motive: value,Screen-free time,Brick scenes (flower shop / garden),3,64,3,3,5.0,4.156,0,7,4.688,0.0,weak
+Price,Good value,Brick scenes (flower shop / garden),6,64,4,3,4.5,4.156,0,7,9.375,0.0,weak
+Price,Overpriced,Brick scenes (flower shop / garden),2,64,2,2,2.5,4.156,1,7,3.125,14.286,weak
+Experience: display,Arrived broken or breaks easily,Character plush with flower motif,15,1680,8,7,2.8,4.36,6,197,0.893,3.046,medium
+Experience: display,"Beautiful, realistic",Character plush with flower motif,67,1680,26,20,4.642,4.36,3,197,3.988,1.523,strong
+Experience: display,Bigger than expected,Character plush with flower motif,25,1680,17,15,4.92,4.36,0,197,1.488,0.0,medium
+Experience: display,Dust,Character plush with flower motif,7,1680,4,4,4.0,4.36,2,197,0.417,1.015,weak
+Experience: display,Feels cheap,Character plush with flower motif,50,1680,25,19,2.52,4.36,28,197,2.976,14.213,strong
+Experience: display,Lights,Character plush with flower motif,10,1680,6,5,4.0,4.36,1,197,0.595,0.508,medium
+Experience: display,Not as pictured,Character plush with flower motif,8,1680,6,6,2.875,4.36,3,197,0.476,1.523,weak
+Experience: display,Seeds did not grow,Character plush with flower motif,0,1680,0,0,,4.36,0,197,0.0,0.0,weak
+Experience: display,Smaller than expected,Character plush with flower motif,107,1680,28,21,3.112,4.36,39,197,6.369,19.797,strong
+Experience: display,Solar or electronics not working,Character plush with flower motif,1,1680,1,1,2.0,4.36,1,197,0.06,0.508,weak
+Experience: display,Vase or pot mentioned,Character plush with flower motif,5,1680,4,4,4.6,4.36,0,197,0.298,0.0,weak
+Experience: making,Build time mentioned (hours),Character plush with flower motif,0,1680,0,0,,4.36,0,197,0.0,0.0,weak
+Experience: making,Clear instructions,Character plush with flower motif,2,1680,1,1,5.0,4.36,0,197,0.119,0.0,weak
+Experience: making,Easy and fun to build,Character plush with flower motif,9,1680,2,2,3.889,4.36,0,197,0.536,0.0,weak
+Experience: making,Falls apart or droops,Character plush with flower motif,16,1680,10,10,3.312,4.36,6,197,0.952,3.046,medium
+Experience: making,Messy glue or paint,Character plush with flower motif,6,1680,4,4,3.667,4.36,1,197,0.357,0.508,weak
+Experience: making,Missing pieces,Character plush with flower motif,7,1680,5,5,2.857,4.36,2,197,0.417,1.015,weak
+Experience: making,Poor instructions,Character plush with flower motif,0,1680,0,0,,4.36,0,197,0.0,0.0,weak
+Experience: making,Repetitive build,Character plush with flower motif,0,1680,0,0,,4.36,0,197,0.0,0.0,weak
+Experience: making,Sense of accomplishment,Character plush with flower motif,0,1680,0,0,,4.36,0,197,0.0,0.0,weak
+Experience: making,"Tiny pieces, hard to press",Character plush with flower motif,2,1680,2,2,3.5,4.36,1,197,0.119,0.508,weak
+Experience: making,"Too easy, finished quickly",Character plush with flower motif,0,1680,0,0,,4.36,0,197,0.0,0.0,weak
+Experience: making,"Too hard, needed help",Character plush with flower motif,4,1680,4,3,2.25,4.36,2,197,0.238,1.015,weak
+Motive: gifting,Anniversary & wedding,Character plush with flower motif,46,1680,5,3,4.348,4.36,7,197,2.738,3.553,medium
+Motive: gifting,Birthday,Character plush with flower motif,63,1680,27,25,4.778,4.36,2,197,3.75,1.015,strong
+Motive: gifting,Bought as a gift,Character plush with flower motif,254,1680,59,44,4.583,4.36,17,197,15.119,8.629,strong
+Motive: gifting,Bought for themselves,Character plush with flower motif,13,1680,6,5,4.846,4.36,0,197,0.774,0.0,medium
+Motive: gifting,Christmas & holidays,Character plush with flower motif,56,1680,21,17,4.464,4.36,5,197,3.333,2.538,strong
+Motive: gifting,Classroom & party group,Character plush with flower motif,5,1680,3,3,4.2,4.36,1,197,0.298,0.508,weak
+Motive: gifting,Easter & spring,Character plush with flower motif,28,1680,11,9,4.857,4.36,0,197,1.667,0.0,medium
+Motive: gifting,Get well & sympathy,Character plush with flower motif,4,1680,3,3,3.75,4.36,1,197,0.238,0.508,weak
+Motive: gifting,Gift for a boy,Character plush with flower motif,146,1680,30,22,4.589,4.36,8,197,8.69,4.061,strong
+Motive: gifting,Gift for a girl,Character plush with flower motif,382,1680,55,39,4.704,4.36,19,197,22.738,9.645,strong
+Motive: gifting,Gift for a partner,Character plush with flower motif,26,1680,17,16,4.731,4.36,0,197,1.548,0.0,medium
+Motive: gifting,Gift for friend / teacher / coworker,Character plush with flower motif,36,1680,16,15,4.833,4.36,1,197,2.143,0.508,strong
+Motive: gifting,Gift for grandparents,Character plush with flower motif,7,1680,5,4,4.714,4.36,0,197,0.417,0.0,weak
+Motive: gifting,Gift for mom,Character plush with flower motif,9,1680,6,5,5.0,4.36,0,197,0.536,0.0,weak
+Motive: gifting,Mothers Day,Character plush with flower motif,1,1680,1,1,5.0,4.36,0,197,0.06,0.0,weak
+Motive: gifting,Teacher appreciation & graduation,Character plush with flower motif,2,1680,2,2,5.0,4.36,0,197,0.119,0.0,weak
+Motive: gifting,Valentines Day,Character plush with flower motif,13,1680,10,10,4.615,4.36,0,197,0.774,0.0,medium
+Motive: value,Built together with family,Character plush with flower motif,2,1680,2,1,5.0,4.36,0,197,0.119,0.0,weak
+Motive: value,Collecting a series,Character plush with flower motif,46,1680,23,15,4.522,4.36,3,197,2.738,1.523,strong
+Motive: value,Flowers that never wilt,Character plush with flower motif,2,1680,2,2,4.5,4.36,0,197,0.119,0.0,weak
+Motive: value,Home or desk decor,Character plush with flower motif,18,1680,11,9,4.278,4.36,2,197,1.071,1.015,medium
+Motive: value,Learning & fine-motor skills,Character plush with flower motif,17,1680,8,8,4.353,4.36,1,197,1.012,0.508,medium
+Motive: value,Loves flowers & gardening,Character plush with flower motif,6,1680,3,3,4.833,4.36,0,197,0.357,0.0,weak
+Motive: value,"Relaxing, mindful build",Character plush with flower motif,3,1680,3,3,4.0,4.36,1,197,0.179,0.508,weak
+Motive: value,Screen-free time,Character plush with flower motif,2,1680,1,1,5.0,4.36,0,197,0.119,0.0,weak
+Price,Good value,Character plush with flower motif,108,1680,31,23,4.167,4.36,17,197,6.429,8.629,strong
+Price,Overpriced,Character plush with flower motif,52,1680,31,22,2.481,4.36,29,197,3.095,14.721,strong
+Experience: display,Arrived broken or breaks easily,Craft bouquets & paper flowers,56,2995,30,26,2.643,4.329,30,327,1.87,9.174,strong
+Experience: display,"Beautiful, realistic",Craft bouquets & paper flowers,180,2995,68,60,4.75,4.329,5,327,6.01,1.529,strong
+Experience: display,Bigger than expected,Craft bouquets & paper flowers,10,2995,4,4,4.9,4.329,0,327,0.334,0.0,medium
+Experience: display,Dust,Craft bouquets & paper flowers,6,2995,4,4,4.833,4.329,0,327,0.2,0.0,weak
+Experience: display,Feels cheap,Craft bouquets & paper flowers,60,2995,32,25,2.667,4.329,30,327,2.003,9.174,strong
+Experience: display,Lights,Craft bouquets & paper flowers,28,2995,12,12,3.857,4.329,4,327,0.935,1.223,medium
+Experience: display,Not as pictured,Craft bouquets & paper flowers,11,2995,7,6,2.909,4.329,4,327,0.367,1.223,medium
+Experience: display,Seeds did not grow,Craft bouquets & paper flowers,0,2995,0,0,,4.329,0,327,0.0,0.0,weak
+Experience: display,Smaller than expected,Craft bouquets & paper flowers,83,2995,50,48,3.434,4.329,21,327,2.771,6.422,strong
+Experience: display,Solar or electronics not working,Craft bouquets & paper flowers,8,2995,3,3,3.0,4.329,3,327,0.267,0.917,weak
+Experience: display,Vase or pot mentioned,Craft bouquets & paper flowers,184,2995,53,45,4.283,4.329,18,327,6.144,5.505,strong
+Experience: making,Build time mentioned (hours),Craft bouquets & paper flowers,6,2995,5,5,4.333,4.329,0,327,0.2,0.0,weak
+Experience: making,Clear instructions,Craft bouquets & paper flowers,22,2995,18,17,4.818,4.329,0,327,0.735,0.0,medium
+Experience: making,Easy and fun to build,Craft bouquets & paper flowers,183,2995,61,51,4.732,4.329,2,327,6.11,0.612,strong
+Experience: making,Falls apart or droops,Craft bouquets & paper flowers,61,2995,30,29,2.918,4.329,26,327,2.037,7.951,strong
+Experience: making,Messy glue or paint,Craft bouquets & paper flowers,314,2995,66,53,3.723,4.329,67,327,10.484,20.489,strong
+Experience: making,Missing pieces,Craft bouquets & paper flowers,86,2995,31,28,2.919,4.329,34,327,2.871,10.398,strong
+Experience: making,Poor instructions,Craft bouquets & paper flowers,18,2995,11,10,1.833,4.329,14,327,0.601,4.281,medium
+Experience: making,Repetitive build,Craft bouquets & paper flowers,16,2995,13,12,3.688,4.329,2,327,0.534,0.612,medium
+Experience: making,Sense of accomplishment,Craft bouquets & paper flowers,55,2995,21,19,4.745,4.329,1,327,1.836,0.306,strong
+Experience: making,"Tiny pieces, hard to press",Craft bouquets & paper flowers,23,2995,12,12,4.13,4.329,4,327,0.768,1.223,medium
+Experience: making,"Too easy, finished quickly",Craft bouquets & paper flowers,2,2995,2,2,4.0,4.329,0,327,0.067,0.0,weak
+Experience: making,"Too hard, needed help",Craft bouquets & paper flowers,87,2995,32,29,3.46,4.329,23,327,2.905,7.034,strong
+Motive: gifting,Anniversary & wedding,Craft bouquets & paper flowers,8,2995,5,4,4.875,4.329,0,327,0.267,0.0,weak
+Motive: gifting,Birthday,Craft bouquets & paper flowers,120,2995,42,36,4.617,4.329,6,327,4.007,1.835,strong
+Motive: gifting,Bought as a gift,Craft bouquets & paper flowers,650,2995,97,75,4.609,4.329,41,327,21.703,12.538,strong
+Motive: gifting,Bought for themselves,Craft bouquets & paper flowers,10,2995,9,9,4.3,4.329,0,327,0.334,0.0,medium
+Motive: gifting,Christmas & holidays,Craft bouquets & paper flowers,168,2995,38,33,4.625,4.329,11,327,5.609,3.364,strong
+Motive: gifting,Classroom & party group,Craft bouquets & paper flowers,27,2995,20,14,4.333,4.329,4,327,0.902,1.223,medium
+Motive: gifting,Easter & spring,Craft bouquets & paper flowers,18,2995,13,11,4.389,4.329,2,327,0.601,0.612,medium
+Motive: gifting,Get well & sympathy,Craft bouquets & paper flowers,5,2995,4,3,5.0,4.329,0,327,0.167,0.0,weak
+Motive: gifting,Gift for a boy,Craft bouquets & paper flowers,102,2995,36,34,4.559,4.329,6,327,3.406,1.835,strong
+Motive: gifting,Gift for a girl,Craft bouquets & paper flowers,914,2995,104,86,4.542,4.329,55,327,30.518,16.82,strong
+Motive: gifting,Gift for a partner,Craft bouquets & paper flowers,17,2995,14,13,4.412,4.329,1,327,0.568,0.306,medium
+Motive: gifting,Gift for friend / teacher / coworker,Craft bouquets & paper flowers,55,2995,32,31,4.727,4.329,2,327,1.836,0.612,strong
+Motive: gifting,Gift for grandparents,Craft bouquets & paper flowers,32,2995,13,13,4.781,4.329,0,327,1.068,0.0,strong
+Motive: gifting,Gift for mom,Craft bouquets & paper flowers,24,2995,16,14,4.875,4.329,0,327,0.801,0.0,medium
+Motive: gifting,Mothers Day,Craft bouquets & paper flowers,32,2995,19,15,4.844,4.329,1,327,1.068,0.306,strong
+Motive: gifting,Teacher appreciation & graduation,Craft bouquets & paper flowers,1,2995,1,1,5.0,4.329,0,327,0.033,0.0,weak
+Motive: gifting,Valentines Day,Craft bouquets & paper flowers,6,2995,5,5,4.833,4.329,0,327,0.2,0.0,weak
+Motive: value,Built together with family,Craft bouquets & paper flowers,73,2995,27,26,4.534,4.329,3,327,2.437,0.917,strong
+Motive: value,Collecting a series,Craft bouquets & paper flowers,8,2995,5,5,4.625,4.329,0,327,0.267,0.0,weak
+Motive: value,Flowers that never wilt,Craft bouquets & paper flowers,3,2995,3,3,5.0,4.329,0,327,0.1,0.0,weak
+Motive: value,Home or desk decor,Craft bouquets & paper flowers,44,2995,24,24,4.5,4.329,2,327,1.469,0.612,strong
+Motive: value,Learning & fine-motor skills,Craft bouquets & paper flowers,101,2995,41,37,4.475,4.329,7,327,3.372,2.141,strong
+Motive: value,Loves flowers & gardening,Craft bouquets & paper flowers,7,2995,6,6,4.714,4.329,0,327,0.234,0.0,weak
+Motive: value,"Relaxing, mindful build",Craft bouquets & paper flowers,14,2995,10,9,4.714,4.329,1,327,0.467,0.306,medium
+Motive: value,Screen-free time,Craft bouquets & paper flowers,91,2995,28,25,4.824,4.329,0,327,3.038,0.0,strong
+Price,Good value,Craft bouquets & paper flowers,158,2995,67,57,4.532,4.329,13,327,5.275,3.976,strong
+Price,Overpriced,Craft bouquets & paper flowers,48,2995,21,20,2.271,4.329,30,327,1.603,9.174,strong
+Experience: display,Arrived broken or breaks easily,Dollhouse miniature flowers,19,495,13,12,3.474,4.455,4,44,3.838,9.091,medium
+Experience: display,"Beautiful, realistic",Dollhouse miniature flowers,78,495,54,32,4.872,4.455,1,44,15.758,2.273,strong
+Experience: display,Bigger than expected,Dollhouse miniature flowers,2,495,2,1,3.5,4.455,1,44,0.404,2.273,weak
+Experience: display,Dust,Dollhouse miniature flowers,0,495,0,0,,4.455,0,44,0.0,0.0,weak
+Experience: display,Feels cheap,Dollhouse miniature flowers,6,495,3,3,3.0,4.455,2,44,1.212,4.545,weak
+Experience: display,Lights,Dollhouse miniature flowers,3,495,3,3,5.0,4.455,0,44,0.606,0.0,weak
+Experience: display,Not as pictured,Dollhouse miniature flowers,4,495,1,1,1.25,4.455,4,44,0.808,9.091,weak
+Experience: display,Seeds did not grow,Dollhouse miniature flowers,0,495,0,0,,4.455,0,44,0.0,0.0,weak
+Experience: display,Smaller than expected,Dollhouse miniature flowers,47,495,24,16,4.106,4.455,6,44,9.495,13.636,strong
+Experience: display,Solar or electronics not working,Dollhouse miniature flowers,0,495,0,0,,4.455,0,44,0.0,0.0,weak
+Experience: display,Vase or pot mentioned,Dollhouse miniature flowers,30,495,22,20,4.367,4.455,2,44,6.061,4.545,strong
+Experience: making,Build time mentioned (hours),Dollhouse miniature flowers,0,495,0,0,,4.455,0,44,0.0,0.0,weak
+Experience: making,Clear instructions,Dollhouse miniature flowers,0,495,0,0,,4.455,0,44,0.0,0.0,weak
+Experience: making,Easy and fun to build,Dollhouse miniature flowers,1,495,1,1,5.0,4.455,0,44,0.202,0.0,weak
+Experience: making,Falls apart or droops,Dollhouse miniature flowers,3,495,3,3,1.667,4.455,3,44,0.606,6.818,weak
+Experience: making,Messy glue or paint,Dollhouse miniature flowers,5,495,4,4,4.2,4.455,1,44,1.01,2.273,weak
+Experience: making,Missing pieces,Dollhouse miniature flowers,2,495,2,2,2.5,4.455,1,44,0.404,2.273,weak
+Experience: making,Poor instructions,Dollhouse miniature flowers,0,495,0,0,,4.455,0,44,0.0,0.0,weak
+Experience: making,Repetitive build,Dollhouse miniature flowers,0,495,0,0,,4.455,0,44,0.0,0.0,weak
+Experience: making,Sense of accomplishment,Dollhouse miniature flowers,1,495,1,1,5.0,4.455,0,44,0.202,0.0,weak
+Experience: making,"Tiny pieces, hard to press",Dollhouse miniature flowers,1,495,1,1,5.0,4.455,0,44,0.202,0.0,weak
+Experience: making,"Too easy, finished quickly",Dollhouse miniature flowers,0,495,0,0,,4.455,0,44,0.0,0.0,weak
+Experience: making,"Too hard, needed help",Dollhouse miniature flowers,0,495,0,0,,4.455,0,44,0.0,0.0,weak
+Motive: gifting,Anniversary & wedding,Dollhouse miniature flowers,3,495,3,3,4.333,4.455,0,44,0.606,0.0,weak
+Motive: gifting,Birthday,Dollhouse miniature flowers,4,495,2,2,5.0,4.455,0,44,0.808,0.0,weak
+Motive: gifting,Bought as a gift,Dollhouse miniature flowers,18,495,11,9,4.444,4.455,2,44,3.636,4.545,medium
+Motive: gifting,Bought for themselves,Dollhouse miniature flowers,1,495,1,0,5.0,4.455,0,44,0.202,0.0,weak
+Motive: gifting,Christmas & holidays,Dollhouse miniature flowers,5,495,5,5,4.2,4.455,1,44,1.01,2.273,weak
+Motive: gifting,Classroom & party group,Dollhouse miniature flowers,4,495,3,2,5.0,4.455,0,44,0.808,0.0,weak
+Motive: gifting,Easter & spring,Dollhouse miniature flowers,4,495,4,4,4.0,4.455,1,44,0.808,2.273,weak
+Motive: gifting,Get well & sympathy,Dollhouse miniature flowers,3,495,3,3,5.0,4.455,0,44,0.606,0.0,weak
+Motive: gifting,Gift for a boy,Dollhouse miniature flowers,3,495,2,2,5.0,4.455,0,44,0.606,0.0,weak
+Motive: gifting,Gift for a girl,Dollhouse miniature flowers,23,495,10,10,4.913,4.455,0,44,4.646,0.0,medium
+Motive: gifting,Gift for a partner,Dollhouse miniature flowers,6,495,6,6,4.833,4.455,0,44,1.212,0.0,weak
+Motive: gifting,Gift for friend / teacher / coworker,Dollhouse miniature flowers,1,495,1,1,5.0,4.455,0,44,0.202,0.0,weak
+Motive: gifting,Gift for grandparents,Dollhouse miniature flowers,1,495,1,1,5.0,4.455,0,44,0.202,0.0,weak
+Motive: gifting,Gift for mom,Dollhouse miniature flowers,1,495,1,1,5.0,4.455,0,44,0.202,0.0,weak
+Motive: gifting,Mothers Day,Dollhouse miniature flowers,0,495,0,0,,4.455,0,44,0.0,0.0,weak
+Motive: gifting,Teacher appreciation & graduation,Dollhouse miniature flowers,0,495,0,0,,4.455,0,44,0.0,0.0,weak
+Motive: gifting,Valentines Day,Dollhouse miniature flowers,5,495,1,1,4.6,4.455,0,44,1.01,0.0,weak
+Motive: value,Built together with family,Dollhouse miniature flowers,0,495,0,0,,4.455,0,44,0.0,0.0,weak
+Motive: value,Collecting a series,Dollhouse miniature flowers,13,495,10,8,4.769,4.455,0,44,2.626,0.0,medium
+Motive: value,Flowers that never wilt,Dollhouse miniature flowers,0,495,0,0,,4.455,0,44,0.0,0.0,weak
+Motive: value,Home or desk decor,Dollhouse miniature flowers,20,495,17,16,4.6,4.455,1,44,4.04,2.273,medium
+Motive: value,Learning & fine-motor skills,Dollhouse miniature flowers,5,495,5,5,4.2,4.455,1,44,1.01,2.273,weak
+Motive: value,Loves flowers & gardening,Dollhouse miniature flowers,0,495,0,0,,4.455,0,44,0.0,0.0,weak
+Motive: value,"Relaxing, mindful build",Dollhouse miniature flowers,1,495,1,1,5.0,4.455,0,44,0.202,0.0,weak
+Motive: value,Screen-free time,Dollhouse miniature flowers,1,495,1,1,2.0,4.455,1,44,0.202,2.273,weak
+Price,Good value,Dollhouse miniature flowers,36,495,23,18,4.833,4.455,0,44,7.273,0.0,strong
+Price,Overpriced,Dollhouse miniature flowers,7,495,6,6,2.714,4.455,4,44,1.414,9.091,weak
+Experience: display,Arrived broken or breaks easily,Dress-up accessories,3,167,2,2,4.667,4.647,0,10,1.796,0.0,weak
+Experience: display,"Beautiful, realistic",Dress-up accessories,46,167,5,5,4.891,4.647,1,10,27.545,10.0,medium
+Experience: display,Bigger than expected,Dress-up accessories,1,167,1,1,5.0,4.647,0,10,0.599,0.0,weak
+Experience: display,Dust,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Experience: display,Feels cheap,Dress-up accessories,6,167,5,4,3.333,4.647,2,10,3.593,20.0,weak
+Experience: display,Lights,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Experience: display,Not as pictured,Dress-up accessories,1,167,1,0,1.0,4.647,1,10,0.599,10.0,weak
+Experience: display,Seeds did not grow,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Experience: display,Smaller than expected,Dress-up accessories,1,167,1,1,4.0,4.647,0,10,0.599,0.0,weak
+Experience: display,Solar or electronics not working,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Experience: display,Vase or pot mentioned,Dress-up accessories,6,167,2,2,4.333,4.647,0,10,3.593,0.0,weak
+Experience: making,Build time mentioned (hours),Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Experience: making,Clear instructions,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Experience: making,Easy and fun to build,Dress-up accessories,1,167,1,1,5.0,4.647,0,10,0.599,0.0,weak
+Experience: making,Falls apart or droops,Dress-up accessories,3,167,3,3,2.0,4.647,2,10,1.796,20.0,weak
+Experience: making,Messy glue or paint,Dress-up accessories,1,167,1,1,4.0,4.647,0,10,0.599,0.0,weak
+Experience: making,Missing pieces,Dress-up accessories,1,167,1,1,1.0,4.647,1,10,0.599,10.0,weak
+Experience: making,Poor instructions,Dress-up accessories,1,167,1,1,5.0,4.647,0,10,0.599,0.0,weak
+Experience: making,Repetitive build,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Experience: making,Sense of accomplishment,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Experience: making,"Tiny pieces, hard to press",Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Experience: making,"Too easy, finished quickly",Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Experience: making,"Too hard, needed help",Dress-up accessories,1,167,1,1,4.0,4.647,0,10,0.599,0.0,weak
+Motive: gifting,Anniversary & wedding,Dress-up accessories,4,167,3,2,4.0,4.647,1,10,2.395,10.0,weak
+Motive: gifting,Birthday,Dress-up accessories,3,167,2,2,5.0,4.647,0,10,1.796,0.0,weak
+Motive: gifting,Bought as a gift,Dress-up accessories,15,167,4,4,4.867,4.647,0,10,8.982,0.0,medium
+Motive: gifting,Bought for themselves,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Motive: gifting,Christmas & holidays,Dress-up accessories,4,167,2,2,4.75,4.647,0,10,2.395,0.0,weak
+Motive: gifting,Classroom & party group,Dress-up accessories,1,167,1,1,5.0,4.647,0,10,0.599,0.0,weak
+Motive: gifting,Easter & spring,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Motive: gifting,Get well & sympathy,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Motive: gifting,Gift for a boy,Dress-up accessories,12,167,5,5,4.833,4.647,0,10,7.186,0.0,medium
+Motive: gifting,Gift for a girl,Dress-up accessories,29,167,7,7,4.828,4.647,0,10,17.365,0.0,medium
+Motive: gifting,Gift for a partner,Dress-up accessories,2,167,2,2,5.0,4.647,0,10,1.198,0.0,weak
+Motive: gifting,Gift for friend / teacher / coworker,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Motive: gifting,Gift for grandparents,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Motive: gifting,Gift for mom,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Motive: gifting,Mothers Day,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Motive: gifting,Teacher appreciation & graduation,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Motive: gifting,Valentines Day,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Motive: value,Built together with family,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Motive: value,Collecting a series,Dress-up accessories,11,167,2,2,4.909,4.647,0,10,6.587,0.0,weak
+Motive: value,Flowers that never wilt,Dress-up accessories,1,167,1,1,4.0,4.647,0,10,0.599,0.0,weak
+Motive: value,Home or desk decor,Dress-up accessories,3,167,1,1,5.0,4.647,0,10,1.796,0.0,weak
+Motive: value,Learning & fine-motor skills,Dress-up accessories,5,167,2,2,4.6,4.647,0,10,2.994,0.0,weak
+Motive: value,Loves flowers & gardening,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Motive: value,"Relaxing, mindful build",Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Motive: value,Screen-free time,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Price,Good value,Dress-up accessories,14,167,6,6,4.929,4.647,0,10,8.383,0.0,medium
+Price,Overpriced,Dress-up accessories,0,167,0,0,,4.647,0,10,0.0,0.0,weak
+Experience: display,Arrived broken or breaks easily,Fidget & sensory,13,401,7,7,2.231,4.055,9,78,3.242,11.538,medium
+Experience: display,"Beautiful, realistic",Fidget & sensory,13,401,5,5,4.923,4.055,0,78,3.242,0.0,medium
+Experience: display,Bigger than expected,Fidget & sensory,11,401,8,6,4.818,4.055,0,78,2.743,0.0,medium
+Experience: display,Dust,Fidget & sensory,0,401,0,0,,4.055,0,78,0.0,0.0,weak
+Experience: display,Feels cheap,Fidget & sensory,18,401,9,9,2.722,4.055,9,78,4.489,11.538,medium
+Experience: display,Lights,Fidget & sensory,6,401,3,3,4.833,4.055,0,78,1.496,0.0,weak
+Experience: display,Not as pictured,Fidget & sensory,2,401,2,2,4.0,4.055,0,78,0.499,0.0,weak
+Experience: display,Seeds did not grow,Fidget & sensory,0,401,0,0,,4.055,0,78,0.0,0.0,weak
+Experience: display,Smaller than expected,Fidget & sensory,18,401,9,9,3.278,4.055,6,78,4.489,7.692,medium
+Experience: display,Solar or electronics not working,Fidget & sensory,0,401,0,0,,4.055,0,78,0.0,0.0,weak
+Experience: display,Vase or pot mentioned,Fidget & sensory,10,401,5,5,3.4,4.055,4,78,2.494,5.128,medium
+Experience: making,Build time mentioned (hours),Fidget & sensory,0,401,0,0,,4.055,0,78,0.0,0.0,weak
+Experience: making,Clear instructions,Fidget & sensory,0,401,0,0,,4.055,0,78,0.0,0.0,weak
+Experience: making,Easy and fun to build,Fidget & sensory,0,401,0,0,,4.055,0,78,0.0,0.0,weak
+Experience: making,Falls apart or droops,Fidget & sensory,10,401,7,7,2.8,4.055,6,78,2.494,7.692,medium
+Experience: making,Messy glue or paint,Fidget & sensory,3,401,2,2,4.333,4.055,0,78,0.748,0.0,weak
+Experience: making,Missing pieces,Fidget & sensory,3,401,3,3,1.667,4.055,2,78,0.748,2.564,weak
+Experience: making,Poor instructions,Fidget & sensory,0,401,0,0,,4.055,0,78,0.0,0.0,weak
+Experience: making,Repetitive build,Fidget & sensory,0,401,0,0,,4.055,0,78,0.0,0.0,weak
+Experience: making,Sense of accomplishment,Fidget & sensory,5,401,3,3,4.4,4.055,0,78,1.247,0.0,weak
+Experience: making,"Tiny pieces, hard to press",Fidget & sensory,3,401,3,3,4.0,4.055,0,78,0.748,0.0,weak
+Experience: making,"Too easy, finished quickly",Fidget & sensory,0,401,0,0,,4.055,0,78,0.0,0.0,weak
+Experience: making,"Too hard, needed help",Fidget & sensory,5,401,3,3,3.4,4.055,1,78,1.247,1.282,weak
+Motive: gifting,Anniversary & wedding,Fidget & sensory,0,401,0,0,,4.055,0,78,0.0,0.0,weak
+Motive: gifting,Birthday,Fidget & sensory,8,401,7,7,4.625,4.055,1,78,1.995,1.282,weak
+Motive: gifting,Bought as a gift,Fidget & sensory,48,401,12,10,4.667,4.055,2,78,11.97,2.564,strong
+Motive: gifting,Bought for themselves,Fidget & sensory,2,401,2,2,5.0,4.055,0,78,0.499,0.0,weak
+Motive: gifting,Christmas & holidays,Fidget & sensory,19,401,9,8,4.632,4.055,2,78,4.738,2.564,medium
+Motive: gifting,Classroom & party group,Fidget & sensory,3,401,3,2,5.0,4.055,0,78,0.748,0.0,weak
+Motive: gifting,Easter & spring,Fidget & sensory,1,401,1,1,5.0,4.055,0,78,0.249,0.0,weak
+Motive: gifting,Get well & sympathy,Fidget & sensory,1,401,1,1,5.0,4.055,0,78,0.249,0.0,weak
+Motive: gifting,Gift for a boy,Fidget & sensory,8,401,7,6,3.625,4.055,3,78,1.995,3.846,weak
+Motive: gifting,Gift for a girl,Fidget & sensory,87,401,19,17,4.391,4.055,11,78,21.696,14.103,strong
+Motive: gifting,Gift for a partner,Fidget & sensory,2,401,1,1,5.0,4.055,0,78,0.499,0.0,weak
+Motive: gifting,Gift for friend / teacher / coworker,Fidget & sensory,12,401,7,6,4.75,4.055,1,78,2.993,1.282,medium
+Motive: gifting,Gift for grandparents,Fidget & sensory,0,401,0,0,,4.055,0,78,0.0,0.0,weak
+Motive: gifting,Gift for mom,Fidget & sensory,0,401,0,0,,4.055,0,78,0.0,0.0,weak
+Motive: gifting,Mothers Day,Fidget & sensory,0,401,0,0,,4.055,0,78,0.0,0.0,weak
+Motive: gifting,Teacher appreciation & graduation,Fidget & sensory,0,401,0,0,,4.055,0,78,0.0,0.0,weak
+Motive: gifting,Valentines Day,Fidget & sensory,0,401,0,0,,4.055,0,78,0.0,0.0,weak
+Motive: value,Built together with family,Fidget & sensory,1,401,1,1,5.0,4.055,0,78,0.249,0.0,weak
+Motive: value,Collecting a series,Fidget & sensory,4,401,3,3,5.0,4.055,0,78,0.998,0.0,weak
+Motive: value,Flowers that never wilt,Fidget & sensory,2,401,2,2,5.0,4.055,0,78,0.499,0.0,weak
+Motive: value,Home or desk decor,Fidget & sensory,8,401,4,4,4.25,4.055,2,78,1.995,2.564,weak
+Motive: value,Learning & fine-motor skills,Fidget & sensory,8,401,2,2,4.625,4.055,0,78,1.995,0.0,weak
+Motive: value,Loves flowers & gardening,Fidget & sensory,1,401,1,1,5.0,4.055,0,78,0.249,0.0,weak
+Motive: value,"Relaxing, mindful build",Fidget & sensory,29,401,6,6,4.586,4.055,3,78,7.232,3.846,medium
+Motive: value,Screen-free time,Fidget & sensory,0,401,0,0,,4.055,0,78,0.0,0.0,weak
+Price,Good value,Fidget & sensory,17,401,8,8,4.235,4.055,2,78,4.239,2.564,medium
+Price,Overpriced,Fidget & sensory,9,401,5,5,1.667,4.055,7,78,2.244,8.974,weak
+Experience: display,Arrived broken or breaks easily,Flower crown & jewellery crafts,4,299,2,2,2.5,4.405,2,28,1.338,7.143,weak
+Experience: display,"Beautiful, realistic",Flower crown & jewellery crafts,15,299,5,5,4.867,4.405,0,28,5.017,0.0,medium
+Experience: display,Bigger than expected,Flower crown & jewellery crafts,1,299,1,1,4.0,4.405,0,28,0.334,0.0,weak
+Experience: display,Dust,Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Experience: display,Feels cheap,Flower crown & jewellery crafts,10,299,3,3,2.8,4.405,5,28,3.344,17.857,medium
+Experience: display,Lights,Flower crown & jewellery crafts,1,299,1,1,4.0,4.405,0,28,0.334,0.0,weak
+Experience: display,Not as pictured,Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Experience: display,Seeds did not grow,Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Experience: display,Smaller than expected,Flower crown & jewellery crafts,2,299,2,2,4.0,4.405,0,28,0.669,0.0,weak
+Experience: display,Solar or electronics not working,Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Experience: display,Vase or pot mentioned,Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Experience: making,Build time mentioned (hours),Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Experience: making,Clear instructions,Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Experience: making,Easy and fun to build,Flower crown & jewellery crafts,17,299,12,12,4.824,4.405,0,28,5.686,0.0,medium
+Experience: making,Falls apart or droops,Flower crown & jewellery crafts,3,299,3,3,3.333,4.405,1,28,1.003,3.571,weak
+Experience: making,Messy glue or paint,Flower crown & jewellery crafts,22,299,4,4,3.455,4.405,7,28,7.358,25.0,medium
+Experience: making,Missing pieces,Flower crown & jewellery crafts,9,299,5,5,2.222,4.405,6,28,3.01,21.429,weak
+Experience: making,Poor instructions,Flower crown & jewellery crafts,1,299,1,1,2.0,4.405,1,28,0.334,3.571,weak
+Experience: making,Repetitive build,Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Experience: making,Sense of accomplishment,Flower crown & jewellery crafts,2,299,2,2,5.0,4.405,0,28,0.669,0.0,weak
+Experience: making,"Tiny pieces, hard to press",Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Experience: making,"Too easy, finished quickly",Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Experience: making,"Too hard, needed help",Flower crown & jewellery crafts,8,299,4,4,3.75,4.405,2,28,2.676,7.143,weak
+Motive: gifting,Anniversary & wedding,Flower crown & jewellery crafts,1,299,1,1,4.0,4.405,0,28,0.334,0.0,weak
+Motive: gifting,Birthday,Flower crown & jewellery crafts,44,299,10,9,4.705,4.405,2,28,14.716,7.143,strong
+Motive: gifting,Bought as a gift,Flower crown & jewellery crafts,81,299,11,11,4.519,4.405,5,28,27.09,17.857,strong
+Motive: gifting,Bought for themselves,Flower crown & jewellery crafts,1,299,1,1,5.0,4.405,0,28,0.334,0.0,weak
+Motive: gifting,Christmas & holidays,Flower crown & jewellery crafts,18,299,7,7,4.556,4.405,0,28,6.02,0.0,medium
+Motive: gifting,Classroom & party group,Flower crown & jewellery crafts,8,299,5,4,4.875,4.405,0,28,2.676,0.0,weak
+Motive: gifting,Easter & spring,Flower crown & jewellery crafts,3,299,3,3,5.0,4.405,0,28,1.003,0.0,weak
+Motive: gifting,Get well & sympathy,Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Motive: gifting,Gift for a boy,Flower crown & jewellery crafts,2,299,2,2,5.0,4.405,0,28,0.669,0.0,weak
+Motive: gifting,Gift for a girl,Flower crown & jewellery crafts,130,299,13,12,4.638,4.405,7,28,43.478,25.0,strong
+Motive: gifting,Gift for a partner,Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Motive: gifting,Gift for friend / teacher / coworker,Flower crown & jewellery crafts,5,299,5,5,5.0,4.405,0,28,1.672,0.0,weak
+Motive: gifting,Gift for grandparents,Flower crown & jewellery crafts,1,299,1,1,5.0,4.405,0,28,0.334,0.0,weak
+Motive: gifting,Gift for mom,Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Motive: gifting,Mothers Day,Flower crown & jewellery crafts,1,299,1,1,5.0,4.405,0,28,0.334,0.0,weak
+Motive: gifting,Teacher appreciation & graduation,Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Motive: gifting,Valentines Day,Flower crown & jewellery crafts,1,299,1,1,5.0,4.405,0,28,0.334,0.0,weak
+Motive: value,Built together with family,Flower crown & jewellery crafts,6,299,5,5,4.667,4.405,0,28,2.007,0.0,weak
+Motive: value,Collecting a series,Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Motive: value,Flowers that never wilt,Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Motive: value,Home or desk decor,Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Motive: value,Learning & fine-motor skills,Flower crown & jewellery crafts,4,299,2,2,5.0,4.405,0,28,1.338,0.0,weak
+Motive: value,Loves flowers & gardening,Flower crown & jewellery crafts,1,299,1,1,4.0,4.405,0,28,0.334,0.0,weak
+Motive: value,"Relaxing, mindful build",Flower crown & jewellery crafts,0,299,0,0,,4.405,0,28,0.0,0.0,weak
+Motive: value,Screen-free time,Flower crown & jewellery crafts,12,299,7,7,4.917,4.405,0,28,4.013,0.0,medium
+Price,Good value,Flower crown & jewellery crafts,17,299,8,8,4.529,4.405,0,28,5.686,0.0,medium
+Price,Overpriced,Flower crown & jewellery crafts,3,299,3,3,2.667,4.405,2,28,1.003,7.143,weak
+Experience: display,Arrived broken or breaks easily,Flower plush & pillows,4,936,4,4,2.25,4.248,3,123,0.427,2.439,weak
+Experience: display,"Beautiful, realistic",Flower plush & pillows,23,936,16,14,4.783,4.248,1,123,2.457,0.813,medium
+Experience: display,Bigger than expected,Flower plush & pillows,30,936,22,20,4.9,4.248,0,123,3.205,0.0,strong
+Experience: display,Dust,Flower plush & pillows,0,936,0,0,,4.248,0,123,0.0,0.0,weak
+Experience: display,Feels cheap,Flower plush & pillows,39,936,26,25,2.205,4.248,27,123,4.167,21.951,strong
+Experience: display,Lights,Flower plush & pillows,6,936,6,5,4.333,4.248,1,123,0.641,0.813,weak
+Experience: display,Not as pictured,Flower plush & pillows,12,936,7,7,2.083,4.248,8,123,1.282,6.504,medium
+Experience: display,Seeds did not grow,Flower plush & pillows,0,936,0,0,,4.248,0,123,0.0,0.0,weak
+Experience: display,Smaller than expected,Flower plush & pillows,55,936,31,21,3.273,4.248,17,123,5.876,13.821,strong
+Experience: display,Solar or electronics not working,Flower plush & pillows,0,936,0,0,,4.248,0,123,0.0,0.0,weak
+Experience: display,Vase or pot mentioned,Flower plush & pillows,22,936,11,9,3.909,4.248,3,123,2.35,2.439,medium
+Experience: making,Build time mentioned (hours),Flower plush & pillows,1,936,1,1,4.0,4.248,0,123,0.107,0.0,weak
+Experience: making,Clear instructions,Flower plush & pillows,1,936,1,1,4.0,4.248,0,123,0.107,0.0,weak
+Experience: making,Easy and fun to build,Flower plush & pillows,5,936,1,1,4.4,4.248,0,123,0.534,0.0,weak
+Experience: making,Falls apart or droops,Flower plush & pillows,19,936,14,13,3.105,4.248,5,123,2.03,4.065,medium
+Experience: making,Messy glue or paint,Flower plush & pillows,4,936,4,4,2.5,4.248,2,123,0.427,1.626,weak
+Experience: making,Missing pieces,Flower plush & pillows,7,936,5,5,3.571,4.248,2,123,0.748,1.626,weak
+Experience: making,Poor instructions,Flower plush & pillows,0,936,0,0,,4.248,0,123,0.0,0.0,weak
+Experience: making,Repetitive build,Flower plush & pillows,0,936,0,0,,4.248,0,123,0.0,0.0,weak
+Experience: making,Sense of accomplishment,Flower plush & pillows,5,936,2,2,4.2,4.248,0,123,0.534,0.0,weak
+Experience: making,"Tiny pieces, hard to press",Flower plush & pillows,0,936,0,0,,4.248,0,123,0.0,0.0,weak
+Experience: making,"Too easy, finished quickly",Flower plush & pillows,0,936,0,0,,4.248,0,123,0.0,0.0,weak
+Experience: making,"Too hard, needed help",Flower plush & pillows,3,936,2,2,4.333,4.248,0,123,0.321,0.0,weak
+Motive: gifting,Anniversary & wedding,Flower plush & pillows,2,936,2,2,5.0,4.248,0,123,0.214,0.0,weak
+Motive: gifting,Birthday,Flower plush & pillows,24,936,20,18,4.458,4.248,2,123,2.564,1.626,medium
+Motive: gifting,Bought as a gift,Flower plush & pillows,211,936,64,43,4.555,4.248,13,123,22.543,10.569,strong
+Motive: gifting,Bought for themselves,Flower plush & pillows,13,936,13,10,5.0,4.248,0,123,1.389,0.0,medium
+Motive: gifting,Christmas & holidays,Flower plush & pillows,24,936,19,15,4.333,4.248,2,123,2.564,1.626,medium
+Motive: gifting,Classroom & party group,Flower plush & pillows,18,936,12,12,4.278,4.248,1,123,1.923,0.813,medium
+Motive: gifting,Easter & spring,Flower plush & pillows,8,936,6,4,4.125,4.248,1,123,0.855,0.813,weak
+Motive: gifting,Get well & sympathy,Flower plush & pillows,9,936,9,9,4.556,4.248,1,123,0.962,0.813,weak
+Motive: gifting,Gift for a boy,Flower plush & pillows,49,936,24,21,4.673,4.248,1,123,5.235,0.813,strong
+Motive: gifting,Gift for a girl,Flower plush & pillows,107,936,50,40,4.542,4.248,7,123,11.432,5.691,strong
+Motive: gifting,Gift for a partner,Flower plush & pillows,19,936,14,11,4.684,4.248,1,123,2.03,0.813,medium
+Motive: gifting,Gift for friend / teacher / coworker,Flower plush & pillows,51,936,24,19,4.765,4.248,0,123,5.449,0.0,strong
+Motive: gifting,Gift for grandparents,Flower plush & pillows,4,936,4,4,4.75,4.248,0,123,0.427,0.0,weak
+Motive: gifting,Gift for mom,Flower plush & pillows,9,936,8,8,4.556,4.248,0,123,0.962,0.0,weak
+Motive: gifting,Mothers Day,Flower plush & pillows,2,936,2,2,4.0,4.248,0,123,0.214,0.0,weak
+Motive: gifting,Teacher appreciation & graduation,Flower plush & pillows,5,936,4,4,5.0,4.248,0,123,0.534,0.0,weak
+Motive: gifting,Valentines Day,Flower plush & pillows,9,936,5,4,5.0,4.248,0,123,0.962,0.0,weak
+Motive: value,Built together with family,Flower plush & pillows,3,936,3,3,3.667,4.248,1,123,0.321,0.813,weak
+Motive: value,Collecting a series,Flower plush & pillows,19,936,14,10,4.737,4.248,0,123,2.03,0.0,medium
+Motive: value,Flowers that never wilt,Flower plush & pillows,11,936,8,5,4.818,4.248,0,123,1.175,0.0,medium
+Motive: value,Home or desk decor,Flower plush & pillows,65,936,29,22,4.585,4.248,4,123,6.944,3.252,strong
+Motive: value,Learning & fine-motor skills,Flower plush & pillows,8,936,7,5,3.25,4.248,3,123,0.855,2.439,weak
+Motive: value,Loves flowers & gardening,Flower plush & pillows,17,936,10,8,4.941,4.248,0,123,1.816,0.0,medium
+Motive: value,"Relaxing, mindful build",Flower plush & pillows,5,936,5,5,5.0,4.248,0,123,0.534,0.0,weak
+Motive: value,Screen-free time,Flower plush & pillows,3,936,1,1,4.333,4.248,0,123,0.321,0.0,weak
+Price,Good value,Flower plush & pillows,57,936,37,31,4.035,4.248,8,123,6.09,6.504,strong
+Price,Overpriced,Flower plush & pillows,40,936,20,17,3.05,4.248,15,123,4.274,12.195,strong
+Experience: display,Arrived broken or breaks easily,Flower pressing,23,905,11,10,2.174,4.137,15,119,2.541,12.605,medium
+Experience: display,"Beautiful, realistic",Flower pressing,65,905,21,18,4.723,4.137,2,119,7.182,1.681,strong
+Experience: display,Bigger than expected,Flower pressing,9,905,7,6,4.889,4.137,0,119,0.994,0.0,weak
+Experience: display,Dust,Flower pressing,1,905,1,1,4.0,4.137,0,119,0.11,0.0,weak
+Experience: display,Feels cheap,Flower pressing,40,905,12,12,2.15,4.137,24,119,4.42,20.168,strong
+Experience: display,Lights,Flower pressing,7,905,5,5,3.857,4.137,2,119,0.773,1.681,weak
+Experience: display,Not as pictured,Flower pressing,3,905,2,2,2.333,4.137,2,119,0.331,1.681,weak
+Experience: display,Seeds did not grow,Flower pressing,0,905,0,0,,4.137,0,119,0.0,0.0,weak
+Experience: display,Smaller than expected,Flower pressing,23,905,8,8,3.174,4.137,6,119,2.541,5.042,medium
+Experience: display,Solar or electronics not working,Flower pressing,1,905,1,1,4.0,4.137,0,119,0.11,0.0,weak
+Experience: display,Vase or pot mentioned,Flower pressing,6,905,3,3,3.167,4.137,1,119,0.663,0.84,weak
+Experience: making,Build time mentioned (hours),Flower pressing,0,905,0,0,,4.137,0,119,0.0,0.0,weak
+Experience: making,Clear instructions,Flower pressing,4,905,4,3,5.0,4.137,0,119,0.442,0.0,weak
+Experience: making,Easy and fun to build,Flower pressing,12,905,8,7,4.75,4.137,0,119,1.326,0.0,medium
+Experience: making,Falls apart or droops,Flower pressing,12,905,6,6,3.25,4.137,3,119,1.326,2.521,medium
+Experience: making,Messy glue or paint,Flower pressing,34,905,7,7,3.529,4.137,7,119,3.757,5.882,medium
+Experience: making,Missing pieces,Flower pressing,14,905,7,7,3.0,4.137,4,119,1.547,3.361,medium
+Experience: making,Poor instructions,Flower pressing,9,905,8,5,3.333,4.137,2,119,0.994,1.681,weak
+Experience: making,Repetitive build,Flower pressing,1,905,1,1,1.0,4.137,1,119,0.11,0.84,weak
+Experience: making,Sense of accomplishment,Flower pressing,0,905,0,0,,4.137,0,119,0.0,0.0,weak
+Experience: making,"Tiny pieces, hard to press",Flower pressing,7,905,5,4,4.714,4.137,0,119,0.773,0.0,weak
+Experience: making,"Too easy, finished quickly",Flower pressing,0,905,0,0,,4.137,0,119,0.0,0.0,weak
+Experience: making,"Too hard, needed help",Flower pressing,12,905,3,3,3.167,4.137,5,119,1.326,4.202,medium
+Motive: gifting,Anniversary & wedding,Flower pressing,7,905,5,5,4.143,4.137,1,119,0.773,0.84,weak
+Motive: gifting,Birthday,Flower pressing,32,905,10,9,4.875,4.137,0,119,3.536,0.0,strong
+Motive: gifting,Bought as a gift,Flower pressing,161,905,26,21,4.491,4.137,9,119,17.79,7.563,strong
+Motive: gifting,Bought for themselves,Flower pressing,4,905,4,3,5.0,4.137,0,119,0.442,0.0,weak
+Motive: gifting,Christmas & holidays,Flower pressing,25,905,11,9,4.36,4.137,3,119,2.762,2.521,medium
+Motive: gifting,Classroom & party group,Flower pressing,9,905,3,3,3.444,4.137,3,119,0.994,2.521,weak
+Motive: gifting,Easter & spring,Flower pressing,15,905,9,8,4.733,4.137,0,119,1.657,0.0,medium
+Motive: gifting,Get well & sympathy,Flower pressing,6,905,6,6,4.5,4.137,0,119,0.663,0.0,weak
+Motive: gifting,Gift for a boy,Flower pressing,9,905,6,6,3.889,4.137,2,119,0.994,1.681,weak
+Motive: gifting,Gift for a girl,Flower pressing,154,905,29,25,4.383,4.137,7,119,17.017,5.882,strong
+Motive: gifting,Gift for a partner,Flower pressing,13,905,8,8,4.308,4.137,2,119,1.436,1.681,medium
+Motive: gifting,Gift for friend / teacher / coworker,Flower pressing,14,905,9,9,4.571,4.137,1,119,1.547,0.84,medium
+Motive: gifting,Gift for grandparents,Flower pressing,9,905,7,6,4.778,4.137,0,119,0.994,0.0,weak
+Motive: gifting,Gift for mom,Flower pressing,4,905,3,3,4.25,4.137,0,119,0.442,0.0,weak
+Motive: gifting,Mothers Day,Flower pressing,1,905,1,1,5.0,4.137,0,119,0.11,0.0,weak
+Motive: gifting,Teacher appreciation & graduation,Flower pressing,1,905,1,1,3.0,4.137,0,119,0.11,0.0,weak
+Motive: gifting,Valentines Day,Flower pressing,0,905,0,0,,4.137,0,119,0.0,0.0,weak
+Motive: value,Built together with family,Flower pressing,6,905,3,3,4.167,4.137,1,119,0.663,0.84,weak
+Motive: value,Collecting a series,Flower pressing,9,905,5,4,4.444,4.137,1,119,0.994,0.84,weak
+Motive: value,Flowers that never wilt,Flower pressing,1,905,1,1,4.0,4.137,0,119,0.11,0.0,weak
+Motive: value,Home or desk decor,Flower pressing,5,905,4,4,4.8,4.137,0,119,0.552,0.0,weak
+Motive: value,Learning & fine-motor skills,Flower pressing,17,905,6,6,4.353,4.137,1,119,1.878,0.84,medium
+Motive: value,Loves flowers & gardening,Flower pressing,7,905,6,6,4.714,4.137,0,119,0.773,0.0,weak
+Motive: value,"Relaxing, mindful build",Flower pressing,2,905,2,2,5.0,4.137,0,119,0.221,0.0,weak
+Motive: value,Screen-free time,Flower pressing,10,905,4,3,4.9,4.137,0,119,1.105,0.0,medium
+Price,Good value,Flower pressing,56,905,23,20,4.036,4.137,9,119,6.188,7.563,strong
+Price,Overpriced,Flower pressing,21,905,7,7,1.524,4.137,17,119,2.32,14.286,medium
+Experience: display,Arrived broken or breaks easily,Flower-image puzzles & cards,222,12846,131,99,2.599,4.048,112,2431,1.728,4.607,strong
+Experience: display,"Beautiful, realistic",Flower-image puzzles & cards,2486,12846,663,349,4.506,4.048,195,2431,19.352,8.021,strong
+Experience: display,Bigger than expected,Flower-image puzzles & cards,100,12846,74,51,4.69,4.048,3,2431,0.778,0.123,strong
+Experience: display,Dust,Flower-image puzzles & cards,116,12846,72,46,4.138,4.048,15,2431,0.903,0.617,strong
+Experience: display,Feels cheap,Flower-image puzzles & cards,528,12846,257,191,1.977,4.048,394,2431,4.11,16.207,strong
+Experience: display,Lights,Flower-image puzzles & cards,80,12846,63,47,3.638,4.048,17,2431,0.623,0.699,strong
+Experience: display,Not as pictured,Flower-image puzzles & cards,79,12846,56,47,2.633,4.048,40,2431,0.615,1.645,strong
+Experience: display,Seeds did not grow,Flower-image puzzles & cards,4,12846,3,3,3.5,4.048,1,2431,0.031,0.041,weak
+Experience: display,Smaller than expected,Flower-image puzzles & cards,395,12846,190,143,2.868,4.048,174,2431,3.075,7.158,strong
+Experience: display,Solar or electronics not working,Flower-image puzzles & cards,5,12846,5,5,2.8,4.048,2,2431,0.039,0.082,weak
+Experience: display,Vase or pot mentioned,Flower-image puzzles & cards,77,12846,32,31,4.26,4.048,5,2431,0.599,0.206,strong
+Experience: making,Build time mentioned (hours),Flower-image puzzles & cards,26,12846,25,18,4.615,4.048,1,2431,0.202,0.041,medium
+Experience: making,Clear instructions,Flower-image puzzles & cards,4,12846,3,3,4.75,4.048,0,2431,0.031,0.0,weak
+Experience: making,Easy and fun to build,Flower-image puzzles & cards,393,12846,196,105,4.636,4.048,19,2431,3.059,0.782,strong
+Experience: making,Falls apart or droops,Flower-image puzzles & cards,205,12846,140,111,3.029,4.048,83,2431,1.596,3.414,strong
+Experience: making,Messy glue or paint,Flower-image puzzles & cards,240,12846,151,118,3.438,4.048,76,2431,1.868,3.126,strong
+Experience: making,Missing pieces,Flower-image puzzles & cards,1133,12846,367,200,2.451,4.048,626,2431,8.82,25.751,strong
+Experience: making,Poor instructions,Flower-image puzzles & cards,14,12846,10,10,2.857,4.048,6,2431,0.109,0.247,medium
+Experience: making,Repetitive build,Flower-image puzzles & cards,15,12846,14,14,3.267,4.048,6,2431,0.117,0.247,medium
+Experience: making,Sense of accomplishment,Flower-image puzzles & cards,88,12846,65,50,4.602,4.048,7,2431,0.685,0.288,strong
+Experience: making,"Tiny pieces, hard to press",Flower-image puzzles & cards,157,12846,93,67,2.898,4.048,74,2431,1.222,3.044,strong
+Experience: making,"Too easy, finished quickly",Flower-image puzzles & cards,41,12846,35,27,4.634,4.048,1,2431,0.319,0.041,strong
+Experience: making,"Too hard, needed help",Flower-image puzzles & cards,344,12846,188,111,2.892,4.048,154,2431,2.678,6.335,strong
+Motive: gifting,Anniversary & wedding,Flower-image puzzles & cards,41,12846,18,15,4.634,4.048,3,2431,0.319,0.123,strong
+Motive: gifting,Birthday,Flower-image puzzles & cards,160,12846,85,72,4.569,4.048,13,2431,1.246,0.535,strong
+Motive: gifting,Bought as a gift,Flower-image puzzles & cards,1256,12846,422,265,4.487,4.048,120,2431,9.777,4.936,strong
+Motive: gifting,Bought for themselves,Flower-image puzzles & cards,51,12846,32,26,4.373,4.048,6,2431,0.397,0.247,strong
+Motive: gifting,Christmas & holidays,Flower-image puzzles & cards,269,12846,139,99,4.405,4.048,34,2431,2.094,1.399,strong
+Motive: gifting,Classroom & party group,Flower-image puzzles & cards,63,12846,43,38,4.444,4.048,4,2431,0.49,0.165,strong
+Motive: gifting,Easter & spring,Flower-image puzzles & cards,56,12846,42,31,4.571,4.048,4,2431,0.436,0.165,strong
+Motive: gifting,Get well & sympathy,Flower-image puzzles & cards,15,12846,15,14,4.467,4.048,2,2431,0.117,0.082,medium
+Motive: gifting,Gift for a boy,Flower-image puzzles & cards,230,12846,72,62,4.622,4.048,14,2431,1.79,0.576,strong
+Motive: gifting,Gift for a girl,Flower-image puzzles & cards,696,12846,181,134,4.589,4.048,48,2431,5.418,1.974,strong
+Motive: gifting,Gift for a partner,Flower-image puzzles & cards,180,12846,132,88,4.522,4.048,16,2431,1.401,0.658,strong
+Motive: gifting,Gift for friend / teacher / coworker,Flower-image puzzles & cards,164,12846,118,86,4.561,4.048,13,2431,1.277,0.535,strong
+Motive: gifting,Gift for grandparents,Flower-image puzzles & cards,74,12846,56,40,4.662,4.048,3,2431,0.576,0.123,strong
+Motive: gifting,Gift for mom,Flower-image puzzles & cards,222,12846,148,96,4.414,4.048,26,2431,1.728,1.07,strong
+Motive: gifting,Mothers Day,Flower-image puzzles & cards,13,12846,13,12,4.923,4.048,0,2431,0.101,0.0,medium
+Motive: gifting,Teacher appreciation & graduation,Flower-image puzzles & cards,4,12846,3,3,4.75,4.048,0,2431,0.031,0.0,weak
+Motive: gifting,Valentines Day,Flower-image puzzles & cards,5,12846,4,4,5.0,4.048,0,2431,0.039,0.0,weak
+Motive: value,Built together with family,Flower-image puzzles & cards,107,12846,76,48,4.449,4.048,12,2431,0.833,0.494,strong
+Motive: value,Collecting a series,Flower-image puzzles & cards,92,12846,68,43,4.467,4.048,7,2431,0.716,0.288,strong
+Motive: value,Flowers that never wilt,Flower-image puzzles & cards,9,12846,8,7,4.0,4.048,2,2431,0.07,0.082,weak
+Motive: value,Home or desk decor,Flower-image puzzles & cards,96,12846,73,58,4.229,4.048,14,2431,0.747,0.576,strong
+Motive: value,Learning & fine-motor skills,Flower-image puzzles & cards,188,12846,61,53,4.628,4.048,7,2431,1.463,0.288,strong
+Motive: value,Loves flowers & gardening,Flower-image puzzles & cards,34,12846,29,24,4.824,4.048,0,2431,0.265,0.0,strong
+Motive: value,"Relaxing, mindful build",Flower-image puzzles & cards,202,12846,106,66,4.416,4.048,18,2431,1.572,0.74,strong
+Motive: value,Screen-free time,Flower-image puzzles & cards,81,12846,47,34,4.827,4.048,2,2431,0.631,0.082,strong
+Price,Good value,Flower-image puzzles & cards,608,12846,266,189,4.265,4.048,75,2431,4.733,3.085,strong
+Price,Overpriced,Flower-image puzzles & cards,188,12846,133,114,1.739,4.048,155,2431,1.463,6.376,strong
+Experience: display,Arrived broken or breaks easily,Magic & gag,5,188,5,5,3.6,4.048,2,37,2.66,5.405,weak
+Experience: display,"Beautiful, realistic",Magic & gag,4,188,4,4,4.75,4.048,0,37,2.128,0.0,weak
+Experience: display,Bigger than expected,Magic & gag,2,188,2,2,5.0,4.048,0,37,1.064,0.0,weak
+Experience: display,Dust,Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Experience: display,Feels cheap,Magic & gag,14,188,6,6,2.286,4.048,9,37,7.447,24.324,medium
+Experience: display,Lights,Magic & gag,2,188,2,2,5.0,4.048,0,37,1.064,0.0,weak
+Experience: display,Not as pictured,Magic & gag,2,188,2,2,3.5,4.048,1,37,1.064,2.703,weak
+Experience: display,Seeds did not grow,Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Experience: display,Smaller than expected,Magic & gag,24,188,2,2,4.958,4.048,0,37,12.766,0.0,weak
+Experience: display,Solar or electronics not working,Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Experience: display,Vase or pot mentioned,Magic & gag,8,188,3,3,2.25,4.048,5,37,4.255,13.514,weak
+Experience: making,Build time mentioned (hours),Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Experience: making,Clear instructions,Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Experience: making,Easy and fun to build,Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Experience: making,Falls apart or droops,Magic & gag,6,188,3,3,1.667,4.048,4,37,3.191,10.811,weak
+Experience: making,Messy glue or paint,Magic & gag,8,188,5,5,4.125,4.048,1,37,4.255,2.703,weak
+Experience: making,Missing pieces,Magic & gag,4,188,3,3,2.75,4.048,2,37,2.128,5.405,weak
+Experience: making,Poor instructions,Magic & gag,1,188,1,1,5.0,4.048,0,37,0.532,0.0,weak
+Experience: making,Repetitive build,Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Experience: making,Sense of accomplishment,Magic & gag,1,188,1,1,5.0,4.048,0,37,0.532,0.0,weak
+Experience: making,"Tiny pieces, hard to press",Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Experience: making,"Too easy, finished quickly",Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Experience: making,"Too hard, needed help",Magic & gag,1,188,1,1,1.0,4.048,1,37,0.532,2.703,weak
+Motive: gifting,Anniversary & wedding,Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Motive: gifting,Birthday,Magic & gag,3,188,2,2,3.667,4.048,1,37,1.596,2.703,weak
+Motive: gifting,Bought as a gift,Magic & gag,8,188,6,6,4.0,4.048,2,37,4.255,5.405,weak
+Motive: gifting,Bought for themselves,Magic & gag,1,188,1,1,5.0,4.048,0,37,0.532,0.0,weak
+Motive: gifting,Christmas & holidays,Magic & gag,2,188,2,2,5.0,4.048,0,37,1.064,0.0,weak
+Motive: gifting,Classroom & party group,Magic & gag,8,188,4,4,4.875,4.048,0,37,4.255,0.0,weak
+Motive: gifting,Easter & spring,Magic & gag,2,188,2,2,5.0,4.048,0,37,1.064,0.0,weak
+Motive: gifting,Get well & sympathy,Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Motive: gifting,Gift for a boy,Magic & gag,12,188,3,3,4.583,4.048,1,37,6.383,2.703,medium
+Motive: gifting,Gift for a girl,Magic & gag,11,188,8,8,4.818,4.048,0,37,5.851,0.0,medium
+Motive: gifting,Gift for a partner,Magic & gag,4,188,2,2,5.0,4.048,0,37,2.128,0.0,weak
+Motive: gifting,Gift for friend / teacher / coworker,Magic & gag,5,188,2,2,5.0,4.048,0,37,2.66,0.0,weak
+Motive: gifting,Gift for grandparents,Magic & gag,1,188,1,1,5.0,4.048,0,37,0.532,0.0,weak
+Motive: gifting,Gift for mom,Magic & gag,2,188,1,1,5.0,4.048,0,37,1.064,0.0,weak
+Motive: gifting,Mothers Day,Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Motive: gifting,Teacher appreciation & graduation,Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Motive: gifting,Valentines Day,Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Motive: value,Built together with family,Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Motive: value,Collecting a series,Magic & gag,1,188,1,1,5.0,4.048,0,37,0.532,0.0,weak
+Motive: value,Flowers that never wilt,Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Motive: value,Home or desk decor,Magic & gag,10,188,3,3,4.9,4.048,0,37,5.319,0.0,medium
+Motive: value,Learning & fine-motor skills,Magic & gag,5,188,4,4,5.0,4.048,0,37,2.66,0.0,weak
+Motive: value,Loves flowers & gardening,Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Motive: value,"Relaxing, mindful build",Magic & gag,0,188,0,0,,4.048,0,37,0.0,0.0,weak
+Motive: value,Screen-free time,Magic & gag,1,188,1,1,5.0,4.048,0,37,0.532,0.0,weak
+Price,Good value,Magic & gag,16,188,6,6,4.062,4.048,2,37,8.511,5.405,medium
+Price,Overpriced,Magic & gag,7,188,4,4,1.571,4.048,6,37,3.723,16.216,weak
+Experience: display,Arrived broken or breaks easily,Other / unclassified,47,1459,24,23,2.596,4.297,24,173,3.221,13.873,strong
+Experience: display,"Beautiful, realistic",Other / unclassified,135,1459,44,40,4.733,4.297,3,173,9.253,1.734,strong
+Experience: display,Bigger than expected,Other / unclassified,13,1459,11,11,4.923,4.297,0,173,0.891,0.0,medium
+Experience: display,Dust,Other / unclassified,10,1459,3,3,4.0,4.297,2,173,0.685,1.156,medium
+Experience: display,Feels cheap,Other / unclassified,36,1459,22,20,2.361,4.297,23,173,2.467,13.295,strong
+Experience: display,Lights,Other / unclassified,32,1459,15,14,4.188,4.297,5,173,2.193,2.89,strong
+Experience: display,Not as pictured,Other / unclassified,8,1459,4,4,2.625,4.297,4,173,0.548,2.312,weak
+Experience: display,Seeds did not grow,Other / unclassified,0,1459,0,0,,4.297,0,173,0.0,0.0,weak
+Experience: display,Smaller than expected,Other / unclassified,88,1459,35,35,3.636,4.297,23,173,6.032,13.295,strong
+Experience: display,Solar or electronics not working,Other / unclassified,7,1459,3,2,2.143,4.297,5,173,0.48,2.89,weak
+Experience: display,Vase or pot mentioned,Other / unclassified,79,1459,24,22,4.241,4.297,9,173,5.415,5.202,strong
+Experience: making,Build time mentioned (hours),Other / unclassified,1,1459,1,1,5.0,4.297,0,173,0.069,0.0,weak
+Experience: making,Clear instructions,Other / unclassified,10,1459,4,4,4.9,4.297,0,173,0.685,0.0,medium
+Experience: making,Easy and fun to build,Other / unclassified,53,1459,12,12,4.66,4.297,1,173,3.633,0.578,strong
+Experience: making,Falls apart or droops,Other / unclassified,32,1459,20,19,3.406,4.297,10,173,2.193,5.78,strong
+Experience: making,Messy glue or paint,Other / unclassified,49,1459,14,14,4.204,4.297,5,173,3.358,2.89,strong
+Experience: making,Missing pieces,Other / unclassified,46,1459,16,14,3.087,4.297,16,173,3.153,9.249,strong
+Experience: making,Poor instructions,Other / unclassified,9,1459,5,5,3.0,4.297,4,173,0.617,2.312,weak
+Experience: making,Repetitive build,Other / unclassified,6,1459,3,3,4.333,4.297,1,173,0.411,0.578,weak
+Experience: making,Sense of accomplishment,Other / unclassified,7,1459,5,5,5.0,4.297,0,173,0.48,0.0,weak
+Experience: making,"Tiny pieces, hard to press",Other / unclassified,30,1459,13,13,4.167,4.297,2,173,2.056,1.156,strong
+Experience: making,"Too easy, finished quickly",Other / unclassified,0,1459,0,0,,4.297,0,173,0.0,0.0,weak
+Experience: making,"Too hard, needed help",Other / unclassified,19,1459,11,10,3.368,4.297,5,173,1.302,2.89,medium
+Motive: gifting,Anniversary & wedding,Other / unclassified,3,1459,3,3,5.0,4.297,0,173,0.206,0.0,weak
+Motive: gifting,Birthday,Other / unclassified,66,1459,20,18,4.318,4.297,9,173,4.524,5.202,strong
+Motive: gifting,Bought as a gift,Other / unclassified,166,1459,49,46,4.44,4.297,16,173,11.378,9.249,strong
+Motive: gifting,Bought for themselves,Other / unclassified,4,1459,3,3,5.0,4.297,0,173,0.274,0.0,weak
+Motive: gifting,Christmas & holidays,Other / unclassified,59,1459,21,17,4.254,4.297,7,173,4.044,4.046,strong
+Motive: gifting,Classroom & party group,Other / unclassified,17,1459,6,6,3.882,4.297,5,173,1.165,2.89,medium
+Motive: gifting,Easter & spring,Other / unclassified,16,1459,7,7,4.938,4.297,0,173,1.097,0.0,medium
+Motive: gifting,Get well & sympathy,Other / unclassified,0,1459,0,0,,4.297,0,173,0.0,0.0,weak
+Motive: gifting,Gift for a boy,Other / unclassified,48,1459,25,23,4.438,4.297,4,173,3.29,2.312,strong
+Motive: gifting,Gift for a girl,Other / unclassified,303,1459,56,48,4.597,4.297,14,173,20.768,8.092,strong
+Motive: gifting,Gift for a partner,Other / unclassified,30,1459,17,15,4.6,4.297,2,173,2.056,1.156,strong
+Motive: gifting,Gift for friend / teacher / coworker,Other / unclassified,14,1459,12,12,4.357,4.297,1,173,0.96,0.578,medium
+Motive: gifting,Gift for grandparents,Other / unclassified,5,1459,5,5,4.6,4.297,0,173,0.343,0.0,weak
+Motive: gifting,Gift for mom,Other / unclassified,4,1459,4,4,4.0,4.297,1,173,0.274,0.578,weak
+Motive: gifting,Mothers Day,Other / unclassified,3,1459,2,2,5.0,4.297,0,173,0.206,0.0,weak
+Motive: gifting,Teacher appreciation & graduation,Other / unclassified,0,1459,0,0,,4.297,0,173,0.0,0.0,weak
+Motive: gifting,Valentines Day,Other / unclassified,5,1459,4,4,4.6,4.297,0,173,0.343,0.0,weak
+Motive: value,Built together with family,Other / unclassified,10,1459,9,8,4.1,4.297,2,173,0.685,1.156,medium
+Motive: value,Collecting a series,Other / unclassified,21,1459,17,16,4.524,4.297,2,173,1.439,1.156,medium
+Motive: value,Flowers that never wilt,Other / unclassified,3,1459,3,3,4.333,4.297,0,173,0.206,0.0,weak
+Motive: value,Home or desk decor,Other / unclassified,29,1459,14,14,4.345,4.297,2,173,1.988,1.156,medium
+Motive: value,Learning & fine-motor skills,Other / unclassified,104,1459,23,19,4.75,4.297,2,173,7.128,1.156,strong
+Motive: value,Loves flowers & gardening,Other / unclassified,7,1459,3,3,4.857,4.297,0,173,0.48,0.0,weak
+Motive: value,"Relaxing, mindful build",Other / unclassified,5,1459,4,4,4.8,4.297,0,173,0.343,0.0,weak
+Motive: value,Screen-free time,Other / unclassified,24,1459,7,5,4.875,4.297,0,173,1.645,0.0,medium
+Price,Good value,Other / unclassified,80,1459,36,34,4.238,4.297,13,173,5.483,7.514,strong
+Price,Overpriced,Other / unclassified,42,1459,27,26,2.19,4.297,28,173,2.879,16.185,strong
+Experience: display,Arrived broken or breaks easily,Paint & decorate crafts,13,1376,5,5,2.462,4.301,8,192,0.945,4.167,medium
+Experience: display,"Beautiful, realistic",Paint & decorate crafts,54,1376,15,5,4.574,4.301,5,192,3.924,2.604,strong
+Experience: display,Bigger than expected,Paint & decorate crafts,3,1376,2,2,5.0,4.301,0,192,0.218,0.0,weak
+Experience: display,Dust,Paint & decorate crafts,1,1376,1,1,1.0,4.301,1,192,0.073,0.521,weak
+Experience: display,Feels cheap,Paint & decorate crafts,34,1376,4,4,2.294,4.301,22,192,2.471,11.458,medium
+Experience: display,Lights,Paint & decorate crafts,3,1376,1,1,2.667,4.301,2,192,0.218,1.042,weak
+Experience: display,Not as pictured,Paint & decorate crafts,3,1376,2,2,2.0,4.301,2,192,0.218,1.042,weak
+Experience: display,Seeds did not grow,Paint & decorate crafts,5,1376,1,1,1.4,4.301,5,192,0.363,2.604,weak
+Experience: display,Smaller than expected,Paint & decorate crafts,47,1376,7,5,3.255,4.301,14,192,3.416,7.292,medium
+Experience: display,Solar or electronics not working,Paint & decorate crafts,0,1376,0,0,,4.301,0,192,0.0,0.0,weak
+Experience: display,Vase or pot mentioned,Paint & decorate crafts,136,1376,15,10,4.243,4.301,24,192,9.884,12.5,strong
+Experience: making,Build time mentioned (hours),Paint & decorate crafts,0,1376,0,0,,4.301,0,192,0.0,0.0,weak
+Experience: making,Clear instructions,Paint & decorate crafts,4,1376,1,1,5.0,4.301,0,192,0.291,0.0,weak
+Experience: making,Easy and fun to build,Paint & decorate crafts,29,1376,3,3,4.724,4.301,1,192,2.108,0.521,medium
+Experience: making,Falls apart or droops,Paint & decorate crafts,7,1376,2,2,1.571,4.301,6,192,0.509,3.125,weak
+Experience: making,Messy glue or paint,Paint & decorate crafts,11,1376,6,6,3.636,4.301,3,192,0.799,1.562,medium
+Experience: making,Missing pieces,Paint & decorate crafts,64,1376,3,3,2.094,4.301,45,192,4.651,23.438,medium
+Experience: making,Poor instructions,Paint & decorate crafts,4,1376,2,2,3.5,4.301,1,192,0.291,0.521,weak
+Experience: making,Repetitive build,Paint & decorate crafts,0,1376,0,0,,4.301,0,192,0.0,0.0,weak
+Experience: making,Sense of accomplishment,Paint & decorate crafts,10,1376,3,2,4.8,4.301,0,192,0.727,0.0,weak
+Experience: making,"Tiny pieces, hard to press",Paint & decorate crafts,0,1376,0,0,,4.301,0,192,0.0,0.0,weak
+Experience: making,"Too easy, finished quickly",Paint & decorate crafts,0,1376,0,0,,4.301,0,192,0.0,0.0,weak
+Experience: making,"Too hard, needed help",Paint & decorate crafts,1,1376,1,1,2.0,4.301,1,192,0.073,0.521,weak
+Motive: gifting,Anniversary & wedding,Paint & decorate crafts,0,1376,0,0,,4.301,0,192,0.0,0.0,weak
+Motive: gifting,Birthday,Paint & decorate crafts,152,1376,7,6,4.474,4.301,15,192,11.047,7.812,medium
+Motive: gifting,Bought as a gift,Paint & decorate crafts,533,1376,12,10,4.6,4.301,37,192,38.735,19.271,strong
+Motive: gifting,Bought for themselves,Paint & decorate crafts,3,1376,1,1,4.667,4.301,0,192,0.218,0.0,weak
+Motive: gifting,Christmas & holidays,Paint & decorate crafts,52,1376,7,5,4.288,4.301,8,192,3.779,4.167,medium
+Motive: gifting,Classroom & party group,Paint & decorate crafts,6,1376,2,2,4.167,4.301,1,192,0.436,0.521,weak
+Motive: gifting,Easter & spring,Paint & decorate crafts,56,1376,4,4,4.411,4.301,7,192,4.07,3.646,medium
+Motive: gifting,Get well & sympathy,Paint & decorate crafts,0,1376,0,0,,4.301,0,192,0.0,0.0,weak
+Motive: gifting,Gift for a boy,Paint & decorate crafts,45,1376,5,4,4.467,4.301,5,192,3.27,2.604,medium
+Motive: gifting,Gift for a girl,Paint & decorate crafts,552,1376,13,10,4.529,4.301,48,192,40.116,25.0,strong
+Motive: gifting,Gift for a partner,Paint & decorate crafts,11,1376,3,3,5.0,4.301,0,192,0.799,0.0,medium
+Motive: gifting,Gift for friend / teacher / coworker,Paint & decorate crafts,9,1376,2,2,4.889,4.301,0,192,0.654,0.0,weak
+Motive: gifting,Gift for grandparents,Paint & decorate crafts,12,1376,2,2,4.667,4.301,1,192,0.872,0.521,weak
+Motive: gifting,Gift for mom,Paint & decorate crafts,15,1376,4,4,4.267,4.301,1,192,1.09,0.521,medium
+Motive: gifting,Mothers Day,Paint & decorate crafts,13,1376,5,4,4.846,4.301,0,192,0.945,0.0,medium
+Motive: gifting,Teacher appreciation & graduation,Paint & decorate crafts,0,1376,0,0,,4.301,0,192,0.0,0.0,weak
+Motive: gifting,Valentines Day,Paint & decorate crafts,1,1376,1,1,5.0,4.301,0,192,0.073,0.0,weak
+Motive: value,Built together with family,Paint & decorate crafts,23,1376,1,1,4.609,4.301,2,192,1.672,1.042,weak
+Motive: value,Collecting a series,Paint & decorate crafts,1,1376,1,1,5.0,4.301,0,192,0.073,0.0,weak
+Motive: value,Flowers that never wilt,Paint & decorate crafts,0,1376,0,0,,4.301,0,192,0.0,0.0,weak
+Motive: value,Home or desk decor,Paint & decorate crafts,6,1376,3,3,4.833,4.301,0,192,0.436,0.0,weak
+Motive: value,Learning & fine-motor skills,Paint & decorate crafts,64,1376,6,6,4.703,4.301,2,192,4.651,1.042,medium
+Motive: value,Loves flowers & gardening,Paint & decorate crafts,34,1376,2,2,4.441,4.301,4,192,2.471,2.083,weak
+Motive: value,"Relaxing, mindful build",Paint & decorate crafts,2,1376,2,2,5.0,4.301,0,192,0.145,0.0,weak
+Motive: value,Screen-free time,Paint & decorate crafts,9,1376,3,3,4.889,4.301,0,192,0.654,0.0,weak
+Price,Good value,Paint & decorate crafts,55,1376,7,7,3.764,4.301,16,192,3.997,8.333,medium
+Price,Overpriced,Paint & decorate crafts,44,1376,5,4,2.136,4.301,28,192,3.198,14.583,medium
+Experience: display,Arrived broken or breaks easily,Planting & science kits,22,1355,14,14,2.091,3.981,15,271,1.624,5.535,medium
+Experience: display,"Beautiful, realistic",Planting & science kits,24,1355,12,11,4.792,3.981,1,271,1.771,0.369,medium
+Experience: display,Bigger than expected,Planting & science kits,10,1355,3,3,4.9,3.981,0,271,0.738,0.0,medium
+Experience: display,Dust,Planting & science kits,1,1355,1,1,1.0,3.981,1,271,0.074,0.369,weak
+Experience: display,Feels cheap,Planting & science kits,38,1355,17,16,2.605,3.981,21,271,2.804,7.749,strong
+Experience: display,Lights,Planting & science kits,27,1355,7,7,3.667,3.981,7,271,1.993,2.583,medium
+Experience: display,Not as pictured,Planting & science kits,7,1355,7,7,1.571,3.981,5,271,0.517,1.845,weak
+Experience: display,Seeds did not grow,Planting & science kits,29,1355,12,10,2.759,3.981,14,271,2.14,5.166,medium
+Experience: display,Smaller than expected,Planting & science kits,26,1355,18,16,2.923,3.981,10,271,1.919,3.69,medium
+Experience: display,Solar or electronics not working,Planting & science kits,5,1355,3,3,3.8,3.981,1,271,0.369,0.369,weak
+Experience: display,Vase or pot mentioned,Planting & science kits,146,1355,34,31,3.664,3.981,42,271,10.775,15.498,strong
+Experience: making,Build time mentioned (hours),Planting & science kits,0,1355,0,0,,3.981,0,271,0.0,0.0,weak
+Experience: making,Clear instructions,Planting & science kits,5,1355,3,3,4.4,3.981,1,271,0.369,0.369,weak
+Experience: making,Easy and fun to build,Planting & science kits,24,1355,5,5,4.958,3.981,0,271,1.771,0.0,medium
+Experience: making,Falls apart or droops,Planting & science kits,28,1355,9,9,2.75,3.981,12,271,2.066,4.428,medium
+Experience: making,Messy glue or paint,Planting & science kits,16,1355,8,8,3.562,3.981,5,271,1.181,1.845,medium
+Experience: making,Missing pieces,Planting & science kits,112,1355,14,14,1.741,3.981,89,271,8.266,32.841,strong
+Experience: making,Poor instructions,Planting & science kits,3,1355,3,3,2.0,3.981,2,271,0.221,0.738,weak
+Experience: making,Repetitive build,Planting & science kits,0,1355,0,0,,3.981,0,271,0.0,0.0,weak
+Experience: making,Sense of accomplishment,Planting & science kits,4,1355,4,4,3.75,3.981,1,271,0.295,0.369,weak
+Experience: making,"Tiny pieces, hard to press",Planting & science kits,2,1355,2,2,4.5,3.981,0,271,0.148,0.0,weak
+Experience: making,"Too easy, finished quickly",Planting & science kits,0,1355,0,0,,3.981,0,271,0.0,0.0,weak
+Experience: making,"Too hard, needed help",Planting & science kits,6,1355,3,3,3.167,3.981,2,271,0.443,0.738,weak
+Motive: gifting,Anniversary & wedding,Planting & science kits,2,1355,1,1,5.0,3.981,0,271,0.148,0.0,weak
+Motive: gifting,Birthday,Planting & science kits,63,1355,17,16,3.381,3.981,25,271,4.649,9.225,strong
+Motive: gifting,Bought as a gift,Planting & science kits,283,1355,41,36,4.314,3.981,39,271,20.886,14.391,strong
+Motive: gifting,Bought for themselves,Planting & science kits,6,1355,3,3,4.5,3.981,0,271,0.443,0.0,weak
+Motive: gifting,Christmas & holidays,Planting & science kits,55,1355,17,16,4.4,3.981,6,271,4.059,2.214,strong
+Motive: gifting,Classroom & party group,Planting & science kits,3,1355,3,3,5.0,3.981,0,271,0.221,0.0,weak
+Motive: gifting,Easter & spring,Planting & science kits,24,1355,14,13,4.042,3.981,5,271,1.771,1.845,medium
+Motive: gifting,Get well & sympathy,Planting & science kits,1,1355,1,1,5.0,3.981,0,271,0.074,0.0,weak
+Motive: gifting,Gift for a boy,Planting & science kits,67,1355,18,17,4.104,3.981,12,271,4.945,4.428,strong
+Motive: gifting,Gift for a girl,Planting & science kits,241,1355,39,36,4.349,3.981,30,271,17.786,11.07,strong
+Motive: gifting,Gift for a partner,Planting & science kits,20,1355,4,4,4.45,3.981,1,271,1.476,0.369,medium
+Motive: gifting,Gift for friend / teacher / coworker,Planting & science kits,19,1355,7,7,4.0,3.981,4,271,1.402,1.476,medium
+Motive: gifting,Gift for grandparents,Planting & science kits,12,1355,5,4,4.0,3.981,3,271,0.886,1.107,medium
+Motive: gifting,Gift for mom,Planting & science kits,10,1355,4,4,4.2,3.981,1,271,0.738,0.369,medium
+Motive: gifting,Mothers Day,Planting & science kits,0,1355,0,0,,3.981,0,271,0.0,0.0,weak
+Motive: gifting,Teacher appreciation & graduation,Planting & science kits,0,1355,0,0,,3.981,0,271,0.0,0.0,weak
+Motive: gifting,Valentines Day,Planting & science kits,3,1355,2,2,3.667,3.981,1,271,0.221,0.369,weak
+Motive: value,Built together with family,Planting & science kits,20,1355,13,13,4.6,3.981,1,271,1.476,0.369,medium
+Motive: value,Collecting a series,Planting & science kits,10,1355,6,6,4.6,3.981,1,271,0.738,0.369,medium
+Motive: value,Flowers that never wilt,Planting & science kits,2,1355,2,2,2.5,3.981,1,271,0.148,0.369,weak
+Motive: value,Home or desk decor,Planting & science kits,29,1355,8,8,4.586,3.981,1,271,2.14,0.369,medium
+Motive: value,Learning & fine-motor skills,Planting & science kits,35,1355,12,12,4.629,3.981,1,271,2.583,0.369,strong
+Motive: value,Loves flowers & gardening,Planting & science kits,20,1355,11,11,4.75,3.981,1,271,1.476,0.369,medium
+Motive: value,"Relaxing, mindful build",Planting & science kits,3,1355,3,3,5.0,3.981,0,271,0.221,0.0,weak
+Motive: value,Screen-free time,Planting & science kits,9,1355,4,4,4.667,3.981,0,271,0.664,0.0,weak
+Price,Good value,Planting & science kits,45,1355,13,13,3.778,3.981,13,271,3.321,4.797,strong
+Price,Overpriced,Planting & science kits,33,1355,14,14,2.03,3.981,23,271,2.435,8.487,strong
+Experience: display,Arrived broken or breaks easily,Preserved & artificial flower gifts,5,183,3,3,4.0,4.137,0,28,2.732,0.0,weak
+Experience: display,"Beautiful, realistic",Preserved & artificial flower gifts,20,183,8,8,4.9,4.137,0,28,10.929,0.0,medium
+Experience: display,Bigger than expected,Preserved & artificial flower gifts,1,183,1,1,5.0,4.137,0,28,0.546,0.0,weak
+Experience: display,Dust,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Experience: display,Feels cheap,Preserved & artificial flower gifts,4,183,4,4,1.0,4.137,4,28,2.186,14.286,weak
+Experience: display,Lights,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Experience: display,Not as pictured,Preserved & artificial flower gifts,1,183,1,1,1.0,4.137,1,28,0.546,3.571,weak
+Experience: display,Seeds did not grow,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Experience: display,Smaller than expected,Preserved & artificial flower gifts,13,183,5,5,3.692,4.137,4,28,7.104,14.286,medium
+Experience: display,Solar or electronics not working,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Experience: display,Vase or pot mentioned,Preserved & artificial flower gifts,15,183,6,6,4.267,4.137,2,28,8.197,7.143,medium
+Experience: making,Build time mentioned (hours),Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Experience: making,Clear instructions,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Experience: making,Easy and fun to build,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Experience: making,Falls apart or droops,Preserved & artificial flower gifts,4,183,4,4,2.75,4.137,2,28,2.186,7.143,weak
+Experience: making,Messy glue or paint,Preserved & artificial flower gifts,2,183,2,2,2.5,4.137,1,28,1.093,3.571,weak
+Experience: making,Missing pieces,Preserved & artificial flower gifts,4,183,4,4,3.25,4.137,2,28,2.186,7.143,weak
+Experience: making,Poor instructions,Preserved & artificial flower gifts,1,183,1,1,1.0,4.137,1,28,0.546,3.571,weak
+Experience: making,Repetitive build,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Experience: making,Sense of accomplishment,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Experience: making,"Tiny pieces, hard to press",Preserved & artificial flower gifts,1,183,1,1,3.0,4.137,0,28,0.546,0.0,weak
+Experience: making,"Too easy, finished quickly",Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Experience: making,"Too hard, needed help",Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Motive: gifting,Anniversary & wedding,Preserved & artificial flower gifts,8,183,1,1,4.125,4.137,1,28,4.372,3.571,weak
+Motive: gifting,Birthday,Preserved & artificial flower gifts,1,183,1,1,5.0,4.137,0,28,0.546,0.0,weak
+Motive: gifting,Bought as a gift,Preserved & artificial flower gifts,9,183,5,5,4.778,4.137,0,28,4.918,0.0,weak
+Motive: gifting,Bought for themselves,Preserved & artificial flower gifts,1,183,1,1,5.0,4.137,0,28,0.546,0.0,weak
+Motive: gifting,Christmas & holidays,Preserved & artificial flower gifts,3,183,3,3,5.0,4.137,0,28,1.639,0.0,weak
+Motive: gifting,Classroom & party group,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Motive: gifting,Easter & spring,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Motive: gifting,Get well & sympathy,Preserved & artificial flower gifts,1,183,1,1,3.0,4.137,0,28,0.546,0.0,weak
+Motive: gifting,Gift for a boy,Preserved & artificial flower gifts,4,183,3,3,4.75,4.137,0,28,2.186,0.0,weak
+Motive: gifting,Gift for a girl,Preserved & artificial flower gifts,8,183,4,4,4.875,4.137,0,28,4.372,0.0,weak
+Motive: gifting,Gift for a partner,Preserved & artificial flower gifts,3,183,3,3,5.0,4.137,0,28,1.639,0.0,weak
+Motive: gifting,Gift for friend / teacher / coworker,Preserved & artificial flower gifts,1,183,1,1,5.0,4.137,0,28,0.546,0.0,weak
+Motive: gifting,Gift for grandparents,Preserved & artificial flower gifts,1,183,1,1,5.0,4.137,0,28,0.546,0.0,weak
+Motive: gifting,Gift for mom,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Motive: gifting,Mothers Day,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Motive: gifting,Teacher appreciation & graduation,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Motive: gifting,Valentines Day,Preserved & artificial flower gifts,1,183,1,1,1.0,4.137,1,28,0.546,3.571,weak
+Motive: value,Built together with family,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Motive: value,Collecting a series,Preserved & artificial flower gifts,1,183,1,1,5.0,4.137,0,28,0.546,0.0,weak
+Motive: value,Flowers that never wilt,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Motive: value,Home or desk decor,Preserved & artificial flower gifts,11,183,9,9,4.364,4.137,1,28,6.011,3.571,medium
+Motive: value,Learning & fine-motor skills,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Motive: value,Loves flowers & gardening,Preserved & artificial flower gifts,3,183,2,2,4.333,4.137,0,28,1.639,0.0,weak
+Motive: value,"Relaxing, mindful build",Preserved & artificial flower gifts,10,183,4,4,4.9,4.137,0,28,5.464,0.0,medium
+Motive: value,Screen-free time,Preserved & artificial flower gifts,0,183,0,0,,4.137,0,28,0.0,0.0,weak
+Price,Good value,Preserved & artificial flower gifts,11,183,7,7,4.364,4.137,1,28,6.011,3.571,medium
+Price,Overpriced,Preserved & artificial flower gifts,2,183,2,2,2.0,4.137,1,28,1.093,3.571,weak
+Experience: display,Arrived broken or breaks easily,Pretend play,28,653,13,11,3.036,4.291,11,79,4.288,13.924,medium
+Experience: display,"Beautiful, realistic",Pretend play,19,653,8,8,4.579,4.291,1,79,2.91,1.266,medium
+Experience: display,Bigger than expected,Pretend play,4,653,3,3,4.25,4.291,0,79,0.613,0.0,weak
+Experience: display,Dust,Pretend play,3,653,2,2,3.667,4.291,1,79,0.459,1.266,weak
+Experience: display,Feels cheap,Pretend play,28,653,10,9,2.821,4.291,14,79,4.288,17.722,medium
+Experience: display,Lights,Pretend play,9,653,7,7,4.444,4.291,0,79,1.378,0.0,weak
+Experience: display,Not as pictured,Pretend play,0,653,0,0,,4.291,0,79,0.0,0.0,weak
+Experience: display,Seeds did not grow,Pretend play,0,653,0,0,,4.291,0,79,0.0,0.0,weak
+Experience: display,Smaller than expected,Pretend play,65,653,22,20,3.415,4.291,19,79,9.954,24.051,strong
+Experience: display,Solar or electronics not working,Pretend play,1,653,1,1,1.0,4.291,1,79,0.153,1.266,weak
+Experience: display,Vase or pot mentioned,Pretend play,16,653,10,9,3.688,4.291,3,79,2.45,3.797,medium
+Experience: making,Build time mentioned (hours),Pretend play,1,653,1,1,5.0,4.291,0,79,0.153,0.0,weak
+Experience: making,Clear instructions,Pretend play,0,653,0,0,,4.291,0,79,0.0,0.0,weak
+Experience: making,Easy and fun to build,Pretend play,10,653,4,4,4.6,4.291,0,79,1.531,0.0,medium
+Experience: making,Falls apart or droops,Pretend play,17,653,9,8,3.176,4.291,6,79,2.603,7.595,medium
+Experience: making,Messy glue or paint,Pretend play,8,653,4,4,3.625,4.291,2,79,1.225,2.532,weak
+Experience: making,Missing pieces,Pretend play,15,653,8,8,3.133,4.291,6,79,2.297,7.595,medium
+Experience: making,Poor instructions,Pretend play,2,653,2,2,3.0,4.291,0,79,0.306,0.0,weak
+Experience: making,Repetitive build,Pretend play,0,653,0,0,,4.291,0,79,0.0,0.0,weak
+Experience: making,Sense of accomplishment,Pretend play,2,653,2,2,5.0,4.291,0,79,0.306,0.0,weak
+Experience: making,"Tiny pieces, hard to press",Pretend play,21,653,8,8,3.429,4.291,6,79,3.216,7.595,medium
+Experience: making,"Too easy, finished quickly",Pretend play,1,653,1,1,3.0,4.291,0,79,0.153,0.0,weak
+Experience: making,"Too hard, needed help",Pretend play,2,653,2,2,3.0,4.291,1,79,0.306,1.266,weak
+Motive: gifting,Anniversary & wedding,Pretend play,16,653,2,2,4.75,4.291,0,79,2.45,0.0,weak
+Motive: gifting,Birthday,Pretend play,28,653,9,9,4.321,4.291,3,79,4.288,3.797,medium
+Motive: gifting,Bought as a gift,Pretend play,86,653,25,19,4.419,4.291,9,79,13.17,11.392,strong
+Motive: gifting,Bought for themselves,Pretend play,2,653,2,2,3.5,4.291,1,79,0.306,1.266,weak
+Motive: gifting,Christmas & holidays,Pretend play,21,653,14,12,4.381,4.291,3,79,3.216,3.797,medium
+Motive: gifting,Classroom & party group,Pretend play,2,653,2,2,4.0,4.291,0,79,0.306,0.0,weak
+Motive: gifting,Easter & spring,Pretend play,5,653,3,3,4.8,4.291,0,79,0.766,0.0,weak
+Motive: gifting,Get well & sympathy,Pretend play,0,653,0,0,,4.291,0,79,0.0,0.0,weak
+Motive: gifting,Gift for a boy,Pretend play,25,653,10,10,4.36,4.291,1,79,3.828,1.266,medium
+Motive: gifting,Gift for a girl,Pretend play,237,653,28,21,4.637,4.291,9,79,36.294,11.392,strong
+Motive: gifting,Gift for a partner,Pretend play,6,653,4,4,4.333,4.291,0,79,0.919,0.0,weak
+Motive: gifting,Gift for friend / teacher / coworker,Pretend play,3,653,3,3,5.0,4.291,0,79,0.459,0.0,weak
+Motive: gifting,Gift for grandparents,Pretend play,4,653,4,3,5.0,4.291,0,79,0.613,0.0,weak
+Motive: gifting,Gift for mom,Pretend play,1,653,1,1,4.0,4.291,0,79,0.153,0.0,weak
+Motive: gifting,Mothers Day,Pretend play,0,653,0,0,,4.291,0,79,0.0,0.0,weak
+Motive: gifting,Teacher appreciation & graduation,Pretend play,0,653,0,0,,4.291,0,79,0.0,0.0,weak
+Motive: gifting,Valentines Day,Pretend play,0,653,0,0,,4.291,0,79,0.0,0.0,weak
+Motive: value,Built together with family,Pretend play,4,653,4,4,4.75,4.291,0,79,0.613,0.0,weak
+Motive: value,Collecting a series,Pretend play,15,653,12,11,4.667,4.291,0,79,2.297,0.0,medium
+Motive: value,Flowers that never wilt,Pretend play,0,653,0,0,,4.291,0,79,0.0,0.0,weak
+Motive: value,Home or desk decor,Pretend play,6,653,6,6,4.167,4.291,1,79,0.919,1.266,weak
+Motive: value,Learning & fine-motor skills,Pretend play,9,653,9,7,4.111,4.291,1,79,1.378,1.266,weak
+Motive: value,Loves flowers & gardening,Pretend play,4,653,3,3,3.75,4.291,1,79,0.613,1.266,weak
+Motive: value,"Relaxing, mindful build",Pretend play,3,653,3,2,5.0,4.291,0,79,0.459,0.0,weak
+Motive: value,Screen-free time,Pretend play,14,653,8,8,4.857,4.291,0,79,2.144,0.0,medium
+Price,Good value,Pretend play,43,653,16,16,4.233,4.291,5,79,6.585,6.329,strong
+Price,Overpriced,Pretend play,16,653,12,11,1.938,4.291,11,79,2.45,13.924,medium
+Experience: display,Arrived broken or breaks easily,Solar dancing flowers & electronic,574,2809,109,78,1.923,3.284,415,1046,20.434,39.675,strong
+Experience: display,"Beautiful, realistic",Solar dancing flowers & electronic,23,2809,20,19,4.609,3.284,2,1046,0.819,0.191,medium
+Experience: display,Bigger than expected,Solar dancing flowers & electronic,4,2809,4,3,4.25,3.284,0,1046,0.142,0.0,weak
+Experience: display,Dust,Solar dancing flowers & electronic,2,2809,2,2,2.5,3.284,1,1046,0.071,0.096,weak
+Experience: display,Feels cheap,Solar dancing flowers & electronic,220,2809,60,47,1.768,3.284,166,1046,7.832,15.87,strong
+Experience: display,Lights,Solar dancing flowers & electronic,163,2809,55,38,3.448,3.284,51,1046,5.803,4.876,strong
+Experience: display,Not as pictured,Solar dancing flowers & electronic,10,2809,10,8,2.2,3.284,6,1046,0.356,0.574,medium
+Experience: display,Seeds did not grow,Solar dancing flowers & electronic,0,2809,0,0,,3.284,0,1046,0.0,0.0,weak
+Experience: display,Smaller than expected,Solar dancing flowers & electronic,31,2809,22,21,3.516,3.284,9,1046,1.104,0.86,strong
+Experience: display,Solar or electronics not working,Solar dancing flowers & electronic,104,2809,52,40,2.038,3.284,74,1046,3.702,7.075,strong
+Experience: display,Vase or pot mentioned,Solar dancing flowers & electronic,86,2809,35,27,2.814,3.284,41,1046,3.062,3.92,strong
+Experience: making,Build time mentioned (hours),Solar dancing flowers & electronic,0,2809,0,0,,3.284,0,1046,0.0,0.0,weak
+Experience: making,Clear instructions,Solar dancing flowers & electronic,1,2809,1,1,5.0,3.284,0,1046,0.036,0.0,weak
+Experience: making,Easy and fun to build,Solar dancing flowers & electronic,11,2809,3,3,4.545,3.284,0,1046,0.392,0.0,medium
+Experience: making,Falls apart or droops,Solar dancing flowers & electronic,40,2809,28,24,2.125,3.284,29,1046,1.424,2.772,strong
+Experience: making,Messy glue or paint,Solar dancing flowers & electronic,38,2809,23,18,2.684,3.284,15,1046,1.353,1.434,strong
+Experience: making,Missing pieces,Solar dancing flowers & electronic,27,2809,19,17,2.296,3.284,17,1046,0.961,1.625,medium
+Experience: making,Poor instructions,Solar dancing flowers & electronic,2,2809,2,2,3.0,3.284,1,1046,0.071,0.096,weak
+Experience: making,Repetitive build,Solar dancing flowers & electronic,0,2809,0,0,,3.284,0,1046,0.0,0.0,weak
+Experience: making,Sense of accomplishment,Solar dancing flowers & electronic,2,2809,2,2,5.0,3.284,0,1046,0.071,0.0,weak
+Experience: making,"Tiny pieces, hard to press",Solar dancing flowers & electronic,5,2809,2,2,3.8,3.284,1,1046,0.178,0.096,weak
+Experience: making,"Too easy, finished quickly",Solar dancing flowers & electronic,1,2809,1,1,3.0,3.284,0,1046,0.036,0.0,weak
+Experience: making,"Too hard, needed help",Solar dancing flowers & electronic,7,2809,7,7,2.143,3.284,4,1046,0.249,0.382,weak
+Motive: gifting,Anniversary & wedding,Solar dancing flowers & electronic,0,2809,0,0,,3.284,0,1046,0.0,0.0,weak
+Motive: gifting,Birthday,Solar dancing flowers & electronic,23,2809,16,15,3.696,3.284,8,1046,0.819,0.765,medium
+Motive: gifting,Bought as a gift,Solar dancing flowers & electronic,327,2809,78,52,3.933,3.284,69,1046,11.641,6.597,strong
+Motive: gifting,Bought for themselves,Solar dancing flowers & electronic,9,2809,7,6,4.667,3.284,1,1046,0.32,0.096,weak
+Motive: gifting,Christmas & holidays,Solar dancing flowers & electronic,45,2809,20,14,3.533,3.284,15,1046,1.602,1.434,strong
+Motive: gifting,Classroom & party group,Solar dancing flowers & electronic,10,2809,6,5,3.1,3.284,5,1046,0.356,0.478,medium
+Motive: gifting,Easter & spring,Solar dancing flowers & electronic,22,2809,14,13,4.227,3.284,2,1046,0.783,0.191,medium
+Motive: gifting,Get well & sympathy,Solar dancing flowers & electronic,10,2809,8,7,4.3,3.284,1,1046,0.356,0.096,medium
+Motive: gifting,Gift for a boy,Solar dancing flowers & electronic,59,2809,17,15,4.39,3.284,4,1046,2.1,0.382,strong
+Motive: gifting,Gift for a girl,Solar dancing flowers & electronic,91,2809,39,32,4.209,3.284,13,1046,3.24,1.243,strong
+Motive: gifting,Gift for a partner,Solar dancing flowers & electronic,61,2809,34,24,4.082,3.284,8,1046,2.172,0.765,strong
+Motive: gifting,Gift for friend / teacher / coworker,Solar dancing flowers & electronic,57,2809,27,21,4.228,3.284,7,1046,2.029,0.669,strong
+Motive: gifting,Gift for grandparents,Solar dancing flowers & electronic,12,2809,9,7,4.25,3.284,1,1046,0.427,0.096,medium
+Motive: gifting,Gift for mom,Solar dancing flowers & electronic,47,2809,22,20,3.957,3.284,11,1046,1.673,1.052,strong
+Motive: gifting,Mothers Day,Solar dancing flowers & electronic,5,2809,4,4,4.0,3.284,1,1046,0.178,0.096,weak
+Motive: gifting,Teacher appreciation & graduation,Solar dancing flowers & electronic,0,2809,0,0,,3.284,0,1046,0.0,0.0,weak
+Motive: gifting,Valentines Day,Solar dancing flowers & electronic,6,2809,4,4,4.333,3.284,1,1046,0.214,0.096,weak
+Motive: value,Built together with family,Solar dancing flowers & electronic,2,2809,2,2,5.0,3.284,0,1046,0.071,0.0,weak
+Motive: value,Collecting a series,Solar dancing flowers & electronic,18,2809,13,12,3.778,3.284,6,1046,0.641,0.574,medium
+Motive: value,Flowers that never wilt,Solar dancing flowers & electronic,6,2809,4,4,4.167,3.284,0,1046,0.214,0.0,weak
+Motive: value,Home or desk decor,Solar dancing flowers & electronic,113,2809,49,37,3.929,3.284,24,1046,4.023,2.294,strong
+Motive: value,Learning & fine-motor skills,Solar dancing flowers & electronic,43,2809,21,20,2.279,3.284,30,1046,1.531,2.868,strong
+Motive: value,Loves flowers & gardening,Solar dancing flowers & electronic,1,2809,1,1,5.0,3.284,0,1046,0.036,0.0,weak
+Motive: value,"Relaxing, mindful build",Solar dancing flowers & electronic,14,2809,11,11,4.5,3.284,0,1046,0.498,0.0,medium
+Motive: value,Screen-free time,Solar dancing flowers & electronic,5,2809,5,5,4.0,3.284,1,1046,0.178,0.096,weak
+Price,Good value,Solar dancing flowers & electronic,122,2809,44,35,3.41,3.284,38,1046,4.343,3.633,strong
+Price,Overpriced,Solar dancing flowers & electronic,122,2809,48,37,1.533,3.284,104,1046,4.343,9.943,strong
+Experience: display,Arrived broken or breaks easily,Toddler flower-garden stacking sets,229,8177,74,69,3.349,4.669,55,349,2.801,15.759,strong
+Experience: display,"Beautiful, realistic",Toddler flower-garden stacking sets,415,8177,113,100,4.841,4.669,4,349,5.075,1.146,strong
+Experience: display,Bigger than expected,Toddler flower-garden stacking sets,30,8177,24,23,4.9,4.669,0,349,0.367,0.0,strong
+Experience: display,Dust,Toddler flower-garden stacking sets,1,8177,1,1,5.0,4.669,0,349,0.012,0.0,weak
+Experience: display,Feels cheap,Toddler flower-garden stacking sets,199,8177,70,63,3.302,4.669,61,349,2.434,17.479,strong
+Experience: display,Lights,Toddler flower-garden stacking sets,42,8177,22,19,4.262,4.669,4,349,0.514,1.146,strong
+Experience: display,Not as pictured,Toddler flower-garden stacking sets,25,8177,18,16,2.76,4.669,11,349,0.306,3.152,medium
+Experience: display,Seeds did not grow,Toddler flower-garden stacking sets,6,8177,4,4,3.5,4.669,2,349,0.073,0.573,weak
+Experience: display,Smaller than expected,Toddler flower-garden stacking sets,211,8177,75,68,3.611,4.669,52,349,2.58,14.9,strong
+Experience: display,Solar or electronics not working,Toddler flower-garden stacking sets,3,8177,3,3,3.667,4.669,1,349,0.037,0.287,weak
+Experience: display,Vase or pot mentioned,Toddler flower-garden stacking sets,267,8177,81,71,4.262,4.669,21,349,3.265,6.017,strong
+Experience: making,Build time mentioned (hours),Toddler flower-garden stacking sets,4,8177,3,3,4.75,4.669,0,349,0.049,0.0,weak
+Experience: making,Clear instructions,Toddler flower-garden stacking sets,11,8177,7,6,4.545,4.669,1,349,0.135,0.287,medium
+Experience: making,Easy and fun to build,Toddler flower-garden stacking sets,325,8177,111,96,4.843,4.669,1,349,3.975,0.287,strong
+Experience: making,Falls apart or droops,Toddler flower-garden stacking sets,114,8177,49,47,3.64,4.669,17,349,1.394,4.871,strong
+Experience: making,Messy glue or paint,Toddler flower-garden stacking sets,56,8177,40,36,3.911,4.669,8,349,0.685,2.292,strong
+Experience: making,Missing pieces,Toddler flower-garden stacking sets,90,8177,43,39,2.789,4.669,37,349,1.101,10.602,strong
+Experience: making,Poor instructions,Toddler flower-garden stacking sets,15,8177,12,12,3.733,4.669,3,349,0.183,0.86,medium
+Experience: making,Repetitive build,Toddler flower-garden stacking sets,4,8177,4,4,4.0,4.669,0,349,0.049,0.0,weak
+Experience: making,Sense of accomplishment,Toddler flower-garden stacking sets,29,8177,15,15,4.966,4.669,0,349,0.355,0.0,medium
+Experience: making,"Tiny pieces, hard to press",Toddler flower-garden stacking sets,137,8177,61,56,4.102,4.669,20,349,1.675,5.731,strong
+Experience: making,"Too easy, finished quickly",Toddler flower-garden stacking sets,6,8177,5,5,4.0,4.669,1,349,0.073,0.287,weak
+Experience: making,"Too hard, needed help",Toddler flower-garden stacking sets,65,8177,40,36,3.754,4.669,10,349,0.795,2.865,strong
+Motive: gifting,Anniversary & wedding,Toddler flower-garden stacking sets,12,8177,11,11,4.833,4.669,0,349,0.147,0.0,medium
+Motive: gifting,Birthday,Toddler flower-garden stacking sets,585,8177,100,88,4.809,4.669,15,349,7.154,4.298,strong
+Motive: gifting,Bought as a gift,Toddler flower-garden stacking sets,2243,8177,166,136,4.784,4.669,55,349,27.431,15.759,strong
+Motive: gifting,Bought for themselves,Toddler flower-garden stacking sets,17,8177,14,14,4.588,4.669,1,349,0.208,0.287,medium
+Motive: gifting,Christmas & holidays,Toddler flower-garden stacking sets,535,8177,101,91,4.776,4.669,10,349,6.543,2.865,strong
+Motive: gifting,Classroom & party group,Toddler flower-garden stacking sets,166,8177,72,69,4.807,4.669,3,349,2.03,0.86,strong
+Motive: gifting,Easter & spring,Toddler flower-garden stacking sets,100,8177,50,46,4.77,4.669,3,349,1.223,0.86,strong
+Motive: gifting,Get well & sympathy,Toddler flower-garden stacking sets,4,8177,4,4,4.5,4.669,0,349,0.049,0.0,weak
+Motive: gifting,Gift for a boy,Toddler flower-garden stacking sets,290,8177,88,81,4.834,4.669,3,349,3.547,0.86,strong
+Motive: gifting,Gift for a girl,Toddler flower-garden stacking sets,3353,8177,191,154,4.8,4.669,62,349,41.005,17.765,strong
+Motive: gifting,Gift for a partner,Toddler flower-garden stacking sets,38,8177,24,21,4.605,4.669,2,349,0.465,0.573,strong
+Motive: gifting,Gift for friend / teacher / coworker,Toddler flower-garden stacking sets,151,8177,61,57,4.808,4.669,4,349,1.847,1.146,strong
+Motive: gifting,Gift for grandparents,Toddler flower-garden stacking sets,74,8177,42,40,4.851,4.669,1,349,0.905,0.287,strong
+Motive: gifting,Gift for mom,Toddler flower-garden stacking sets,22,8177,13,13,4.636,4.669,1,349,0.269,0.287,medium
+Motive: gifting,Mothers Day,Toddler flower-garden stacking sets,3,8177,3,3,3.0,4.669,1,349,0.037,0.287,weak
+Motive: gifting,Teacher appreciation & graduation,Toddler flower-garden stacking sets,3,8177,3,3,4.333,4.669,0,349,0.037,0.0,weak
+Motive: gifting,Valentines Day,Toddler flower-garden stacking sets,5,8177,5,5,5.0,4.669,0,349,0.061,0.0,weak
+Motive: value,Built together with family,Toddler flower-garden stacking sets,84,8177,45,45,4.679,4.669,2,349,1.027,0.573,strong
+Motive: value,Collecting a series,Toddler flower-garden stacking sets,24,8177,22,22,4.625,4.669,0,349,0.294,0.0,medium
+Motive: value,Flowers that never wilt,Toddler flower-garden stacking sets,11,8177,9,9,4.0,4.669,2,349,0.135,0.573,medium
+Motive: value,Home or desk decor,Toddler flower-garden stacking sets,69,8177,39,37,4.768,4.669,2,349,0.844,0.573,strong
+Motive: value,Learning & fine-motor skills,Toddler flower-garden stacking sets,1153,8177,154,131,4.822,4.669,16,349,14.101,4.585,strong
+Motive: value,Loves flowers & gardening,Toddler flower-garden stacking sets,202,8177,69,65,4.842,4.669,1,349,2.47,0.287,strong
+Motive: value,"Relaxing, mindful build",Toddler flower-garden stacking sets,37,8177,26,23,4.649,4.669,0,349,0.452,0.0,strong
+Motive: value,Screen-free time,Toddler flower-garden stacking sets,533,8177,105,93,4.923,4.669,1,349,6.518,0.287,strong
+Price,Good value,Toddler flower-garden stacking sets,288,8177,104,91,4.528,4.669,19,349,3.522,5.444,strong
+Price,Overpriced,Toddler flower-garden stacking sets,58,8177,31,31,2.414,4.669,31,349,0.709,8.883,strong
