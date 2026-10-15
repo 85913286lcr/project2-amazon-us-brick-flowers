@@ -80,23 +80,35 @@ with tabs[0]:
     view = trend[trend.reviews >= min_reviews].copy()
     view['pattern'] = view.play_pattern.map(short)
     view['highlight'] = view.play_pattern.eq(BRICK).map({True: 'Brick flower bouquets', False: 'Other kinds'})
+    view['label'] = [f'{p} {i:.2f}×' for p, i in zip(view.pattern, view.relative_growth_index)]
+    st.markdown('**Figure 1. Interest and satisfaction by kind of flower toy (Amazon 2023)**')
     chart = alt.Chart(view).mark_circle(opacity=0.85, stroke='white').encode(
-        x=alt.X('reviews_2023_jan_sep:Q', scale=alt.Scale(type='log', domain=[10, 20000], nice=False), title='Interest: reviews written in 2023 (log scale)'),
-        y=alt.Y('avg_rating:Q', scale=alt.Scale(zero=False), title='Average rating'),
-        size=alt.Size('products:Q', title='Products', scale=alt.Scale(range=[80, 1400]), legend=alt.Legend(orient='top', values=[100, 500, 1500])),
-        color=alt.Color('highlight:N', scale=alt.Scale(domain=['Brick flower bouquets', 'Other kinds'], range=[BLUE, GREY]), title=None, legend=alt.Legend(orient='top')),
-        tooltip=['pattern', 'products', 'brands', 'reviews_2023_jan_sep', alt.Tooltip('relative_growth_index:Q', format='.2f', title='index vs all toys'),
-                 alt.Tooltip('avg_rating:Q', format='.2f')])
+        x=alt.X('reviews_2023_jan_sep:Q', scale=alt.Scale(type='log', domain=[10, 20000], nice=False),
+                title='Interest: reviews written Jan-Sep 2023 (log scale)'),
+        y=alt.Y('avg_rating:Q', scale=alt.Scale(zero=False), title='Satisfaction: average rating (all reviews)'),
+        size=alt.Size('products:Q', title='Bubble size = products', scale=alt.Scale(range=[80, 1400]),
+                      legend=alt.Legend(orient='top', values=[100, 500, 1500])),
+        color=alt.Color('highlight:N', scale=alt.Scale(domain=['Brick flower bouquets', 'Other kinds'], range=[BLUE, GREY]),
+                        title='Colour', legend=alt.Legend(orient='top')),
+        tooltip=[alt.Tooltip('pattern:N', title='kind'), 'products', 'brands',
+                 alt.Tooltip('reviews_2023_jan_sep:Q', format=',', title='reviews Jan-Sep 2023'),
+                 alt.Tooltip('relative_growth_index:Q', format='.2f', title='index vs all toys'),
+                 alt.Tooltip('avg_rating:Q', format='.2f', title='average rating')])
     named = view[view.reviews_2023_jan_sep >= 100]
     raised = named.pattern.str.startswith('Character plush')        # sits right above another label, so it is lifted a little
 
-    def labels(rows, dy):
-        return alt.Chart(rows).mark_text(align='left', dx=10, dy=dy, fontSize=11, color=INK).encode(
-            x='reviews_2023_jan_sep:Q', y='avg_rating:Q', text=alt.Text('pattern:N'))
-    st.altair_chart((chart + labels(named[~raised], 0) + labels(named[raised], -9)).properties(height=440), width='stretch')
-    st.caption('One dot = one kind of flower toy. Right = more reviews in 2023 (Jan-Sep). Up = higher rating. Size = number of products. mart_flower_pattern_trend')
+    hero_row = named.play_pattern.eq(BRICK)
 
-    st.markdown('**Who gets the growth?**')
+    def labels(rows, dy, color=INK, weight='normal'):
+        return alt.Chart(rows).mark_text(align='left', dx=10, dy=dy, fontSize=11, color=color, fontWeight=weight).encode(
+            x='reviews_2023_jan_sep:Q', y='avg_rating:Q', text=alt.Text('label:N'))
+    layers = chart + labels(named[~raised & ~hero_row], 0) + labels(named[raised], -9) + labels(named[hero_row], 0, BLUE, 'bold')
+    st.altair_chart(layers.properties(height=440), width='stretch')
+    st.caption('One dot = one kind of flower toy. Right = more reviews written Jan-Sep 2023. Up = higher average rating (all reviews). '
+               'Size = number of products. The number after each name = relative growth index vs all toys (1.00 = same as the market). '
+               'Kinds with fewer than 100 reviews in 2023 are not named. Source: mart_flower_pattern_trend')
+
+    st.markdown('**Table 1. Who gets the growth? Brick flower bouquets, LEGO vs other brands, reviews Jan-Sep 2022 vs 2023**')
     who = pd.DataFrame({
         '': brands.brand_group,
         'reviews 2022 → 2023': [f'{int(r.reviews_2022):,} → {int(r.reviews_2023):,}' for r in brands.itertuples()],
@@ -104,9 +116,10 @@ with tabs[0]:
         'share of reviews': [f'{r.share_2022_pct:.0f}% → {r.share_2023_pct:.0f}%' for r in brands.itertuples()],
         'rating': [f'{r.avg_rating:.2f}' for r in brands.itertuples()]})
     st.dataframe(who, hide_index=True, width='stretch')
-    st.caption(f'Brick-flower reviews written Jan-Sep. Other brands received {others.share_2023_pct:.0f}% of them in 2023. mart_flower_product_stats')
+    st.caption(f'Reviews written Jan-Sep of each year. Rating = average of all reviews. '
+               f'Other brands received {others.share_2023_pct:.0f}% of them in 2023. Source: mart_flower_product_stats')
 
-    with st.expander('All kinds of flower toy, compared with all toys'):
+    with st.expander('Table 2. All kinds of flower toy, compared with all toys'):
         table = view[['pattern', 'products', 'brands', 'reviews_2022_jan_sep', 'reviews_2023_jan_sep', 'relative_growth_index', 'avg_rating', 'low_rating_pct']]
         st.dataframe(table.rename(columns={'relative_growth_index': 'index_vs_all_toys'}), hide_index=True, width='stretch')
         st.caption('Index vs all toys = the change in reviews of a kind ÷ the change in all toy reviews. 1.00 = the same as the market.')
@@ -114,13 +127,14 @@ with tabs[0]:
 with tabs[1]:
     low = int(pains.low_reviews.iloc[0])
     st.subheader('Reviews point to improvement opportunities.')
-    st.markdown(f'**% of {low:,} low-star reviews** of brick flowers')
+    st.markdown(f'**Figure 2. What 1-2 star reviews of brick flowers mention (share of {low:,} low-rated reviews)**')
     st.altair_chart(alt.Chart(pains).mark_bar(color=BLUE).encode(
-        y=alt.Y('theme:N', sort='-x', title=None, axis=alt.Axis(labelLimit=320)), x=alt.X('share_of_low_reviews_pct:Q', title='%'),
+        y=alt.Y('theme:N', sort='-x', title=None, axis=alt.Axis(labelLimit=320)), x=alt.X('share_of_low_reviews_pct:Q', title='% of 1-2 star reviews that mention it'),
         tooltip=['theme', 'low_mentions', 'products', 'brands', 'evidence']).properties(height=340), width='stretch')
     for col, row in zip(st.columns(3), pains.head(3).itertuples()):
         col.metric(row.theme, f'{row.share_of_low_reviews_pct:.0f}%', f'across {int(row.brands)} brands', delta_color='off')
-    st.caption(f'All brick-flower reviews rated 1 or 2 stars (n = {low:,}). One review can mention several topics. mart_flower_theme_evidence')
+    st.caption(f'All brick-flower reviews rated 1 or 2 stars (n = {low:,}). One review can mention several topics. '
+               f'"Across N brands" = brands with at least one such review. Source: mart_flower_theme_evidence')
 
 with tabs[2]:
     st.subheader('Sell adult brick flowers, and fix what buyers complain about.')
@@ -150,7 +164,7 @@ with tabs[3]:
                 f'This is a separate check on the saved snapshot, outside the pipeline. From the pipeline: the median rating of the 50 products today is {g1.rating_now_median:.1f}.')
     st.info('More rating activity; ratings unchanged. The evidence supports the direction: sell brick flowers and test quality improvements.')
 
-    with st.expander('The same comparison for the other groups'):
+    with st.expander('Figure 3. The same comparison for the other groups'):
         view = groups.copy()
         view['group'] = view.keepa_group.str[3:]
         view['is_brick'] = view.keepa_group.str.startswith('G1')
