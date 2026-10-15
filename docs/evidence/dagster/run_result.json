@@ -1,7 +1,7 @@
 {
   "dagster_version": "1.13.25",
-  "run_id": "9812e304-a146-44b4-a2d6-c26658ca8e21",
-  "finished_utc": "2026-10-15T02:19:16+00:00",
+  "run_id": "aabaef54-dfa5-4f47-aff8-16dfa7bd5f9f",
+  "finished_utc": "2026-10-15T07:57:44+00:00",
   "job": "project2_flower_pipeline",
   "schedule": {
     "name": "weekly_flower_pipeline",
@@ -90,9 +90,9 @@
       "known_issues": {
         "known_issue_products_without_title": 37,
         "known_issue_duplicate_review_rows": 174053,
-        "known_issue_metadata_rating_count_below_reviews": 3458,
+        "known_issue_metadata_rating_far_from_reviews": 5264,
         "known_issue_reviews_without_text": 25394,
-        "known_issue_metadata_rating_far_from_reviews": 5262,
+        "known_issue_metadata_rating_count_below_reviews": 3458,
         "known_issue_products_without_reviews": 207,
         "known_issue_flower_products_without_brand": 40
       },
@@ -102,7 +102,7 @@
       "scope": "2023",
       "expectations": 15,
       "result": "PASS",
-      "timestamp_utc": "2026-10-15T02:18:17+00:00"
+      "timestamp_utc": "2026-10-15T07:56:50+00:00"
     },
     "answer_2023_reconciled": {
       "result": "PASS",
@@ -142,7 +142,7 @@
       "scope": "2026",
       "expectations": 9,
       "result": "PASS",
-      "timestamp_utc": "2026-10-15T02:19:07+00:00"
+      "timestamp_utc": "2026-10-15T07:57:36+00:00"
     },
     "answer_2026_reconciled": {
       "result": "PASS",

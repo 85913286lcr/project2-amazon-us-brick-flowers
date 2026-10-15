@@ -5,9 +5,9 @@
   "known_issues": {
     "known_issue_products_without_title": 37,
     "known_issue_duplicate_review_rows": 174053,
-    "known_issue_metadata_rating_count_below_reviews": 3458,
+    "known_issue_metadata_rating_far_from_reviews": 5264,
     "known_issue_reviews_without_text": 25394,
-    "known_issue_metadata_rating_far_from_reviews": 5262,
+    "known_issue_metadata_rating_count_below_reviews": 3458,
     "known_issue_products_without_reviews": 207,
     "known_issue_flower_products_without_brand": 40
   },
