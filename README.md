@@ -31,13 +31,64 @@ reads the same marts. The first load takes a few seconds while the service wakes
 
 | Brief | In this repository |
 |---|---|
-| 1. Data ingestion | `ingestion/`, `meltano/` |
-| 2. Data warehouse design | [Warehouse design](#warehouse-design), `project2_dbt/models/analytics/` |
-| 3. ELT pipeline, cleaning, derived columns | `project2_dbt/models/`, `enrichment/` |
-| 4. Data quality testing | [Data quality](#data-quality), `project2_dbt/tests/`, `quality/`, `docs/data_quality_notes.md` |
-| 5. Analysis with Python | `notebooks/flower_analysis.ipynb` (SQLAlchemy + pandas), `streamlit_app/` ([live app](https://flower-toy-evidence-839927014785.us-central1.run.app)) |
-| 6. Orchestration | `orchestration/definitions.py` (Dagster) |
+| 1. Data ingestion | `1_ingestion/`, `3_meltano/` |
+| 2. Data warehouse design | [Warehouse design](#warehouse-design), `4_dbt/models/analytics/` |
+| 3. ELT pipeline, cleaning, derived columns | `4_dbt/models/`, `2_enrichment/` |
+| 4. Data quality testing | [Data quality](#data-quality), `4_dbt/tests/`, `5_quality/`, `docs/data_quality_notes.md` |
+| 5. Analysis with Python | `8_notebooks/flower_analysis.ipynb` (SQLAlchemy + pandas), `9_streamlit_app/` ([live app](https://flower-toy-evidence-839927014785.us-central1.run.app)) |
+| 6. Orchestration | `7_orchestration/definitions.py` (Dagster) |
 | 7. Documentation | this file, the report in `docs/Project2_Report.pdf`, `docs/architecture.drawio`, `docs/evidence/` |
+| Every step, opened | [Walkthrough](#walkthrough-every-step-opened) below, in full in `8_notebooks/00_pipeline_walkthrough.ipynb` |
+
+## Walkthrough: every step, opened
+
+The DuckDB file (4.7 GB) and the raw files are too big for GitHub, so here is what each step produces, from the last
+run (15 Oct 2026). [`8_notebooks/00_pipeline_walkthrough.ipynb`](8_notebooks/00_pipeline_walkthrough.ipynb) opens
+each layer itself (DuckDB read-only, BigQuery through SQLAlchemy) and has the columns and sample rows.
+
+**1 · Ingest** (`1_ingestion/`). Two `.jsonl.gz` files into DuckDB, 10 product and 9 review fields.
+
+| DuckDB table | Rows | Empty keys | Duplicate keys |
+|---|---:|---:|---:|
+| amazon_products_raw | 890,874 | 0 | 0 |
+| amazon_reviews_raw | 16,260,406 | 0 | – |
+
+**2 · Label** (`2_enrichment/`). Python rules write three tables back into DuckDB; the 2026 snapshot is parsed with the same rules.
+
+| DuckDB table | Rows | What one row is |
+|---|---:|---|
+| flower_product_labels | 3,650 | a flower toy with its play pattern (22 kinds) and brand |
+| flower_review_themes | 54,752 | a review × a theme it mentions |
+| flower_wish_needs | 3,834 | a wish sentence × an unmet need |
+| keepa_products | 724 | an Amazon 2026 product family |
+
+**3 · Load** (`3_meltano/`). Meltano copies the tables to `project2_raw`. Raw is append-only, so the small tables hold
+one batch per load; staging reads the newest. The newest batch equals DuckDB for all 7 tables, for example
+`flower_product_labels`: 5 batches, 18,250 rows, newest batch 3,650.
+
+**4 · Transform** (`4_dbt/`). 7 staging views, then the star schema, then the marts.
+
+| Layer | Models | Largest |
+|---|---|---|
+| project2_staging | 7 views, 2 seeds | – |
+| project2_analytics | 3 facts, 6 dimensions, 1 bridge | fact_reviews 16,260,406 = raw reviews |
+| project2_marts | 13 marts | mart_flower_product_stats 3,650 |
+
+Every product and customer key in `fact_reviews` finds its dimension.
+
+**5 · Test** (`4_dbt/tests/`, `5_quality/`). dbt 2023: 106 pass, 7 warn (known problems in the source, e.g. 174,053
+duplicate review rows; see `docs/data_quality_notes.md`). dbt 2026: 25 pass. Great Expectations: 15 + 9 rules pass.
+
+**6 · Reconcile** (`6_reconcile/`). The 10 result tables equal `contract/golden/`: `RESULT PASS · contract flower-v1.0-en`.
+
+**7 · Orchestrate** (`7_orchestration/`). Dagster ran steps 1 to 6 for 2023, then for 2026: 12 of 12 PASS in about 4 minutes.
+
+![Dagster run](docs/screenshots/dagster_run_success.png)
+
+*The Dagster UI on an earlier run of the same job (11 Oct). The record of the 15 Oct run is in `docs/evidence/dagster/run_result.json`.*
+
+**8 · Analyse** (`8_notebooks/flower_analysis.ipynb`). Monthly trend, top products, customer segments and Amazon 2026
+on the marts. **9 · App** (`9_streamlit_app/`) shows the same marts online.
 
 ## Architecture
 
@@ -86,15 +137,15 @@ The same diagram, editable, is in [`docs/architecture.drawio`](docs/architecture
 
 | Step | Tool | 2023 | 2026 |
 |---|---|---|---|
-| Ingest | Python + DuckDB | `ingestion/ingest_amazon_to_duckdb.py`: reads the two `.jsonl.gz` files, previews 3 rows, loads 10 + 9 fields, checks counts and keys | `ingestion/fetch_keepa_snapshot.py`: reads the saved responses; the API is only called for files that are missing |
-| Label | Python | `enrichment/build_flower_tables.py`: searches titles for flower words (890,874 → 37,441), keeps the relevant flower toys (→ 3,650), labels them by use (→ 22 play patterns), tags 44,019 reviews with topics | `enrichment/build_keepa_tables.py`: keeps flower toys, merges colour and size variants, applies the same play-pattern rules (724 rows) |
-| Load | Meltano | `meltano/meltano.yml`: `tap-duckdb` and `tap-duckdb-labels-2023` to `target-bigquery` | `tap-duckdb-snapshot-2026` to the same target |
-| Transform | dbt | `project2_dbt/models/` | the models tagged `amazon_2026` |
-| Test | dbt, Great Expectations | `project2_dbt/models/**/schema.yml`, `project2_dbt/tests/`, `quality/gx_validate_flower_marts.py 2023` | the same files, scope `2026` |
-| Reconcile | Python | `scripts/`, `contract/`: 5 result tables | 5 more, 10 in total |
-| Orchestrate | Dagster | `orchestration/definitions.py`, job `find_2023` (6 steps) | job `verify_2026` (6 steps) |
-| Analyse | SQLAlchemy + pandas | `notebooks/flower_analysis.ipynb` | the same notebook |
-| Explore | Streamlit on Cloud Run | `streamlit_app/`, deployed from source with `gcloud run deploy`: [live app](https://flower-toy-evidence-839927014785.us-central1.run.app) | the same app, tab 4 |
+| Ingest | Python + DuckDB | `1_ingestion/ingest_amazon_to_duckdb.py`: reads the two `.jsonl.gz` files, previews 3 rows, loads 10 + 9 fields, checks counts and keys | `1_ingestion/fetch_keepa_snapshot.py`: reads the saved responses; the API is only called for files that are missing |
+| Label | Python | `2_enrichment/build_flower_tables.py`: searches titles for flower words (890,874 → 37,441), keeps the relevant flower toys (→ 3,650), labels them by use (→ 22 play patterns), tags 44,019 reviews with topics | `2_enrichment/build_keepa_tables.py`: keeps flower toys, merges colour and size variants, applies the same play-pattern rules (724 rows) |
+| Load | Meltano | `3_meltano/meltano.yml`: `tap-duckdb` and `tap-duckdb-labels-2023` to `target-bigquery` | `tap-duckdb-snapshot-2026` to the same target |
+| Transform | dbt | `4_dbt/models/` | the models tagged `amazon_2026` |
+| Test | dbt, Great Expectations | `4_dbt/models/**/schema.yml`, `4_dbt/tests/`, `5_quality/gx_validate_flower_marts.py 2023` | the same files, scope `2026` |
+| Reconcile | Python | `6_reconcile/`, `contract/`: 5 result tables | 5 more, 10 in total |
+| Orchestrate | Dagster | `7_orchestration/definitions.py`, job `find_2023` (6 steps) | job `verify_2026` (6 steps) |
+| Analyse | SQLAlchemy + pandas | `8_notebooks/flower_analysis.ipynb` | the same notebook |
+| Explore | Streamlit on Cloud Run | `9_streamlit_app/`, deployed from source with `gcloud run deploy`: [live app](https://flower-toy-evidence-839927014785.us-central1.run.app) | the same app, tab 4 |
 
 
 ## Warehouse design
@@ -283,32 +334,32 @@ out of 15 per main play pattern), not a trained model.
 ## Running it
 
 Meltano, dbt and Great Expectations need different package versions, so each has its own virtual environment
-(`requirements/`). Log in with `gcloud auth application-default login`, copy `project2_dbt/profiles.example.yml` to
+(`requirements/`). Log in with `gcloud auth application-default login`, copy `4_dbt/profiles.example.yml` to
 `~/.dbt/profiles.yml`, and set `PROJECT2_RAW_DIR` to the folder with the two raw files.
 
 ```bash
 # ---- 2023 · Find ----
-python ingestion/ingest_amazon_to_duckdb.py          # add --rebuild to load from the raw files again
-python enrichment/build_flower_tables.py
-cd meltano && meltano install
+python 1_ingestion/ingest_amazon_to_duckdb.py          # add --rebuild to load from the raw files again
+python 2_enrichment/build_flower_tables.py
+cd 3_meltano && meltano install
 meltano run tap-duckdb target-bigquery               # first time only: everything, including 16M reviews
 meltano run tap-duckdb-labels-2023 target-bigquery   # afterwards: the flower labels
-cd ../project2_dbt && dbt build --full-refresh --exclude tag:amazon_2026+
-cd .. && python quality/gx_validate_flower_marts.py 2023
+cd ../4_dbt && dbt build --full-refresh --exclude tag:amazon_2026+
+cd .. && python 5_quality/gx_validate_flower_marts.py 2023
 
 # ---- 2026 · Verify ----
-python ingestion/fetch_keepa_snapshot.py             # uses the cache; needs KEEPA_API_KEY only for missing files
-python enrichment/build_keepa_tables.py
-cd meltano && meltano run tap-duckdb-snapshot-2026 target-bigquery
-cd ../project2_dbt && dbt build --select tag:amazon_2026+
-cd .. && python quality/gx_validate_flower_marts.py 2026
+python 1_ingestion/fetch_keepa_snapshot.py             # uses the cache; needs KEEPA_API_KEY only for missing files
+python 2_enrichment/build_keepa_tables.py
+cd 3_meltano && meltano run tap-duckdb-snapshot-2026 target-bigquery
+cd ../4_dbt && dbt build --select tag:amazon_2026+
+cd .. && python 5_quality/gx_validate_flower_marts.py 2026
 
 # ---- both: compare with the frozen results ----
-python scripts/export_marts_for_contract.py
-python scripts/verify_against_contract.py docs/evidence/contract/export
+python 6_reconcile/export_marts_for_contract.py
+python 6_reconcile/verify_against_contract.py docs/evidence/contract/export
 ```
 
-Or run everything except the first big load with Dagster: `cd orchestration && python run_once.py`
+Or run everything except the first big load with Dagster: `cd 7_orchestration && python run_once.py`
 (`dagster dev -f definitions.py` for the UI and the schedule). Dagster reads the command for each tool from
 `PROJECT2_PYTHON`, `PROJECT2_PYTHON_QUALITY`, `PROJECT2_MELTANO` and `PROJECT2_DBT`.
 
@@ -325,7 +376,7 @@ tag `amazon_2026`, so the first build uses `--exclude tag:amazon_2026+` and the 
 Each stage is also a job of its own (`find_2023`, `verify_2026`).
 
 What the recorded run is, and is not. The last run passed 12 of 12 steps in about 4 minutes
-(`docs/evidence/dagster/run_result.json`, screenshots in the slides). That is a re-run: the 16 million reviews were
+(`docs/evidence/dagster/run_result.json`, screenshots in `docs/screenshots/`). That is a re-run: the 16 million reviews were
 already in BigQuery and the Keepa responses were already saved, so the run checks the raw tables and reads the
 snapshot from disk. The first load of the reviews and the API collection (1 h 27 min, 2,930 tokens) were done once,
 separately. The weekly schedule (Mondays 06:00, Asia/Singapore) is defined in `definitions.py` and fires when the
@@ -344,17 +395,18 @@ Dagster daemon is running; I started the recorded run by hand.
 ## Folders
 
 ```
-ingestion/      raw files and Keepa API into DuckDB
-enrichment/     flower rules, review codebook, Keepa parsing
-meltano/        tap and target configuration
-project2_dbt/   models, seeds, macros, tests
-quality/        Great Expectations
-scripts/        export marts and compare with the contract
-contract/       the frozen results (see contract/README.md)
-orchestration/  Dagster
-notebooks/      analysis
-streamlit_app/  app that shows the marts, with the Dockerfile used for Cloud Run
-docs/           written report, diagram, data quality notes, run evidence (dbt, Great Expectations, Dagster, reconciliation)
+1_ingestion/       raw files and Keepa API into DuckDB
+2_enrichment/      flower rules, review codebook, Keepa parsing
+3_meltano/         DuckDB to BigQuery: tap and target configuration
+4_dbt/             models, seeds, macros, tests
+5_quality/         Great Expectations
+6_reconcile/       export the marts and compare them with the contract
+7_orchestration/   Dagster
+8_notebooks/       00_pipeline_walkthrough (every step, opened) and flower_analysis
+9_streamlit_app/   app that shows the marts, with the Dockerfile used for Cloud Run
+contract/          the frozen results (see contract/README.md)
+docs/              written report, diagram, data quality notes, screenshots, run evidence
+requirements/      one file per virtual environment
 ```
 
 Raw data, the DuckDB file, the Keepa cache, virtual environments and credentials are not in the repository.
