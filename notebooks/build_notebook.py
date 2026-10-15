@@ -42,7 +42,7 @@ def q(sql):
         return pd.read_sql_query(text(sql), con)
 
 BRICK = 'Brick flower bouquets & bonsai (adult display)'   # the play pattern this analysis ends on
-BLUE, GREY, INK = '#2a78d6', '#a3a29c', '#1f2937'
+ACCENT, GREY, INK = '#2e7bbf', '#a3a29c', '#2e2925'
 plt.rcParams.update({'font.family': 'Arial', 'axes.spines.top': False, 'axes.spines.right': False,
                      'axes.edgecolor': '#c3c2b7', 'figure.dpi': 110})
 """)
@@ -92,7 +92,7 @@ fig, ax = plt.subplots(figsize=(9.5, 5.6))
 nudge = {'Flower plush & pillows': (8, -12), 'Craft bouquets & paper flowers': (10, 4), 'Character plush with flower motif': (-2, 14)}
 for _, r in big.iterrows():
     hero = r.play_pattern == BRICK
-    ax.scatter(r.rv_2023, r.avg_rating, s=40 + r.products * 0.9, color=BLUE if hero else GREY,
+    ax.scatter(r.rv_2023, r.avg_rating, s=40 + r.products * 0.9, color=ACCENT if hero else GREY,
                alpha=0.9 if hero else 0.6, edgecolor='white', linewidth=1.5, zorder=3)
     if r.rv_2023 >= 100:                      # label the patterns with real volume; small ones stay as dots
         dx, dy = nudge.get(r.pattern, (8, 6))
@@ -123,10 +123,10 @@ brick = monthly[monthly.play_pattern == BRICK].set_index('review_month').reviews
 others = monthly[monthly.play_pattern != BRICK].groupby('review_month').reviews.sum().sort_index()
 fig, ax = plt.subplots(figsize=(9.5, 4.4))
 ax.plot(others.index, others.values, color=GREY, lw=1.6)
-ax.plot(brick.index, brick.values, color=BLUE, lw=2.4)
+ax.plot(brick.index, brick.values, color=ACCENT, lw=2.4)
 ax.axvspan(pd.Timestamp('2023-03-15'), others.index.max(), color='#f1f0ec', zorder=0)
 ax.text(pd.Timestamp('2023-03-25'), others.max() * 0.93, 'dataset thins out', fontsize=8.5, color='#52514e')
-ax.text(pd.Timestamp('2021-03-01'), 120, 'Brick flower bouquets & bonsai', ha='center', fontsize=9, weight='bold', color=BLUE)
+ax.text(pd.Timestamp('2021-03-01'), 120, 'Brick flower bouquets & bonsai', ha='center', fontsize=9, weight='bold', color=ACCENT)
 ax.annotate('All other flower toys', (others.idxmax(), others.max()), xytext=(8, 0), textcoords='offset points', fontsize=9, color=INK)
 ax.set_ylabel('Reviews per month')
 ax.set_title('Monthly reviews: brick flowers vs all other flower toys (complete months, 2019 - Aug 2023)', loc='left', fontsize=10.5)
@@ -201,7 +201,7 @@ from project2_marts.mart_flower_customer_segments group by 1 order by 1
 ''')
 fig, axes = plt.subplots(1, 2, figsize=(11.5, 3.6))
 for ax, frame, title in [(axes[0], interest, 'Customers by flower interest'), (axes[1], activity, 'Customers by overall review activity')]:
-    colors = [BLUE if 'brick' in s else GREY for s in frame.segment]
+    colors = [ACCENT if 'brick' in s else GREY for s in frame.segment]
     bars = ax.barh(frame.segment, frame.customers, color=colors if ax is axes[0] else GREY)
     for b, r in zip(bars, frame.avg_flower_rating):
         ax.text(b.get_width(), b.get_y() + b.get_height() / 2, f'  {b.get_width():,.0f} customers, avg {r:.2f}', va='center', fontsize=8.5, color=INK)
@@ -226,7 +226,7 @@ themes[themes.grp.str.startswith('Motive')].sort_values('mention_pct', ascending
 code("""
 pains = themes[themes.grp.str.startswith('Experience') & (themes.rating_when_mentioned < 4.2)].sort_values('share_of_low_reviews_pct', ascending=True)
 fig, ax = plt.subplots(figsize=(8.5, 4))
-bars = ax.barh(pains.theme, pains.share_of_low_reviews_pct, color=[BLUE if v >= 15 else GREY for v in pains.share_of_low_reviews_pct])
+bars = ax.barh(pains.theme, pains.share_of_low_reviews_pct, color=[ACCENT if v >= 15 else GREY for v in pains.share_of_low_reviews_pct])
 for b, n in zip(bars, pains.brands):
     ax.text(b.get_width() + 0.4, b.get_y() + b.get_height() / 2, f'{b.get_width():.0f}%  ·  {n} brands', va='center', fontsize=8.5, color=INK)
 ax.set_xlabel('Share of 1–2 star reviews that mention the problem (%)'); ax.set_xlim(0, pains.share_of_low_reviews_pct.max() * 1.35)
@@ -277,7 +277,7 @@ verdict
 code("""
 v = verdict.sort_values('s3_new_sellers')
 fig, axes = plt.subplots(1, 2, figsize=(11.5, 3.8), sharey=True)
-hero = [BLUE if g.startswith('G1') else GREY for g in v.product_group]
+hero = [ACCENT if g.startswith('G1') else GREY for g in v.product_group]
 names = [g[3:] for g in v.product_group]
 axes[0].barh(names, v.s3_new_sellers, color=hero)
 for y, n in enumerate(v.s3_new_sellers):
