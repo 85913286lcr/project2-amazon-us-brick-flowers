@@ -1,7 +1,7 @@
 """Export the dbt marts in the layout of the frozen contract, so they can be compared with it.
 
 Reads BigQuery through SQLAlchemy and writes one CSV per golden table into <out_dir>.
-Usage: python scripts/export_marts_for_contract.py [out_dir] [--scope 2023]   (default: docs/evidence/contract/export)
+Usage: python 6_reconcile/export_marts_for_contract.py [out_dir] [--scope 2023]   (default: docs/evidence/contract/export)
 With --scope 2023 only the tables built from the 2023 reviews (g01-g05) are exported.
 """
 import os

@@ -14,7 +14,7 @@ Three sources of products:
   cohort  the 2023 top products of each group, followed into 2026
 
 Aggregation (verdict per group, DIY comparison, new product forms) is done later in dbt.
-Run: python enrichment/build_keepa_tables.py
+Run: python 2_enrichment/build_keepa_tables.py
 """
 import json
 import re

@@ -4,7 +4,7 @@ The website and the AI gift guide were built on the contract; this script proves
 at the same numbers. Rows are matched on the manifest keys. Numbers must agree within 6e-4, because the
 golden tables are stored rounded to three decimals. Exit code 1 on any difference.
 
-Usage: python scripts/verify_against_contract.py <dir_with_exported_csvs> [--scope 2023|all]
+Usage: python 6_reconcile/verify_against_contract.py <dir_with_exported_csvs> [--scope 2023|all]
 """
 import json
 import sys

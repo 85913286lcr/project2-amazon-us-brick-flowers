@@ -16,7 +16,7 @@ Steps
   5. write the dbt seeds (theme codebook, play patterns) from the same constants
   6. compare the labels with the frozen contract (contract/golden/g01_flower_products_labels.csv)
 
-Run:  python enrichment/build_flower_tables.py
+Run:  python 2_enrichment/build_flower_tables.py
 """
 import csv
 import json
@@ -32,7 +32,7 @@ import flower_patterns  # noqa: E402
 import flower_review_evidence  # noqa: E402
 from paths import CONTRACT, EVIDENCE, PIPELINE_DB, REPO, WORK_DB  # noqa: E402
 
-SEEDS = REPO / 'project2_dbt' / 'seeds'
+SEEDS = REPO / '4_dbt' / 'seeds'
 # Play pattern -> DIY family: does the buyer build or make the flower?
 DIY_FAMILY = {
     'Brick flower bouquets & bonsai (adult display)': 'DIY: adult brick building',

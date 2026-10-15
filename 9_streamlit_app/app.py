@@ -177,6 +177,6 @@ with tabs[4]:
 - **Checks before a number gets here:** 106 dbt tests, 24 Great Expectations rules, and a reconciliation of 10 result tables.
 - **Limits:** reviews and ratings are not sales. One US marketplace. The review data ends in September 2023 and thins out after March 2023,
   so growth is always compared with all toys. The labels are rules checked on samples by hand, not a trained model.
-- **More analysis** (reviews per month, top products, reviewer segments) is in `notebooks/flower_analysis.ipynb`.
+- **More analysis** (reviews per month, top products, reviewer segments) is in `8_notebooks/flower_analysis.ipynb`.
 """)
     st.caption(f'BigQuery project: {PROJECT}. Results are cached for one hour.')

@@ -17,7 +17,7 @@ If a number differs, I fix the pipeline, not the conclusion.
 
 `manifest.json` lists the row count, the join keys and a SHA-256 fingerprint of every file.
 
-Check: `python scripts/export_marts_for_contract.py` then `python scripts/verify_against_contract.py docs/evidence/contract/export`.
+Check: `python 6_reconcile/export_marts_for_contract.py` then `python 6_reconcile/verify_against_contract.py docs/evidence/contract/export`.
 The result must be `RESULT PASS`. Numbers are compared within 6e-4 because the golden tables are stored to three decimals.
 
 The tables come from my earlier exploratory analysis. For this repository I translated the labels to English and

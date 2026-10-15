@@ -6,7 +6,7 @@ question of the final answer tables: do the numbers a business reader will act o
 Reads BigQuery with SELECT only (through SQLAlchemy) and validates in an ephemeral GX context.
 Writes docs/evidence/great_expectations/{validation_results.json, validation_summary.md}; exits 1 on failure.
 
-Usage: python quality/gx_validate_flower_marts.py [2023|2026]
+Usage: python 5_quality/gx_validate_flower_marts.py [2023|2026]
 With a scope only the marts of that stage are checked and the files get the scope as a suffix.
 """
 import json

@@ -10,7 +10,7 @@ What is fetched
   plan.json  which ASINs belong to which request
 
 Tokens: about 2 per product (history + rating) and 11 per Finder query; 2,930 in total for this snapshot.
-Needs KEEPA_API_KEY in the environment. Usage: python ingestion/fetch_keepa_snapshot.py
+Needs KEEPA_API_KEY in the environment. Usage: python 1_ingestion/fetch_keepa_snapshot.py
 """
 import gzip
 import json
@@ -25,7 +25,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(REPO / 'enrichment'))
+sys.path.insert(0, str(REPO / '2_enrichment'))
 from keepa_groups import COUNT_QUERIES, GROUPS, NEW_WORDS  # noqa: E402
 
 CACHE = Path(os.environ.get('PROJECT2_KEEPA_DIR', REPO / 'data' / 'keepa_2026'))

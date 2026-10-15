@@ -49,7 +49,7 @@ def record(context, name, details):
 
 
 def meltano_load(context, name, tap):
-    out = run([MELTANO, 'run', '--refresh-catalog', tap, 'target-bigquery'], cwd=REPO / 'meltano')
+    out = run([MELTANO, 'run', '--refresh-catalog', tap, 'target-bigquery'], cwd=REPO / '3_meltano')
     records = re.search(r'\((\d+) schemas, (\d+) records', out)
     if 'Run completed' not in out or not records:
         raise Failure('Meltano did not report a completed run')
@@ -57,7 +57,7 @@ def meltano_load(context, name, tap):
 
 
 def dbt_build(context, name, selection):
-    out = re.sub(r'\x1b\[[0-9;]*m', '', run([DBT, 'build', '--no-use-colors', *selection], cwd=REPO / 'project2_dbt'))
+    out = re.sub(r'\x1b\[[0-9;]*m', '', run([DBT, 'build', '--no-use-colors', *selection], cwd=REPO / '4_dbt'))
     summary = re.search(r'Done\. PASS=(\d+) WARN=(\d+) ERROR=(\d+) SKIP=(\d+)', out)
     if not summary or int(summary.group(3)) or int(summary.group(4)):
         raise Failure('dbt build did not finish cleanly')
@@ -71,7 +71,7 @@ def dbt_build(context, name, selection):
 
 
 def quality_gate(context, name, scope):
-    run([PYTHON_QUALITY, 'quality/gx_validate_flower_marts.py', scope])
+    run([PYTHON_QUALITY, '5_quality/gx_validate_flower_marts.py', scope])
     report = json.loads((REPO / f'docs/evidence/great_expectations/validation_results_{scope}.json').read_text())
     if report['overall_result'] != 'PASS':
         raise Failure('Great Expectations gate failed')
@@ -81,8 +81,8 @@ def quality_gate(context, name, scope):
 
 def reconcile(context, name, scope):
     export = REPO / 'docs/evidence/contract/export'
-    run([PYTHON_QUALITY, 'scripts/export_marts_for_contract.py', export, '--scope', scope])
-    out = run([PYTHON_QUALITY, 'scripts/verify_against_contract.py', export, '--scope', scope])
+    run([PYTHON_QUALITY, '6_reconcile/export_marts_for_contract.py', export, '--scope', scope])
+    out = run([PYTHON_QUALITY, '6_reconcile/verify_against_contract.py', export, '--scope', scope])
     (REPO / f'docs/evidence/contract/verify_{scope}.txt').write_text(out)
     if 'RESULT PASS' not in out:
         raise Failure('The warehouse no longer reproduces the contract')
@@ -93,13 +93,13 @@ def reconcile(context, name, scope):
 
 @asset(group_name='find_2023', description='Verify the two raw Amazon tables in DuckDB: row counts, null keys, duplicate product keys.')
 def raw_ingestion(context):
-    run([PYTHON, 'ingestion/ingest_amazon_to_duckdb.py'])
+    run([PYTHON, '1_ingestion/ingest_amazon_to_duckdb.py'])
     record(context, 'raw_ingestion', json.loads((REPO / 'docs/evidence/ingestion/ingestion_verify.json').read_text()))
 
 
 @asset(group_name='find_2023', deps=[raw_ingestion], description='Label flower toys and their reviews (Python rules), write three tables for Meltano.')
 def flower_enrichment(context):
-    run([PYTHON, 'enrichment/build_flower_tables.py'])
+    run([PYTHON, '2_enrichment/build_flower_tables.py'])
     record(context, 'flower_enrichment', json.loads((REPO / 'docs/evidence/enrichment/enrichment_summary.json').read_text()))
 
 
@@ -128,14 +128,14 @@ def answer_2023_reconciled(context):
 @asset(group_name='verify_2026', deps=[answer_2023_reconciled],
        description='Amazon 2026: Keepa API snapshot for the groups the 2023 answer points to. Cached responses are not fetched again.')
 def amazon_2026_snapshot(context):
-    out = run([PYTHON, 'ingestion/fetch_keepa_snapshot.py'])
+    out = run([PYTHON, '1_ingestion/fetch_keepa_snapshot.py'])
     record(context, 'amazon_2026_snapshot', {'log': out.strip().splitlines()[-3:]})
 
 
 @asset(group_name='verify_2026', deps=[amazon_2026_snapshot],
        description='Label the 2026 products with the same play-pattern rules as 2023, write two tables for Meltano.')
 def snapshot_labelled(context):
-    run([PYTHON, 'enrichment/build_keepa_tables.py'])
+    run([PYTHON, '2_enrichment/build_keepa_tables.py'])
     record(context, 'snapshot_labelled', json.loads((REPO / 'docs/evidence/enrichment/keepa_summary.json').read_text()))
 
 

@@ -2,12 +2,12 @@ version: 2
 
 seeds:
   - name: flower_theme_codebook
-    description: The review codebook - every theme the enrichment step can tag (written by enrichment/build_flower_tables.py).
+    description: The review codebook - every theme the enrichment step can tag (written by 2_enrichment/build_flower_tables.py).
     columns:
       - name: theme
         data_tests: [not_null, unique]
   - name: flower_play_patterns
-    description: Play patterns and their DIY family (written by enrichment/build_flower_tables.py).
+    description: Play patterns and their DIY family (written by 2_enrichment/build_flower_tables.py).
     columns:
       - name: play_pattern
         data_tests: [not_null, unique]

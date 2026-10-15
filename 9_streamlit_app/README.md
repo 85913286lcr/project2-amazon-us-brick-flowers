@@ -9,7 +9,7 @@ Files: `app.py`, `requirements.txt`, `Dockerfile` (Cloud Run needs port 8080).
 ## Run it locally
 
 ```bash
-cd streamlit_app
+cd 9_streamlit_app
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 gcloud auth application-default login

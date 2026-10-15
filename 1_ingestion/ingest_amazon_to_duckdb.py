@@ -9,8 +9,8 @@ Why DuckDB: it reads the compressed files directly, has no size cap (the 16M rev
 hosted Postgres), needs no server, and lets the checks be written in SQL.
 
 Usage
-  python ingestion/ingest_amazon_to_duckdb.py            # verify the existing tables (default, read-only)
-  python ingestion/ingest_amazon_to_duckdb.py --rebuild  # re-create both tables from the raw files
+  python 1_ingestion/ingest_amazon_to_duckdb.py            # verify the existing tables (default, read-only)
+  python 1_ingestion/ingest_amazon_to_duckdb.py --rebuild  # re-create both tables from the raw files
 """
 import argparse
 import json
