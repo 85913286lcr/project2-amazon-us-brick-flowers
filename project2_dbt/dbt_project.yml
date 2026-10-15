@@ -24,14 +24,28 @@ seeds:
   project2_dbt:
     +schema: staging
 
+# Models built from the Amazon 2026 snapshot carry the tag amazon_2026, so the 2023 part can be built and
+# tested first (--exclude tag:amazon_2026+) and the 2026 part afterwards (--select tag:amazon_2026+).
 models:
   project2_dbt:
     staging:
       +schema: staging
       +materialized: view
+      stg_keepa_products:
+        +tags: ['amazon_2026']
+      stg_keepa_finder_counts:
+        +tags: ['amazon_2026']
     analytics:
       +schema: analytics
       +materialized: table
+      fact_keepa_snapshot:
+        +tags: ['amazon_2026']
     marts:
       +schema: marts
       +materialized: table
+      mart_keepa_group_verdict:
+        +tags: ['amazon_2026']
+      mart_keepa_diy_2026:
+        +tags: ['amazon_2026']
+      mart_keepa_new_forms:
+        +tags: ['amazon_2026']

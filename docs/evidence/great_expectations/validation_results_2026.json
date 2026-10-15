@@ -1,0 +1,82 @@
+{
+  "gx_version": "1.23.2",
+  "timestamp_utc": "2026-10-15T02:19:07+00:00",
+  "scope": "2026",
+  "expectation_count": 9,
+  "overall_result": "PASS",
+  "data_access": "SELECT only; ephemeral GX context",
+  "checks": [
+    {
+      "table": "project2_marts.mart_keepa_group_verdict",
+      "rule": "All seven product groups have a 2026 verdict",
+      "expectation": "expect_table_row_count_to_equal",
+      "status": "PASS",
+      "rows_checked": 7,
+      "unexpected_count": null
+    },
+    {
+      "table": "project2_marts.mart_keepa_group_verdict",
+      "rule": "Verdict is trending / stable / not trending",
+      "expectation": "expect_column_values_to_be_in_set",
+      "status": "PASS",
+      "rows_checked": 7,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_keepa_group_verdict",
+      "rule": "A group is judged on 1 to 50 products",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 7,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_keepa_group_verdict",
+      "rule": "Signals up is between 0 and 3",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 7,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_keepa_group_verdict",
+      "rule": "Median rating is between 1 and 5",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 7,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_keepa_group_verdict",
+      "rule": "Median price is positive",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 7,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_keepa_new_forms",
+      "rule": "A product form has at least one product",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 13,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_keepa_new_forms",
+      "rule": "Products selling 50+ never exceed products",
+      "expectation": "expect_column_pair_values_a_to_be_greater_than_b",
+      "status": "PASS",
+      "rows_checked": 13,
+      "unexpected_count": 0
+    },
+    {
+      "table": "project2_marts.mart_keepa_new_forms",
+      "rule": "Monthly units are not negative",
+      "expectation": "expect_column_values_to_be_between",
+      "status": "PASS",
+      "rows_checked": 13,
+      "unexpected_count": 0
+    }
+  ]
+}

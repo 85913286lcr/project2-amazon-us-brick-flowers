@@ -5,9 +5,13 @@ question of the final answer tables: do the numbers a business reader will act o
 
 Reads BigQuery with SELECT only (through SQLAlchemy) and validates in an ephemeral GX context.
 Writes docs/evidence/great_expectations/{validation_results.json, validation_summary.md}; exits 1 on failure.
+
+Usage: python quality/gx_validate_flower_marts.py [2023|2026]
+With a scope only the marts of that stage are checked and the files get the scope as a suffix.
 """
 import json
 import os
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -77,13 +81,15 @@ SUITES = [
 ]
 
 
-def main():
+def main(scope=None):
+    suites = [s for s in SUITES if scope is None or ('keepa' in s['table']) == (scope == '2026')]
+    suffix = f'_{scope}' if scope else ''
     engine = create_engine(f'bigquery://{PROJECT}', location='US')
     context = gx.get_context(mode='ephemeral')
     source = context.data_sources.add_pandas(name='project2_flower_marts')
     checks, ok = [], True
     with engine.connect() as con:
-        for spec in SUITES:
+        for spec in suites:
             frame = pd.read_sql_query(text(spec['query']), con)
             for col in frame.select_dtypes(include='object').columns:
                 try:
@@ -104,18 +110,18 @@ def main():
                                'status': 'PASS' if check.success else 'FAIL', 'rows_checked': len(frame),
                                'unexpected_count': (check.result or {}).get('unexpected_count')})
     stamp = datetime.now(timezone.utc).isoformat(timespec='seconds')
-    report = {'gx_version': gx.__version__, 'timestamp_utc': stamp, 'expectation_count': len(checks),
+    report = {'gx_version': gx.__version__, 'timestamp_utc': stamp, 'scope': scope or 'all', 'expectation_count': len(checks),
               'overall_result': 'PASS' if ok else 'FAIL', 'data_access': 'SELECT only; ephemeral GX context', 'checks': checks}
     OUTPUT.mkdir(parents=True, exist_ok=True)
-    (OUTPUT / 'validation_results.json').write_text(json.dumps(report, indent=2, ensure_ascii=False, default=str) + '\n')
-    lines = ['# Great Expectations business gate', '', f'GX {gx.__version__} · {stamp} · {len(checks)} expectations · **{report["overall_result"]}**', '',
+    (OUTPUT / f'validation_results{suffix}.json').write_text(json.dumps(report, indent=2, ensure_ascii=False, default=str) + '\n')
+    lines = [f'# Great Expectations business gate ({scope or "all marts"})', '', f'GX {gx.__version__} · {stamp} · {len(checks)} expectations · **{report["overall_result"]}**', '',
              '| Table | Business rule | Result |', '|---|---|---|']
     lines += [f"| {c['table'].split('.')[-1]} | {c['rule']} | {c['status']} |" for c in checks]
-    (OUTPUT / 'validation_summary.md').write_text('\n'.join(lines) + '\n')
+    (OUTPUT / f'validation_summary{suffix}.md').write_text('\n'.join(lines) + '\n')
     print(json.dumps({'expectations': len(checks), 'overall_result': report['overall_result'],
                       'failed': [c['rule'] for c in checks if c['status'] != 'PASS']}, ensure_ascii=False))
     raise SystemExit(0 if ok else 1)
 
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1] if len(sys.argv) > 1 else None)

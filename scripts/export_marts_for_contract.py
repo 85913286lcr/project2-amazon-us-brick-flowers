@@ -1,7 +1,8 @@
 """Export the dbt marts in the layout of the frozen contract, so they can be compared with it.
 
 Reads BigQuery through SQLAlchemy and writes one CSV per golden table into <out_dir>.
-Usage: python scripts/export_marts_for_contract.py [out_dir]   (default: docs/evidence/contract/export)
+Usage: python scripts/export_marts_for_contract.py [out_dir] [--scope 2023]   (default: docs/evidence/contract/export)
+With --scope 2023 only the tables built from the 2023 reviews (g01-g05) are exported.
 """
 import os
 import sys
@@ -63,16 +64,20 @@ EXPORTS = {
 }
 
 
-def main(out_dir):
+def main(out_dir, scope='all'):
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
     engine = create_engine(f'bigquery://{PROJECT}', location='US')
     with engine.connect() as con:
         for name, sql in EXPORTS.items():
+            if scope == '2023' and 'keepa' in sql:
+                continue
             frame = pd.read_sql_query(text(sql), con)
             frame.to_csv(out / f'{name}.csv', index=False)
             print(f'{name}: {len(frame)} rows')
 
 
 if __name__ == '__main__':
-    main(sys.argv[1] if len(sys.argv) > 1 else REPO / 'docs/evidence/contract/export')
+    scope = sys.argv[sys.argv.index('--scope') + 1] if '--scope' in sys.argv else 'all'
+    paths = [a for a in sys.argv[1:] if not a.startswith('--') and a != scope]
+    main(paths[0] if paths else REPO / 'docs/evidence/contract/export', scope)

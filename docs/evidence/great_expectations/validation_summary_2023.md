@@ -1,6 +1,6 @@
-# Great Expectations business gate
+# Great Expectations business gate (2023)
 
-GX 1.23.2 · 2026-10-10T07:25:13+00:00 · 24 expectations · **PASS**
+GX 1.23.2 · 2026-10-15T02:18:17+00:00 · 15 expectations · **PASS**
 
 | Table | Business rule | Result |
 |---|---|---|
@@ -19,12 +19,3 @@ GX 1.23.2 · 2026-10-10T07:25:13+00:00 · 24 expectations · **PASS**
 | mart_flower_need_evidence | A need is backed by at least one wish sentence | PASS |
 | mart_flower_need_evidence | Products never exceed wish sentences | PASS |
 | mart_flower_need_evidence | Evidence tier is strong / medium / weak | PASS |
-| mart_keepa_group_verdict | All seven product groups have a 2026 verdict | PASS |
-| mart_keepa_group_verdict | Verdict is trending / stable / not trending | PASS |
-| mart_keepa_group_verdict | A group is judged on 1 to 50 products | PASS |
-| mart_keepa_group_verdict | Signals up is between 0 and 3 | PASS |
-| mart_keepa_group_verdict | Median rating is between 1 and 5 | PASS |
-| mart_keepa_group_verdict | Median price is positive | PASS |
-| mart_keepa_new_forms | A product form has at least one product | PASS |
-| mart_keepa_new_forms | Products selling 50+ never exceed products | PASS |
-| mart_keepa_new_forms | Monthly units are not negative | PASS |

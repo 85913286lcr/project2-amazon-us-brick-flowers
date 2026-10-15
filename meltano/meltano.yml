@@ -21,13 +21,17 @@ plugins:
     - main-flower_wish_needs.*
     - main-keepa_products.*
     - main-keepa_finder_counts.*
-  # Same tap without the Amazon tables: the regular refresh, so the 16M reviews are not sent again.
-  - name: tap-duckdb-refresh
+  # The small tables are loaded in two stages, in the order the work was done:
+  # first the flower labels made from the 2023 reviews, later the Amazon 2026 snapshot.
+  - name: tap-duckdb-labels-2023
     inherit_from: tap-duckdb
     select:
     - main-flower_product_labels.*
     - main-flower_review_themes.*
     - main-flower_wish_needs.*
+  - name: tap-duckdb-snapshot-2026
+    inherit_from: tap-duckdb
+    select:
     - main-keepa_products.*
     - main-keepa_finder_counts.*
   loaders:
