@@ -16,7 +16,7 @@ on Amazon toy reviews. It gives my business a data-driven foundation, and it is 
 **Answer.** Sell adult brick flowers, and fix what buyers complain about: better quality and easier to build.
 Review activity suggests an opportunity. It does not prove sales, so the next step is to check suppliers and test-sell.
 
-**Written report:** [docs/Project2_Report.pdf](docs/Project2_Report.pdf) (the same text as a page: [docs/Project2_Report.md](docs/Project2_Report.md))
+**Written report:** [docs/CongruiLIU_Project2_PDF.pdf](docs/CongruiLIU_Project2_PDF.pdf) (the same text as a page: [docs/Project2_Report.md](docs/Project2_Report.md))
 
 **Live app:** [flower-toy-evidence-839927014785.us-central1.run.app](https://flower-toy-evidence-839927014785.us-central1.run.app) (Streamlit on Cloud Run; it follows the slides and
 reads the same marts. The first load takes a few seconds while the service wakes up.)
@@ -37,7 +37,7 @@ reads the same marts. The first load takes a few seconds while the service wakes
 | 4. Data quality testing | [Data quality](#data-quality), `4_dbt/tests/`, `5_quality/`, `docs/data_quality_notes.md` |
 | 5. Analysis with Python | `8_notebooks/flower_analysis.ipynb` (SQLAlchemy + pandas), `9_streamlit_app/` ([live app](https://flower-toy-evidence-839927014785.us-central1.run.app)) |
 | 6. Orchestration | `7_orchestration/definitions.py` (Dagster) |
-| 7. Documentation | this file, the report in `docs/Project2_Report.pdf`, `docs/architecture.drawio`, `docs/evidence/` |
+| 7. Documentation | this file, the report in `docs/CongruiLIU_Project2_PDF.pdf`, `docs/architecture.drawio`, `docs/evidence/` |
 | Every step, opened | [Walkthrough](#walkthrough-every-step-opened) below, in full in `8_notebooks/00_pipeline_walkthrough.ipynb` |
 
 ## Walkthrough: every step, opened
