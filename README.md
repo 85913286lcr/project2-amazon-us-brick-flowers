@@ -39,7 +39,7 @@ reads the same marts. The first load takes a few seconds while the service wakes
 | 4. Data quality testing | [Data quality](#data-quality), `4_dbt/tests/`, `5_quality/`, `docs/data_quality_notes.md` |
 | 5. Analysis with Python | `8_notebooks/flower_analysis.ipynb` (SQLAlchemy + pandas), `9_streamlit_app/` ([live app](https://flower-toy-evidence-839927014785.us-central1.run.app)) |
 | 6. Orchestration | `7_orchestration/definitions.py` (Dagster) |
-| 7. Documentation | this file, the report in `docs/CongruiLIU_Project2_PDF.pdf`, the slides in `docs/CongruiLIU_Project2_Slides.pdf`, `docs/architecture.drawio` (picture: `docs/architecture.png`), `docs/evidence/` |
+| 7. Documentation | this file, the report in `docs/CongruiLIU_Project2_PDF.pdf`, the slides in `docs/CongruiLIU_Project2_Slides.pdf`, `docs/architecture.drawio.png` (a picture with the editable draw.io diagram inside), `docs/evidence/` |
 | Every step, opened | [Walkthrough](#walkthrough-every-step-opened) below, in full in `8_notebooks/00_pipeline_walkthrough.ipynb` |
 
 ## Walkthrough: every step, opened
@@ -124,9 +124,9 @@ flowchart LR
 Dagster runs all of it in two stages: find on 2023 first, then verify on 2026.
 The full architecture, drawn in draw.io:
 
-![Pipeline architecture](docs/architecture.png)
+![Pipeline architecture](docs/architecture.drawio.png)
 
-Editable source: [`docs/architecture.drawio`](docs/architecture.drawio) (open it at [app.diagrams.net](https://app.diagrams.net)).
+Editable source: the same file, [`docs/architecture.drawio.png`](docs/architecture.drawio.png). Open it in [app.diagrams.net](https://app.diagrams.net) to edit; the diagram is stored inside the PNG.
 The picture above is exported from it.
 
 **The same six steps, for each year**
